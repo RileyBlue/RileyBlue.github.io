@@ -7,6 +7,9 @@
   <link rel="stylesheet" href="public/css/styles.css">
 </head>
 <body>
+  <a href="#info" class="arrow" id="arrow">
+    <img src="public/images/arrow-down.png" alt="">
+  </a>
   <div class="header-bg--container">
     <div class="header-bg"></div>
   </div>
@@ -17,19 +20,16 @@
 		<nav class="menu">
 			<ul>
 				<li>
-					<a href="">Home</a>
+					<a href="#home" id="home">Home</a>
 				</li>
         <li>
-          <a href="">Info</a>
+          <a href="#info" id="info">Info</a>
         </li>
         <li>
-          <a href="">Projects</a>
+          <a href="#project" id="projects">Projects</a>
         </li>
         <li>
-          <a href="">Social</a>
-        </li>
-        <li>
-          <a href="">Contact</a>
+          <a href="#contact" id="contact">Contact</a>
         </li>
 			</ul>
 		</nav>
@@ -48,7 +48,7 @@
       I'm a Web Designer and I have skills for designing and building Websites. If you're interested in something special, we can talk about your idea and the best way for get a solution. (:
     </p>
   </section>
-  <section class="projects">
+  <section class="projects ">
     <h3>Experience</h3>
     <div class="projects-list">
       <figure class="project">
@@ -117,7 +117,15 @@
       </figure>
     </div>
   </section>
-  <section class="social">
+  <section class="contact">
+    <h3>Contact</h3>
+    <p>If you want to contact with me, just send me a message. </p>
+    <form action="/contact">
+      <input type="text" placeholder="name">
+      <input type="text" placeholder="subject">
+      <textarea name="message" id="" cols="30" rows="10"></textarea>
+      <input type="submit" value="Send message">
+    </form>
     <h3>Social</h3>
     <figure>
       <a href="http://twitter.com/iOS23" target="_blank">
@@ -140,10 +148,7 @@
       </a>
     </figure>
   </section>
-  <section class="contact">
-    <h3>Contact</h3>
-    <p>If you want to contact with me, just send me a message. </p>
-    <form action=""></form>
-  </section>
+  <script src="public/js/jquery-1.11.0.min.js"></script>
+  <script src="public/js/main.js"></script>
 </body>
 </html>

@@ -113,15 +113,56 @@ h4 { color: #4d1a44; }
 	width: 20%;
 }
 
-.social {
+.contact {
 	position: absolute;
 	top: 2757px;
 	z-index: 2;
 	width: 100%;
 }
 
-.social figure {
+.contact figure {
 	display: inline-block;
 	vertical-align: top;
-	margin: 0 6px;
+	margin: 0 6px 23px 6px;
+}
+form {
+	width: 38%;
+	margin: 0 auto;
+}
+
+input[type="text"] {
+	border: 0;
+	width: 100%;
+	padding: 11px 0;
+	margin: 4px 0;
+	text-indent: 20px;
+}
+
+textarea {
+	width: 99%;
+	margin: 4px 0;
+	resize: vertical;
+}
+
+input[type="submit"] {
+	border: 0;
+	color: #4d1a44;
+	width: 48%;
+	height: 45px;
+	margin-bottom: 25px;
+}
+
+input[type="submit"]:hover{
+	background: #ADADAD;
+}
+
+.arrow {
+	position: absolute;
+	top: 520px;
+	display: block;
+	z-index: 3;
+	left: 46%;
+	background: rgba(150, 149, 149, 0.4);
+	padding: 4px 7px;
+	border-radius: 50%;
 }
