@@ -27,6 +27,8 @@ h2 { font-size: 71px; border-bottom: 7px solid  #ecf0f1; width: 45%; letter-spac
 
 h3 { font-size: 30px; }
 
+h4 { color: #4d1a44; }
+
 .menu { width: 68%; }
 
 .menu ul { list-style: none;}
@@ -83,6 +85,30 @@ h3 { font-size: 30px; }
 }
 
 .info p {
+	line-height: 1.5;
 	margin: 0 auto;
 	width: 57%;
+}
+
+.projects {
+	background: #d8d8d8;
+	height: auto;
+	width: 100%;
+	position: absolute;
+	top: 1120px;
+}
+
+.projects h3 {
+	color: #4d1a44;
+}
+
+.projects-list img {
+	width: 100%;
+	height: 400px;
+}
+
+.projects-list figure {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
 }
