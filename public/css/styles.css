@@ -131,6 +131,7 @@ form {
 }
 
 input[type="text"] {
+	color: #444;
 	border: 0;
 	width: 100%;
 	padding: 11px 0;
@@ -140,8 +141,11 @@ input[type="text"] {
 
 textarea {
 	width: 99%;
+	color: #444;
+	text-indent: 15px;
 	margin: 4px 0;
 	resize: vertical;
+	max-height: 200px;
 }
 
 input[type="submit"] {
