@@ -38,6 +38,7 @@
 	.projects-list figure { width: 72%; }
 	.contact { top: 5588px; }
 	input[type="submit"] { width: 70%; }
+	.arrow-down { left: 37%; }
 }
 
 @media screen and (max-width: 320px) {
