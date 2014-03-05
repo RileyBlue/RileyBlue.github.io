@@ -17,6 +17,9 @@
 	.menu { display: none; visibility: hidden; }
 	h1 { width: 90%; text-align: left; }
 	h2 { width: 90%; }
+	.menu {
+		opacity: 1;
+	}
 	.mobile-menu { display: inline-block; top: 14px; right: 46px; position: absolute; z-index: 3;}
 	.projects-list figure { width: 30%; }
 	.contact {top: 3404px;}

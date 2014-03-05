@@ -185,3 +185,7 @@ input[type="submit"]:hover{
 	display: none;
 	visibility: hidden;
 }
+
+.mobile {
+	opacity: 0;
+}
