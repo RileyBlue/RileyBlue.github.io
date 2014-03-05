@@ -1,0 +1,47 @@
+@media screen and (max-width: 1200px) {
+	h2 { width: 50%; }
+	.slogan { top: 300px; }
+	.arrow-down { top: 570px; }
+	.projects {	top: 1206px; }
+	.arrow-up { right: 30px; }
+	.contact { top: 2887px; }
+}
+
+@media screen and (max-width: 1024px) {	
+	h2 { width: 66%; }
+	.menu li { margin-right: 30px;}
+	.info p { width: 90%; }
+}
+
+@media screen and (max-width: 768px) {
+	.menu { display: none; visibility: hidden; }
+	h1 { width: 90%; text-align: left; }
+	h2 { width: 90%; }
+	.mobile-menu { display: inline-block; top: 14px; right: 46px; position: absolute; z-index: 3;}
+	.projects-list figure { width: 30%; }
+	.contact {top: 3404px;}
+
+}
+
+@media screen and (max-width: 600px) {
+	form { width: 85%; }
+}
+
+@media screen and (max-width: 480px) {
+	h2 { font-size: 55px; }
+	.info p { width: 95%; }
+	.projects-list figure { width: 55%; }
+	.contact { top: 5418px; }
+	.mobile-menu { right: 14px; }
+	.projects { top: 1400px; }
+	.projects-list figure { width: 72%; }
+	.contact { top: 5588px; }
+	input[type="submit"] { width: 70%; }
+}
+
+@media screen and (max-width: 320px) {
+	h1 { width: 95%; }
+	.arrow-down { left: 37%; }
+	.projects { top: 1541px; }
+	.contact { top: 5770px; }
+}
