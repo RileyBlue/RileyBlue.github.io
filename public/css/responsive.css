@@ -19,7 +19,7 @@
 	h2 { width: 90%; }
 	.mobile-menu { display: inline-block; top: 14px; right: 46px; position: absolute; z-index: 3;}
 	.projects-list figure { width: 30%; }
-	.contact {top: 3404px;}
+	.contact {top: 3404px; width: 75%;}
 
 }
 
