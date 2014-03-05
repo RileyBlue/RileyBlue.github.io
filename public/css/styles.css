@@ -160,13 +160,23 @@ input[type="submit"]:hover{
 	background: #ADADAD;
 }
 
-.arrow {
+.arrow-down, .arrow-up {
 	position: absolute;
 	top: 520px;
 	display: block;
 	z-index: 3;
-	left: 46%;
 	background: rgba(150, 149, 149, 0.4);
 	padding: 4px 7px;
 	border-radius: 50%;
+}
+
+.arrow-down {
+	left: 46%;
+}
+
+.arrow-up {
+	display: none;
+	right: 63px;
+	top: 540px;
+	position: fixed;
 }
