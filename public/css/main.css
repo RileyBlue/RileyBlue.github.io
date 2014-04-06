@@ -1,0 +1,191 @@
+html, body { 
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 0; 
+	margin: 0; 
+	padding: 0;
+}
+
+@font-face {
+  font-family: "Rockwell";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/rockwell/rockwell.eot");
+  src: url("../fonts/rockwell/rockwell.otf"), url("../fonts/rockwell.ttf"), url("../fonts/rockwell.svg"), url("../fonts/rockwell.woff");
+}
+
+body {	background: #4d1a44; color: #dfdce1; font-family: 'Rockwell', Arial, Verdana; font-size: 19px; text-align: center; }
+
+a { text-decoration: none; color: #ecf0f1;}
+
+h1, .menu { display: inline-block; vertical-align: middle; width: 31%; }
+
+h2 { font-size: 71px; border-bottom: 7px solid  #ecf0f1; width: 45%; letter-spacing: 5px; margin: 0 auto;}
+
+h3 { font-size: 30px; }
+
+h4 { color: #4d1a44; }
+
+.menu { width: 68%; }
+
+.menu ul { list-style: none;}
+
+.menu li { display: inline-block; vertical-align: top; max-width: 19%; width: 14%;}
+
+.menu a:hover { color: #d8d8d8; border-bottom: 3px solid #ecf0f1;} 
+
+#header { position: absolute; top: 0; left: 0; z-index: 2; width: 100%; }
+
+.header-bg--container {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+
+.header-bg {
+	background: url('../images/bg.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+
+.slogan {
+	position: absolute;
+	margin: 0 auto;
+	top: 320px;
+	width: 100%;
+	z-index: 2;
+}
+
+.slogan p {
+	color: #85778c;
+	font-size: 30px;
+
+}
+
+.info {
+	height: 400px;
+	position: relative;
+	top: 700px;
+	z-index: 2;
+	width: 100%;
+}
+
+.info p {
+	line-height: 1.5;
+	margin: 0 auto;
+	width: 57%;
+}
+
+.projects {
+	background: #d8d8d8;
+	height: auto;
+	width: 100%;
+	position: absolute;
+	top: 1120px;
+}
+
+.projects h3 {
+	color: #4d1a44;
+}
+
+.projects-list img {
+	width: 100%;
+	height: 400px;
+}
+
+.projects-list figure {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+}
+
+.contact {
+	position: absolute;
+	top: 2757px;
+	z-index: 2;
+	width: 100%;
+}
+
+.contact figure {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 6px 23px 6px;
+}
+form {
+	width: 38%;
+	margin: 0 auto;
+}
+
+input[type="text"] {
+	color: #444;
+	border: 0;
+	width: 100%;
+	padding: 11px 0;
+	margin: 4px 0;
+	text-indent: 20px;
+}
+
+textarea {
+	width: 99%;
+	color: #444;
+	text-indent: 15px;
+	margin: 4px 0;
+	resize: vertical;
+	max-height: 200px;
+}
+
+input[type="submit"] {
+	border: 0;
+	color: #4d1a44;
+	width: 48%;
+	height: 45px;
+	margin-bottom: 25px;
+}
+
+input[type="submit"]:hover{
+	background: #ADADAD;
+}
+
+.arrow-down, .arrow-up {
+	position: absolute;
+	top: 520px;
+	display: block;
+	z-index: 3;
+	background: rgba(150, 149, 149, 0.4);
+	padding: 4px 7px;
+	border-radius: 50%;
+}
+
+.arrow-down {
+	left: 46%;
+}
+
+.arrow-up {
+	display: none;
+	right: 63px;
+	top: 540px;
+	position: fixed;
+}
+
+.is-hidden {
+	display: none;
+	visibility: hidden;
+}
+
+.mobile {
+	opacity: 0;
+}
