@@ -73,7 +73,9 @@ h4 { color: #4d1a44; }
 
 .slogan p { font-size: 1.9em; }
 
-.social { width: 40%; margin-left: 52%; }
+.social { width: 40%; margin-left: 55%; }
+
+.social img { width: 2.8em; }
 
 .social figure { display: inline-block; vertical-align: top; margin: 0 0.4em;}
 
