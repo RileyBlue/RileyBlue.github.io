@@ -8,15 +8,15 @@ var $el = $(this);
 
 function onDocumentReady(){
 	arrowDown.on('click', function() {
-		$('body').animate({ scrollTop: 520}, 'slow');
+		$('body').animate({ scrollTop: 640}, 'slow');
 	});
 
 	info.on('click', function() {
-		$('body').animate({ scrollTop: 520}, 'slow');
+		$('body').animate({ scrollTop: 640}, 'slow');
 	});
 
 	projects.on('click', function() {
-		$('body').animate({ scrollTop: 1330}, 'slow');
+		$('body').animate({ scrollTop: 1350}, 'slow');
 	});
 
 	contact.on('click', function() {
