@@ -96,6 +96,6 @@ h4 { color: #4d1a44; }
 
 /* Events */ 
 
-.is-hidden { display: none; visibility:  hidden; }
-
 .mobile { opacity: 0; }
+
+/*.mobile { display: none; opacity: 0; }*/

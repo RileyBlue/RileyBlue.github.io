@@ -1,52 +1,52 @@
 @media screen and (max-width: 1200px) {
-	h2 { width: 50%; }
-	.slogan { top: 300px; }
-	.arrow-down { top: 570px; }
-	.projects {	top: 1206px; }
-	.arrow-up { right: 30px; }
-	.contact { top: 2887px; }
+	h2 { width: 75%; }
+	.menu li { margin-right: 0.8em; }
 }
 
-@media screen and (max-width: 1024px) {	
-	h2 { width: 66%; }
-	.menu li { margin-right: 30px;}
-	.info p { width: 90%; }
+@media screen and (max-width: 1024px) {
+	h2 { width: 60%; font-size: 2.5em; }
+	.menu,.social { width: 60%; }
+	.projects-list figure { width: 34%; }
+	.slogan { margin: 13em auto 0 auto;}
+	.social { margin-left: 19em; }
 }
 
 @media screen and (max-width: 768px) {
-	.menu { display: none; visibility: hidden; }
-	h1 { width: 90%; text-align: left; }
-	h2 { width: 90%; }
-	.menu {
-		opacity: 1;
-	}
-	.mobile-menu { display: inline-block; top: 14px; right: 46px; position: absolute; z-index: 3;}
-	.projects-list figure { width: 30%; }
-	.contact {top: 3404px;}
-	form { width: 75%; }
-
+	h1 { width: 34%; }
+	h2 { width: 75%; }
+	.info p { width: 80%; }
+	.menu { width: 50%; }
+	.menu li { margin-left: 3em; }
+	.social { margin-left: 12em; }
 }
 
 @media screen and (max-width: 600px) {
-	form { width: 85%; }
+	h1 { width: 83%%; text-align: left; }
+	h2 { width: 93%; }
+	.menu, .social { display: none; visibility: hidden; }
+	.menu { display: block; opacity: 1; }
+	.mobile { 
+		position: absolute; 
+		top: 1.3em; 
+		right: 0.5em; 
+		width: 14%; 
+		opacity: 1;
+		height: 50%; 
+		z-index: 4;
+	}
+	#menu-list { display: block; height: 4em; width: 4em; }
+	.projects-list figure { width: 80%; }
+	.slogan { margin: 5em auto 0 auto;}
 }
 
 @media screen and (max-width: 480px) {
-	h2 { font-size: 55px; }
-	.info p { width: 95%; }
-	.projects-list figure { width: 55%; }
-	.contact { top: 5418px; }
-	.mobile-menu { right: 14px; }
-	.projects { top: 1400px; }
-	.projects-list figure { width: 72%; }
-	.contact { top: 5588px; }
-	input[type="submit"] { width: 70%; }
-	.arrow-down { left: 37%; }
-}
-
-@media screen and (max-width: 320px) {
-	h1 { width: 95%; }
-	.arrow-down { left: 37%; }
-	.projects { top: 1541px; }
-	.contact { top: 5770px; }
+	h1 { width: 90%; }
+	h2 { width: 80%; }
+	.arrow-down { left: 40%; }
+	.info p { font-size: 1.05em; }
+	.mobile { right: 1em; }
+	.projects-list figure { width: 76%; }
+	.contact { font-size: 1.1em; }
+	.contact p { width: 80%; margin: 0 auto; }
+	.contact a { font-size: 1.4em; }
 }

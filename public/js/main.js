@@ -3,6 +3,7 @@ var arrowDown = $('#arrow-down'),
 	projects  = $('#projects'),
 	contact   = $('#contact'),
     arrowUp   = $('#arrow-up');
+    mobile    = $('#menu-list');
 
 var $el = $(this);
 
