@@ -5,10 +5,9 @@
 
 @media screen and (max-width: 1024px) {
 	h2 { width: 60%; font-size: 2.5em; }
-	.menu,.social { width: 60%; }
+	.menu,.social { width: 45%; }
 	.projects-list figure { width: 34%; }
 	.slogan { margin: 13em auto 0 auto;}
-	.social { margin-left: 19em; }
 }
 
 @media screen and (max-width: 768px) {
@@ -17,7 +16,6 @@
 	.info p { width: 80%; }
 	.menu { width: 50%; }
 	.menu li { margin-left: 3em; }
-	.social { margin-left: 12em; }
 }
 
 @media screen and (max-width: 600px) {
