@@ -35,7 +35,7 @@
     		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       		<ul class="nav navbar-nav navbar-right">
         		<li class="active"><a href="#">Home</a></li>
-        		<li><a id="info" href="#services">Info</a></li>
+        		<li><a id="info" href="#info">Info</a></li>
         		<li><a id="projects" href="#work">Projects</a></li>
         		<li><a id="contact" href="#about">Contact</a></li>
         		<li><a id="blog" href="#contact">Blog</a></li>
@@ -47,13 +47,16 @@
 			<div class="row text-center slogan">
 				<h1>Hey I'm <a href="https://twitter.com/OhmSainz" target="_blank">@OhmSainz</a></h1>
         <p>I'm a Web Designer</p>
+        <a id="arrow-down" class="arrow" href="#info">
+        	<img src="public/img/arrow-down.png" alt="">
+        </a>
 			</div><!-- End of Slogan -->
 
 		</div>
 	</div><!-- End of Jumbotron -->
 
 	<!-- Info Section -->
-	<div class="row text-center info">
+	<div id="info" class="row text-center info">
 			<h3>Info</h3>
 			<p class="col-md-offset-2 col-md-8">
 				Hey, hi. I'm <strong>Omar Sainz</strong> and I studied Engineering in Computers Systems. I live actually in La Paz, Baja California Sur, Mexico. After University I've continued studying and learning by my own, reading and gaining experience. <br /><br />
@@ -64,7 +67,7 @@
 			</p>
 		</div><!-- End of Info -->
 
-		<div class="row projects text-center">
+		<div id="projects" class="row projects text-center">
 			<h3>Projects</h3>
 			<div class="col-md-3">
     		<div class="thumbnail">
@@ -156,10 +159,37 @@
 
 		</div><!-- End of Projects -->
 
-		<div class="row contact text-center">
+		<div id="contact" class="row contact text-center">
 			<h3>Contact</h3>
 			<p>If you want to contact with me, just send me a message. </p>
-       <a href="mailto:o.sainz89@gmail.com">o.sainz89@gmail.com</a>
+      <a href="mailto:o.sainz89@gmail.com">o.sainz89@gmail.com</a>
+			<section class="social">
+          <figure>
+            <a href="http://twitter.com/OhmSainz" target="_blank">
+              <img src="public/img/twitter.png" alt="Twitter">
+            </a>
+          </figure>
+          <figure>
+            <a href="http://github.com/OmarSainz" target="_blank">
+              <img src="public/img/github.png" alt="Github">
+            </a>
+          </figure>
+          <figure>
+            <a href="https://www.facebook.com/iOS23.styl" target="_blank">
+              <img src="public/img/facebook.png" alt="Facebook">
+            </a>
+          </figure>
+          <figure>
+            <a href="https://plus.google.com/+OmarSainz/" target="_blank">
+              <img src="public/img/googleplus.png" alt="Google Plus">
+            </a>
+          </figure>
+          <figure>
+            <a href="http://www.linkedin.com/profile/view?id=228522345" target="_blank">
+              <img src="public/img/linkedin.png" alt="Linkedin" target="_blank">
+            </a>
+          </figure>
+        </section>
 		</div>		
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="public/vendor/jquery/jquery-1.11.0.min.js"><\/script>')</script>
