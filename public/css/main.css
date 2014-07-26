@@ -10,6 +10,22 @@ body {
 
 a { color: #ecf0f1;}
 
+a:hover, 
+a:focus {
+  text-decoration: none;
+  color: rgba(255,255,255,1);
+}
+
+h3 { font-size: 2em; font-weight: bold; margin-bottom: 2em;}
+
+h4 { color: #4d1a44; }
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%
+}
+
 /* Class */
 
 /* Navbar styles */
@@ -22,6 +38,7 @@ a { color: #ecf0f1;}
 .navbar-default .navbar-brand { 
   color: rgba(255, 255, 255, 0.9);
   padding: 15px 30px;
+  font-size: 2.2em;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -63,6 +80,53 @@ a { color: #ecf0f1;}
 }
 
 .slogan {
-  margin-top: 15em;
+  margin-top: 11em;
 }
 
+.slogan p {
+  padding: 25px 0;
+  font-size: 1.9em;
+}
+
+.slogan a {
+  color: rgba(255,255,255, 0.8);
+  border-bottom: 7px solid  #ecf0f1; 
+}
+
+.slogan a:hover {
+  color: rgba(255,255,255, 0.9);
+}
+
+/* Info section */
+.info { 
+  margin-top: 5.5em;
+  margin-bottom: 9em;
+}
+
+.info p {
+  line-height: 1.5;
+  font-size: 1.3em
+}
+
+/* Projects Section */
+
+.projects {
+  background: #d8d8d8;
+  padding: 5em 0;
+}
+
+.projects h3 {
+  color:#4d1a44;
+  font-weight: bold;
+}
+
+.projects img {
+  width: 15em;
+  height: 400px;
+}
+
+/* Components */
+.thumbnail {
+  height: 41em;
+  background: rgba(255,255,255,0.6);
+}
