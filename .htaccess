@@ -568,13 +568,16 @@ FileETag None
 # lowering the cache time for resources such as style sheets and JavaScript
 # files to something like one week.
 
+
+## EXPIRES CACHING ##
+
 <IfModule mod_expires.c>
 
     ExpiresActive on
     ExpiresDefault                                      "access plus 1 month"
 
   # CSS
-    ExpiresByType text/css                              "access plus 1 year"
+    ExpiresByType text/css                              "access plus 1 week"
 
   # Data interchange
     ExpiresByType application/json                      "access plus 0 seconds"
@@ -599,9 +602,9 @@ FileETag None
     ExpiresByType text/cache-manifest                   "access plus 0 seconds"
 
   # Media
-    ExpiresByType audio/ogg                             "access plus 1 month"
-    ExpiresByType image/gif                             "access plus 1 month"
-    ExpiresByType image/jpeg                            "access plus 1 month"
+    ExpiresByType audio/ogg                             "access 1 month"
+    ExpiresByType image/gif                             "access 1 month"
+    ExpiresByType image/jpeg                            "access 1 month"
     ExpiresByType image/png                             "access plus 1 month"
     ExpiresByType video/mp4                             "access plus 1 month"
     ExpiresByType video/ogg                             "access plus 1 month"
