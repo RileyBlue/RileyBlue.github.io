@@ -142,7 +142,7 @@ h4 { color: #4d1a44; }
   font-weight: bold;
 }
 
-.projects img {
+.thumbnail > a > img {
   width: 15em;
   height: 400px;
 }
