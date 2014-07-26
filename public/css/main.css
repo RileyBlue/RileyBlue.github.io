@@ -188,4 +188,9 @@ h4 { color: #4d1a44; }
     margin-top: 16px;
     font-size: 0.7em
   }
+
+  .navbar-nav.navbar-right:last-child {
+    margin-right: 0px;
+  }
+
 }
