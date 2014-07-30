@@ -51,6 +51,8 @@ function onDocumentReady(){
       arrowUp.fadeOut();
     }
   });
+
+  $("#video-player").fitVids();
 }
 
 $(document).on('ready', onDocumentReady);
