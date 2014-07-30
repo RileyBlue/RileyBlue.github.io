@@ -3,7 +3,8 @@ var arrowDown   = $('#arrow-down'),
 	  projects    = $('#projects'),
 	  contact     = $('#contact'),
     arrowUp     = $('#arrow-up'),
-    navbar      = $('.navbar-default');
+    navbar      = $('.navbar-default'),
+    player      = $('#video-player');
 
 var $el = $(this);
 
@@ -37,7 +38,7 @@ function onDocumentReady(){
 	});
 
 	contact.on('click', function() {
-		$('body').animate({ scrollTop: 2780}, 'slow');
+		$('body').animate({ scrollTop: 3780}, 'slow');
 	});
 
   arrowUp.on('click', function() {
@@ -52,7 +53,7 @@ function onDocumentReady(){
     }
   });
 
-  $("#video-player").fitVids();
+  player.fitVids();
 }
 
 $(document).on('ready', onDocumentReady);
