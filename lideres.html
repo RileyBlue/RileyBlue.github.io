@@ -139,8 +139,22 @@
           </figure>
         </section>
 		</div>		
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="public/js/head.js"></script>
+  <script>
+    //IE outdate friendly warning if you don't want remove it
+    var $buoop = {vs:{i:8,f:3.6,o:10.6,s:3.2,n:9}} 
+    $buoop.ol = window.onload; 
+    window.onload=function(){ 
+      try {if ($buoop.ol) $buoop.ol();}catch (e) {} 
+      var e = document.createElement("script"); 
+      e.setAttribute("type", "text/javascript"); 
+      e.setAttribute("src", "http://browser-update.org/update.js"); 
+      document.body.appendChild(e); 
+    } 
+  </script>   
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="public/vendor/jquery/jquery-1.11.0.min.js"><\/script>')</script>
   <script src="public/vendor/bootstrap/bootstrap.min.js"></script>
   <script src="public/js/main.js"></script>
+  <script src="public/js/jquery.fitvids.js"></script>
 </body>
