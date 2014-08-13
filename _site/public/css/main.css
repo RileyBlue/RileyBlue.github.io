@@ -1,0 +1,176 @@
+/* HTML Tags */
+
+body { 
+  font-family: 'Open Sans', Arial, Verdana; 
+  font-size: 16px; 
+  text-align: center; 
+  background: #4d1a44; 
+  color: #dfdce1; 
+}
+
+a { color: #ecf0f1;}
+
+a:hover, 
+a:focus {
+  text-decoration: none;
+  color: rgba(255,255,255,1);
+}
+
+h3 { font-size: 2em; font-weight: bold; margin-bottom: 2em;}
+
+h4 { color: #4d1a44; }
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%
+}
+
+/* Class */
+
+/* Navbar styles */
+.navbar-default {
+  background: rgba(0,0,0,0);
+  border: 0;
+  color: rgba(255, 255, 255, 0);
+}
+
+.navbar-default .navbar-brand { 
+  color: rgba(255, 255, 255, 0.9);
+  padding: 15px 30px;
+  font-size: 2.2em;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-brand:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.navbar-right > li> a:hover {
+  border-bottom: 3px solid #ecf0f1;
+}
+
+.navbar-default .navbar-nav>.active>a {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.navbar-default .navbar-nav>.active>a:hover {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar-nav.navbar-right:last-child {
+  margin-right: 30px;
+}
+
+/* Jumbotron Section */ 
+
+.jumbotron {
+  height: 550px;
+  background: url('../img/bg.png'); 
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.jumbotron h1 { 
+  font-weight: bold;
+  font-size: 4.1em; 
+  letter-spacing: 5px;
+}
+
+.slogan {
+  margin-top: 11em;
+}
+
+.slogan p {
+  padding: 25px 0;
+  font-size: 2.4em;
+}
+
+.slogan a {
+  color: rgba(255,255,255, 0.8);
+  border-bottom: 7px solid  #ecf0f1; 
+}
+
+.slogan a:hover {
+  color: rgba(255,255,255, 0.9);
+}
+
+.slogan .arrow {
+  display: block;
+  background: rgba(0,0,0,0);
+  border-bottom: 0;
+}
+
+.slogan .arrow > img{
+  background: black;
+  border-radius: 100%;
+  padding: 10px;
+  opacity: 0.4;
+}
+
+.slogan .arrow > img:hover {
+  opacity: 0.6;
+}
+
+/* Info section */
+.info { 
+  margin-top: 5.5em;
+  margin-bottom: 9em;
+}
+
+.info p {
+  line-height: 1.5;
+  font-size: 1.3em
+}
+
+/* Projects Section */
+
+.projects {
+  background: #d8d8d8;
+  padding: 5em 0;
+}
+
+.projects h3 {
+  color:#4d1a44;
+  font-weight: bold;
+}
+
+.thumbnail > a > img {
+  width: 15em;
+  height: 400px;
+}
+
+/*Contact */
+.contact {
+  padding: 5em 0;
+}
+
+.contact a {
+  font-size: 2em;
+}
+
+.contact h3 {
+  margin-bottom: 1em;
+}
+/* Social */
+.social { width: 40%; margin: 10px auto; }
+
+.social img { width: 1.4em; opacity: 0.9; }
+
+.social img:hover { opacity: 1; }
+
+.social figure { display: inline-block; vertical-align: top; margin: 0 0.4em;}
+
+
+/* Components */
+.thumbnail {
+  height: 41em;
+  background: rgba(255,255,255,0.6);
+}

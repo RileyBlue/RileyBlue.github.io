@@ -1,0 +1,13 @@
+@media only screen and (max-width: 768px){.jumbotron h1{font-size:3.1em}
+.social{width:100%}
+.slogan a{margin-top:16px;font-size:.9em}
+.nav>li{margin-right:-45px}
+.navbar-default .navbar-nav>li>a:hover{color:#fff;margin-right:0;border-bottom:0;background:rgba(0,0,0,0.6)}
+.thumbnail > a > img{width:23em}
+}@media only screen and (max-width: 600px){.slogan a{font-size:80%}
+}@media only screen and (max-width: 480px){.slogan a{font-size:72%}
+}@media only screen and (max-width: 320px){.jumbotron h1{font-size:2.5em}
+.slogan a{font-size:72%}
+.navbar-default .navbar-brand{padding:15px 10px;font-size:2em}
+.contact a{font-size:1.5em}
+}
