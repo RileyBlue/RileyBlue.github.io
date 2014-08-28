@@ -10,7 +10,7 @@ body {
 
 /* line 9, ../scss/style.scss */
 header {
-  background: url("../images/stary-bg.png") #074e68;
+  background: url("../images/stary-bg.PNG") #074e68;
   min-height: 175px;
 }
 /* line 12, ../scss/style.scss */
