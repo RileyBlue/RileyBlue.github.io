@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Example 2</title>
+</head>
+<body>
+	Name: <input id="textInput" type="text">
+	Hello World!
+
+	<script>
+		var textInputElement = document.getElementById('textInput');
+
+		textInputElement.addEventListener('keyup', function (){
+			console.log('Got keyup event.');
+		});
+	</script>
+</body>
+</html>
