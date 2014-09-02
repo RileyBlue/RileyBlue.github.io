@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Example 5</title>
+	<script src="jquery-1.11.1.min.js"></script>
+</head>
+<body>
+	Name: <input id="textInput" type="text">
+	Hello <span id="nameDiv"></span>!
+
+	<script>
+		$('#textInput').on('keyup', function(){
+			$('#nameDiv').html($('#textInput').val());
+		});
+	</script>
+</body>
+</html>
