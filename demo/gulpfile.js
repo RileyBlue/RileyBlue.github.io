@@ -19,7 +19,7 @@ gulp.task('imagemin', function() {
 
 // CSS concat, auto-prefix and minify
 gulp.task('styles', function() {
-  var cssSrc = "./dev/css/**/*",
+  var cssSrc = "./dev/css/",
       cssDst = "./app/css";
 
   gulp.src(cssSrc)
