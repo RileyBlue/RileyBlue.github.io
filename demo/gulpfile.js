@@ -1,26 +1,32 @@
-var gulp = require('gulp');
-var stylus = require('gulp-stylus');
-var imagemin = require('gulp-imagemin');
-var pngcrush = require('imagemin-pngcrush');
+var gulp       = require('gulp'),
+    jshint     = require('gulp-jshint'),
+    changed    = require('gulp-changed'),
+    imagemin   = require('gulp-imagemin'),
+    concat     = require('gulp-concat'),
+    minifyCSS  = require('gulp-minify-css'),
+    autoprefix = require('gulp-autoprefixer');
 
-gulp.task('css', function () {
-gulp.src('./styles/**/*.styl')
-  .pipe(stylus({compress: true}))
-  .pipe(gulp.dest('./css'));
-  .pipe(connect.reload());
+// minify new images
+gulp.task('imagemin', function() {
+  var imgSrc = './dev/img/**/*',
+      imgDst = './app/img';
+
+  gulp.src(imgSrc)
+    .pipe(changed(imgDst))
+    .pipe(imagemin())
+    .pipe(gulp.dest(imgDst));
 });
 
-gulp.task('images', function() {
-  gulp.src('./static/*.{png,jpg,jpeg,gif,svg}')
-    .pipe(imagemin({
-      progressive: true,
-      svgoPlugins: [{removeViewBox: false}],
-      use: [pngcrush()]
-    }))
-    .pipe(gulp.dest('./dist/static'));
-});
+// CSS concat, auto-prefix and minify
+gulp.task('styles', function() {
+  var cssSrc = "./dev/css/**/*",
+      cssDst = "./app/css";
 
-gulp.task('watch', function() {
-  gulp.watch('./styles/**/*.styl', ['css']),
-  gulp.watch('./**/*.html, ['compress'])
+  gulp.src(cssSrc)
+    .pipe(concat('styles.css'))
+    .pipe(autoprefix('last 2 versions'))
+    .pipe(minifyCSS())
+    .pipe(gulp.dest(cssDst));
 });
+// Default gulp task to run
+gulp.task('default', ['imagenmin', 'styles']);

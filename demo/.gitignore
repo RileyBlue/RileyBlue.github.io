@@ -1,5 +1,6 @@
 dist
 .tmp
+dev
 *.swp
 vendor
 node_modules
