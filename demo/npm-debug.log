@@ -1,0 +1,408 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   'gulp-if',
+1 verbose cli   'gulp-imagemin',
+1 verbose cli   'imagemin-pngcrush',
+1 verbose cli   'gulp-connect',
+1 verbose cli   'connect-history-api-falback' ]
+2 info using npm@1.4.21
+3 info using node@v0.10.30
+4 warn package.json omarsainz-portfolio@1.0.1 No description
+5 warn package.json omarsainz-portfolio@1.0.1 No repository field.
+6 warn package.json omarsainz-portfolio@1.0.1 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'gulp-if', null ]
+9 verbose cache add name=undefined spec="gulp-if" args=["gulp-if",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'gulp-if',
+10 verbose parsed url   path: 'gulp-if',
+10 verbose parsed url   href: 'gulp-if' }
+11 verbose cache add [ 'gulp-imagemin', null ]
+12 verbose cache add name=undefined spec="gulp-imagemin" args=["gulp-imagemin",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'gulp-imagemin',
+13 verbose parsed url   path: 'gulp-imagemin',
+13 verbose parsed url   href: 'gulp-imagemin' }
+14 verbose cache add [ 'imagemin-pngcrush', null ]
+15 verbose cache add name=undefined spec="imagemin-pngcrush" args=["imagemin-pngcrush",null]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: 'imagemin-pngcrush',
+16 verbose parsed url   path: 'imagemin-pngcrush',
+16 verbose parsed url   href: 'imagemin-pngcrush' }
+17 verbose cache add [ 'gulp-connect', null ]
+18 verbose cache add name=undefined spec="gulp-connect" args=["gulp-connect",null]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: 'gulp-connect',
+19 verbose parsed url   path: 'gulp-connect',
+19 verbose parsed url   href: 'gulp-connect' }
+20 verbose cache add [ 'connect-history-api-falback', null ]
+21 verbose cache add name=undefined spec="connect-history-api-falback" args=["connect-history-api-falback",null]
+22 verbose parsed url { protocol: null,
+22 verbose parsed url   slashes: null,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: null,
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: null,
+22 verbose parsed url   hash: null,
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: 'connect-history-api-falback',
+22 verbose parsed url   path: 'connect-history-api-falback',
+22 verbose parsed url   href: 'connect-history-api-falback' }
+23 silly lockFile ca66e53a-gulp-if gulp-if
+24 verbose lock gulp-if /home/ios23/.npm/ca66e53a-gulp-if.lock
+25 silly lockFile fa224668-gulp-imagemin gulp-imagemin
+26 verbose lock gulp-imagemin /home/ios23/.npm/fa224668-gulp-imagemin.lock
+27 silly lockFile 44273a89-imagemin-pngcrush imagemin-pngcrush
+28 verbose lock imagemin-pngcrush /home/ios23/.npm/44273a89-imagemin-pngcrush.lock
+29 silly lockFile 08293c24-gulp-connect gulp-connect
+30 verbose lock gulp-connect /home/ios23/.npm/08293c24-gulp-connect.lock
+31 silly lockFile c961f174-connect-history-api-falback connect-history-api-falback
+32 verbose lock connect-history-api-falback /home/ios23/.npm/c961f174-connect-history-api-falback.lock
+33 silly lockFile ca66e53a-gulp-if gulp-if
+34 silly lockFile ca66e53a-gulp-if gulp-if
+35 silly lockFile fa224668-gulp-imagemin gulp-imagemin
+36 silly lockFile fa224668-gulp-imagemin gulp-imagemin
+37 silly lockFile 44273a89-imagemin-pngcrush imagemin-pngcrush
+38 silly lockFile 44273a89-imagemin-pngcrush imagemin-pngcrush
+39 silly lockFile 08293c24-gulp-connect gulp-connect
+40 silly lockFile 08293c24-gulp-connect gulp-connect
+41 silly lockFile c961f174-connect-history-api-falback connect-history-api-falback
+42 silly lockFile c961f174-connect-history-api-falback connect-history-api-falback
+43 verbose addNamed [ 'gulp-if', '' ]
+44 verbose addNamed [ null, '*' ]
+45 silly lockFile d1b0d0d0-gulp-if gulp-if@
+46 verbose lock gulp-if@ /home/ios23/.npm/d1b0d0d0-gulp-if.lock
+47 verbose addNamed [ 'gulp-imagemin', '' ]
+48 verbose addNamed [ null, '*' ]
+49 silly lockFile 0ba22ca1-gulp-imagemin gulp-imagemin@
+50 verbose lock gulp-imagemin@ /home/ios23/.npm/0ba22ca1-gulp-imagemin.lock
+51 verbose addNamed [ 'imagemin-pngcrush', '' ]
+52 verbose addNamed [ null, '*' ]
+53 silly lockFile 3e7ec11f-imagemin-pngcrush imagemin-pngcrush@
+54 verbose lock imagemin-pngcrush@ /home/ios23/.npm/3e7ec11f-imagemin-pngcrush.lock
+55 verbose addNamed [ 'gulp-connect', '' ]
+56 verbose addNamed [ null, '*' ]
+57 silly lockFile 7e07fb61-gulp-connect gulp-connect@
+58 verbose lock gulp-connect@ /home/ios23/.npm/7e07fb61-gulp-connect.lock
+59 verbose addNamed [ 'connect-history-api-falback', '' ]
+60 verbose addNamed [ null, '*' ]
+61 silly lockFile 3f06060e-connect-history-api-falback connect-history-api-falback@
+62 verbose lock connect-history-api-falback@ /home/ios23/.npm/3f06060e-connect-history-api-falback.lock
+63 silly addNameRange { name: 'gulp-if', range: '*', hasData: false }
+64 silly addNameRange { name: 'gulp-imagemin', range: '*', hasData: false }
+65 silly addNameRange { name: 'imagemin-pngcrush', range: '*', hasData: false }
+66 silly addNameRange { name: 'gulp-connect', range: '*', hasData: false }
+67 verbose request where is /gulp-if
+68 verbose request registry https://registry.npmjs.org/
+69 verbose request id e34981b3d43663d3
+70 verbose url raw /gulp-if
+71 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-if' ]
+72 verbose url resolved https://registry.npmjs.org/gulp-if
+73 verbose request where is https://registry.npmjs.org/gulp-if
+74 info trying registry request attempt 1 at 13:25:04
+75 http GET https://registry.npmjs.org/gulp-if
+76 verbose request where is /gulp-imagemin
+77 verbose request registry https://registry.npmjs.org/
+78 verbose url raw /gulp-imagemin
+79 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-imagemin' ]
+80 verbose url resolved https://registry.npmjs.org/gulp-imagemin
+81 verbose request where is https://registry.npmjs.org/gulp-imagemin
+82 info trying registry request attempt 1 at 13:25:04
+83 http GET https://registry.npmjs.org/gulp-imagemin
+84 verbose request where is /imagemin-pngcrush
+85 verbose request registry https://registry.npmjs.org/
+86 verbose url raw /imagemin-pngcrush
+87 verbose url resolving [ 'https://registry.npmjs.org/', './imagemin-pngcrush' ]
+88 verbose url resolved https://registry.npmjs.org/imagemin-pngcrush
+89 verbose request where is https://registry.npmjs.org/imagemin-pngcrush
+90 info trying registry request attempt 1 at 13:25:04
+91 http GET https://registry.npmjs.org/imagemin-pngcrush
+92 silly addNameRange { name: 'connect-history-api-falback',
+92 silly addNameRange   range: '*',
+92 silly addNameRange   hasData: false }
+93 verbose request where is /gulp-connect
+94 verbose request registry https://registry.npmjs.org/
+95 verbose url raw /gulp-connect
+96 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-connect' ]
+97 verbose url resolved https://registry.npmjs.org/gulp-connect
+98 verbose request where is https://registry.npmjs.org/gulp-connect
+99 info trying registry request attempt 1 at 13:25:04
+100 http GET https://registry.npmjs.org/gulp-connect
+101 verbose request where is /connect-history-api-falback
+102 verbose request registry https://registry.npmjs.org/
+103 verbose url raw /connect-history-api-falback
+104 verbose url resolving [ 'https://registry.npmjs.org/',
+104 verbose url resolving   './connect-history-api-falback' ]
+105 verbose url resolved https://registry.npmjs.org/connect-history-api-falback
+106 verbose request where is https://registry.npmjs.org/connect-history-api-falback
+107 info trying registry request attempt 1 at 13:25:04
+108 http GET https://registry.npmjs.org/connect-history-api-falback
+109 http 200 https://registry.npmjs.org/gulp-if
+110 silly registry.get cb [ 200,
+110 silly registry.get   { date: 'Sat, 27 Sep 2014 19:25:20 GMT',
+110 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+110 silly registry.get     etag: '"5SMN9HXNSXEXG8OKUYT8XKPF1"',
+110 silly registry.get     'content-type': 'application/json',
+110 silly registry.get     'cache-control': 'max-age=60',
+110 silly registry.get     'content-length': '21388',
+110 silly registry.get     'accept-ranges': 'bytes',
+110 silly registry.get     via: '1.1 varnish',
+110 silly registry.get     age: '0',
+110 silly registry.get     'x-served-by': 'cache-sjc3134-SJC',
+110 silly registry.get     'x-cache': 'MISS',
+110 silly registry.get     'x-cache-hits': '0',
+110 silly registry.get     'x-timer': 'S1411845920.283192,VS0,VE62',
+110 silly registry.get     vary: 'Accept',
+110 silly registry.get     'keep-alive': 'timeout=10, max=50',
+110 silly registry.get     connection: 'Keep-Alive' } ]
+111 silly addNameRange number 2 { name: 'gulp-if', range: '*', hasData: true }
+112 silly addNameRange versions [ 'gulp-if',
+112 silly addNameRange   [ '0.0.3',
+112 silly addNameRange     '0.0.4',
+112 silly addNameRange     '0.0.5',
+112 silly addNameRange     '1.0.0',
+112 silly addNameRange     '1.1.0',
+112 silly addNameRange     '1.2.0',
+112 silly addNameRange     '1.2.1',
+112 silly addNameRange     '1.2.2',
+112 silly addNameRange     '1.2.3',
+112 silly addNameRange     '1.2.4' ] ]
+113 verbose addNamed [ 'gulp-if', '1.2.4' ]
+114 verbose addNamed [ '1.2.4', '1.2.4' ]
+115 silly lockFile cf638743-gulp-if-1-2-4 gulp-if@1.2.4
+116 verbose lock gulp-if@1.2.4 /home/ios23/.npm/cf638743-gulp-if-1-2-4.lock
+117 silly lockFile e0d2bd07-js-org-gulp-if-gulp-if-1-2-4-tgz https://registry.npmjs.org/gulp-if/-/gulp-if-1.2.4.tgz
+118 verbose lock https://registry.npmjs.org/gulp-if/-/gulp-if-1.2.4.tgz /home/ios23/.npm/e0d2bd07-js-org-gulp-if-gulp-if-1-2-4-tgz.lock
+119 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-if/-/gulp-if-1.2.4.tgz',
+119 verbose addRemoteTarball   'dd18bafbff68e6c3a9ad81cb4ceceba0484e92a8' ]
+120 info retry fetch attempt 1 at 13:25:20
+121 verbose fetch to= /tmp/npm-18624-WGXU4T4L/registry.npmjs.org/gulp-if/-/gulp-if-1.2.4.tgz
+122 http GET https://registry.npmjs.org/gulp-if/-/gulp-if-1.2.4.tgz
+123 http 200 https://registry.npmjs.org/imagemin-pngcrush
+124 silly registry.get cb [ 200,
+124 silly registry.get   { date: 'Sat, 27 Sep 2014 19:25:20 GMT',
+124 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+124 silly registry.get     etag: '"73DJH5SN3ALM0B1H3R9XEKA3E"',
+124 silly registry.get     'content-type': 'application/json',
+124 silly registry.get     'cache-control': 'max-age=60',
+124 silly registry.get     'content-length': '4205',
+124 silly registry.get     'accept-ranges': 'bytes',
+124 silly registry.get     via: '1.1 varnish',
+124 silly registry.get     age: '0',
+124 silly registry.get     'x-served-by': 'cache-sjc3120-SJC',
+124 silly registry.get     'x-cache': 'MISS',
+124 silly registry.get     'x-cache-hits': '0',
+124 silly registry.get     'x-timer': 'S1411845920.294374,VS0,VE156',
+124 silly registry.get     vary: 'Accept',
+124 silly registry.get     'keep-alive': 'timeout=10, max=50',
+124 silly registry.get     connection: 'Keep-Alive' } ]
+125 silly addNameRange number 2 { name: 'imagemin-pngcrush', range: '*', hasData: true }
+126 silly addNameRange versions [ 'imagemin-pngcrush', [ '0.1.0', '1.0.0' ] ]
+127 verbose addNamed [ 'imagemin-pngcrush', '1.0.0' ]
+128 verbose addNamed [ '1.0.0', '1.0.0' ]
+129 silly lockFile 27f6bbe9-imagemin-pngcrush-1-0-0 imagemin-pngcrush@1.0.0
+130 verbose lock imagemin-pngcrush@1.0.0 /home/ios23/.npm/27f6bbe9-imagemin-pngcrush-1-0-0.lock
+131 silly lockFile 6ec504e0-rush-imagemin-pngcrush-1-0-0-tgz https://registry.npmjs.org/imagemin-pngcrush/-/imagemin-pngcrush-1.0.0.tgz
+132 verbose lock https://registry.npmjs.org/imagemin-pngcrush/-/imagemin-pngcrush-1.0.0.tgz /home/ios23/.npm/6ec504e0-rush-imagemin-pngcrush-1-0-0-tgz.lock
+133 verbose addRemoteTarball [ 'https://registry.npmjs.org/imagemin-pngcrush/-/imagemin-pngcrush-1.0.0.tgz',
+133 verbose addRemoteTarball   '541f3594b30eb334734f381fe544df57a25a67f7' ]
+134 info retry fetch attempt 1 at 13:25:20
+135 verbose fetch to= /tmp/npm-18624-WGXU4T4L/registry.npmjs.org/imagemin-pngcrush/-/imagemin-pngcrush-1.0.0.tgz
+136 http GET https://registry.npmjs.org/imagemin-pngcrush/-/imagemin-pngcrush-1.0.0.tgz
+137 http 200 https://registry.npmjs.org/gulp-connect
+138 silly registry.get cb [ 200,
+138 silly registry.get   { date: 'Sat, 27 Sep 2014 19:25:20 GMT',
+138 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+138 silly registry.get     etag: '"EVO4N8XM672YLREBL8HMKNOGT"',
+138 silly registry.get     'content-type': 'application/json',
+138 silly registry.get     'cache-control': 'max-age=60',
+138 silly registry.get     'content-length': '44388',
+138 silly registry.get     'accept-ranges': 'bytes',
+138 silly registry.get     via: '1.1 varnish',
+138 silly registry.get     age: '4695',
+138 silly registry.get     'x-served-by': 'cache-sjc3133-SJC',
+138 silly registry.get     'x-cache': 'MISS',
+138 silly registry.get     'x-cache-hits': '0',
+138 silly registry.get     'x-timer': 'S1411845920.288760,VS0,VE152',
+138 silly registry.get     vary: 'Accept',
+138 silly registry.get     'keep-alive': 'timeout=10, max=50',
+138 silly registry.get     connection: 'Keep-Alive' } ]
+139 silly addNameRange number 2 { name: 'gulp-connect', range: '*', hasData: true }
+140 silly addNameRange versions [ 'gulp-connect',
+140 silly addNameRange   [ '0.0.1',
+140 silly addNameRange     '0.1.1',
+140 silly addNameRange     '0.1.2',
+140 silly addNameRange     '0.1.3',
+140 silly addNameRange     '0.1.4',
+140 silly addNameRange     '0.1.5',
+140 silly addNameRange     '0.1.6',
+140 silly addNameRange     '0.2.0',
+140 silly addNameRange     '0.3.0',
+140 silly addNameRange     '0.3.1',
+140 silly addNameRange     '0.4.0',
+140 silly addNameRange     '0.5.0',
+140 silly addNameRange     '0.6.0',
+140 silly addNameRange     '0.7.0',
+140 silly addNameRange     '0.8.0',
+140 silly addNameRange     '0.9.0',
+140 silly addNameRange     '1.0.0',
+140 silly addNameRange     '1.0.1',
+140 silly addNameRange     '1.0.2',
+140 silly addNameRange     '1.0.3',
+140 silly addNameRange     '1.0.4',
+140 silly addNameRange     '1.0.5',
+140 silly addNameRange     '1.0.6',
+140 silly addNameRange     '1.0.7',
+140 silly addNameRange     '1.0.9',
+140 silly addNameRange     '1.0.10',
+140 silly addNameRange     '1.1.0',
+140 silly addNameRange     '1.1.1',
+140 silly addNameRange     '2.0.0',
+140 silly addNameRange     '2.0.1',
+140 silly addNameRange     '2.0.2',
+140 silly addNameRange     '2.0.3',
+140 silly addNameRange     '2.0.4',
+140 silly addNameRange     '2.0.5',
+140 silly addNameRange     '2.0.6' ] ]
+141 verbose addNamed [ 'gulp-connect', '2.0.6' ]
+142 verbose addNamed [ '2.0.6', '2.0.6' ]
+143 silly lockFile c3b45804-gulp-connect-2-0-6 gulp-connect@2.0.6
+144 verbose lock gulp-connect@2.0.6 /home/ios23/.npm/c3b45804-gulp-connect-2-0-6.lock
+145 silly lockFile 067e9383-p-connect-gulp-connect-2-0-6-tgz https://registry.npmjs.org/gulp-connect/-/gulp-connect-2.0.6.tgz
+146 verbose lock https://registry.npmjs.org/gulp-connect/-/gulp-connect-2.0.6.tgz /home/ios23/.npm/067e9383-p-connect-gulp-connect-2-0-6-tgz.lock
+147 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-connect/-/gulp-connect-2.0.6.tgz',
+147 verbose addRemoteTarball   '50a020a903460db8c27e9586a3dfeb8778fb33fb' ]
+148 info retry fetch attempt 1 at 13:25:20
+149 verbose fetch to= /tmp/npm-18624-WGXU4T4L/registry.npmjs.org/gulp-connect/-/gulp-connect-2.0.6.tgz
+150 http GET https://registry.npmjs.org/gulp-connect/-/gulp-connect-2.0.6.tgz
+151 http 200 https://registry.npmjs.org/gulp-imagemin
+152 silly registry.get cb [ 200,
+152 silly registry.get   { date: 'Sat, 27 Sep 2014 19:25:20 GMT',
+152 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+152 silly registry.get     etag: '"63IAVMRZ3T7MHHNGALQELF6TT"',
+152 silly registry.get     'content-type': 'application/json',
+152 silly registry.get     'cache-control': 'max-age=60',
+152 silly registry.get     'content-length': '24092',
+152 silly registry.get     'accept-ranges': 'bytes',
+152 silly registry.get     via: '1.1 varnish',
+152 silly registry.get     age: '15152',
+152 silly registry.get     'x-served-by': 'cache-sjc3123-SJC',
+152 silly registry.get     'x-cache': 'HIT',
+152 silly registry.get     'x-cache-hits': '1',
+152 silly registry.get     'x-timer': 'S1411845920.286265,VS0,VE358',
+152 silly registry.get     vary: 'Accept',
+152 silly registry.get     'keep-alive': 'timeout=10, max=50',
+152 silly registry.get     connection: 'Keep-Alive' } ]
+153 silly addNameRange number 2 { name: 'gulp-imagemin', range: '*', hasData: true }
+154 silly addNameRange versions [ 'gulp-imagemin',
+154 silly addNameRange   [ '0.1.0',
+154 silly addNameRange     '0.1.1',
+154 silly addNameRange     '0.1.2',
+154 silly addNameRange     '0.1.3',
+154 silly addNameRange     '0.1.4',
+154 silly addNameRange     '0.1.5',
+154 silly addNameRange     '0.2.0',
+154 silly addNameRange     '0.3.0',
+154 silly addNameRange     '0.4.0',
+154 silly addNameRange     '0.5.0',
+154 silly addNameRange     '0.5.1',
+154 silly addNameRange     '0.6.0',
+154 silly addNameRange     '0.6.1',
+154 silly addNameRange     '0.6.2',
+154 silly addNameRange     '1.0.0',
+154 silly addNameRange     '1.0.1' ] ]
+155 verbose addNamed [ 'gulp-imagemin', '1.0.1' ]
+156 verbose addNamed [ '1.0.1', '1.0.1' ]
+157 silly lockFile 3e9d4004-gulp-imagemin-1-0-1 gulp-imagemin@1.0.1
+158 verbose lock gulp-imagemin@1.0.1 /home/ios23/.npm/3e9d4004-gulp-imagemin-1-0-1.lock
+159 silly lockFile d063cdc8-imagemin-gulp-imagemin-1-0-1-tgz https://registry.npmjs.org/gulp-imagemin/-/gulp-imagemin-1.0.1.tgz
+160 verbose lock https://registry.npmjs.org/gulp-imagemin/-/gulp-imagemin-1.0.1.tgz /home/ios23/.npm/d063cdc8-imagemin-gulp-imagemin-1-0-1-tgz.lock
+161 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-imagemin/-/gulp-imagemin-1.0.1.tgz',
+161 verbose addRemoteTarball   '0c51869941048d4a46918436110c0769ae64f746' ]
+162 info retry fetch attempt 1 at 13:25:24
+163 verbose fetch to= /tmp/npm-18624-WGXU4T4L/registry.npmjs.org/gulp-imagemin/-/gulp-imagemin-1.0.1.tgz
+164 http GET https://registry.npmjs.org/gulp-imagemin/-/gulp-imagemin-1.0.1.tgz
+165 http 404 https://registry.npmjs.org/connect-history-api-falback
+166 verbose headers { date: 'Sat, 27 Sep 2014 19:25:25 GMT',
+166 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+166 verbose headers   'content-type': 'application/json',
+166 verbose headers   'cache-control': 'max-age=0',
+166 verbose headers   'content-length': '52',
+166 verbose headers   'accept-ranges': 'bytes',
+166 verbose headers   via: '1.1 varnish',
+166 verbose headers   age: '0',
+166 verbose headers   'x-served-by': 'cache-sjc3128-SJC',
+166 verbose headers   'x-cache': 'MISS',
+166 verbose headers   'x-cache-hits': '0',
+166 verbose headers   'x-timer': 'S1411845925.278654,VS0,VE362',
+166 verbose headers   'keep-alive': 'timeout=10, max=50',
+166 verbose headers   connection: 'Keep-Alive' }
+167 silly registry.get cb [ 404,
+167 silly registry.get   { date: 'Sat, 27 Sep 2014 19:25:25 GMT',
+167 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+167 silly registry.get     'content-type': 'application/json',
+167 silly registry.get     'cache-control': 'max-age=0',
+167 silly registry.get     'content-length': '52',
+167 silly registry.get     'accept-ranges': 'bytes',
+167 silly registry.get     via: '1.1 varnish',
+167 silly registry.get     age: '0',
+167 silly registry.get     'x-served-by': 'cache-sjc3128-SJC',
+167 silly registry.get     'x-cache': 'MISS',
+167 silly registry.get     'x-cache-hits': '0',
+167 silly registry.get     'x-timer': 'S1411845925.278654,VS0,VE362',
+167 silly registry.get     'keep-alive': 'timeout=10, max=50',
+167 silly registry.get     connection: 'Keep-Alive' } ]
+168 silly lockFile 3f06060e-connect-history-api-falback connect-history-api-falback@
+169 silly lockFile 3f06060e-connect-history-api-falback connect-history-api-falback@
+170 http 200 https://registry.npmjs.org/gulp-if/-/gulp-if-1.2.4.tgz
+171 error 404 404 Not Found: connect-history-api-falback
+171 error 404
+171 error 404 'connect-history-api-falback' is not in the npm registry.
+171 error 404 You should bug the author to publish it
+171 error 404 It was specified as a dependency of 'omarsainz-portfolio'
+171 error 404
+171 error 404 Note that you can also install from a
+171 error 404 tarball, folder, or http url, or git url.
+172 error System Linux 3.13.0-35-generic
+173 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "--save-dev" "gulp-if" "gulp-imagemin" "imagemin-pngcrush" "gulp-connect" "connect-history-api-falback"
+174 error cwd /home/ios23/Projects/sites/omarsainz.github.io/demo
+175 error node -v v0.10.30
+176 error npm -v 1.4.21
+177 error code E404
+178 verbose exit [ 1, true ]
