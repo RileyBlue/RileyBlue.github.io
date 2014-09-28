@@ -2,7 +2,7 @@ body {
   font-family: 'Roboto', Arial, Verdana;
   font-size: 16px;
   text-align: center;
-  color: #dfdce1;
+  color: #333;
 }
 
 a, a:hover, a:active {
@@ -14,6 +14,7 @@ a, a:hover, a:active {
 }
 
 .jumbotron {
+  color: #dfdce1;
   height: 800px;
   background: url('../img/bg.png');
   background-position: center center;
