@@ -53,6 +53,19 @@ i.fa.fa-angle-down {
   color: rgba(250,250,250, 0.4);
 }
 
+.col-md-12.page_title.resume {
+  background: url('../img/bg-resume.png');
+  padding: 7em 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+i.fa.fa-book.color,
+i.fa.fa-suitcase.color {
+  color: #00b4ff;
+  border-bottom: 3px solid #00b4ff;
+}
+
 /*
  *  Table of Contents:
  *
@@ -3258,4 +3271,8 @@ body.theme_10 #portfolio_popup .section_title span{
 .ft_buttons .btn{
   margin-right: 5px;
   margin-bottom: 5px;
+}
+.resume > span {
+  color: #fff;
+  border: 3px solid #fff;
 }
