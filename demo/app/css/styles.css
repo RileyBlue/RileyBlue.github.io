@@ -61,7 +61,8 @@ i.fa.fa-angle-down {
 }
 
 i.fa.fa-book.color,
-i.fa.fa-suitcase.color {
+i.fa.fa-suitcase.color,
+i.fa.fa-bolt.color {
   color: #00b4ff;
   border-bottom: 3px solid #00b4ff;
 }

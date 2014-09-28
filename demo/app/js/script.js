@@ -73,7 +73,70 @@ jQuery(document).ready(function($){
     overlay.fadeIn();
   });
 
+  if ($("#layerslider").is(":visible")){
+    //home slider
+    $("#layerslider").layerSlider({
+      responsive: false,
+      responsiveUnder: 1280,
+      pauseOnHover: false,
+      autoPlayVideos: false,
+      navButtons: false,
+      touchNav: true,
+      navStartStop: false,
+      showBarTimer:false,
+      showCircleTimer:false,
+      navPrevNext:true,
+      skinsPath: 'layerslider/skins/'
+    });
+  }
 
+  $('.counters .num').counterUp({
+        delay: 100,
+        time: 2000
+    });
+
+  $(".skill_items.charts").owlCarousel({
+    items : 4
+  });
+
+  $(".client_items").owlCarousel({
+    items : 4
+  });
+
+  $(".testimonial_items").owlCarousel({
+        singleItem:true,
+    pagination : true
+  });
+
+  $(".home_blog_posts").owlCarousel({
+    items : 3,
+    pagination : false
+  });
+
+  $(".post_slideshow").owlCarousel({
+        singleItem:true,
+    navigation : true,
+    pagination : false,
+    navigationText : ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>']
+  });
+
+  $('.navbar').onePageNav({
+      currentClass: 'active',
+      changeHash: false,
+      scrollSpeed: 750,
+      scrollThreshold: 0.5,
+      filter: '',
+      easing: 'swing',
+      begin: function() {
+        var win_width = $(window).width();
+        if (win_width > 991){
+          $(".navbar").removeClass("mobile");
+        }
+        if ($(".navbar").hasClass("mobile")){
+          $(".navbar").slideUp();
+        }
+      }
+  });
 
   // show-hide scroll to top button on window scroll
   $(window).scroll(function(){
@@ -115,6 +178,28 @@ jQuery(document).ready(function($){
 
   });
 
+  // Tweets feed
+  /*$('.tweets_feed').twittie({
+    username: 'envato',
+      dateFormat: '%b. %d, %Y',
+      template:
+      '<div class="icon"><i class="fa fa-twitter"></i></div>'+
+      '<div class="text">'+
+        '{{tweet}}'+
+      '</div>'+
+      '<div class="date">'+
+        '<a href="{{url}}">{{screen_name}}</a> &bull; <a href="{{url}}">{{date}}</a>'+
+      '</div>'
+      ,
+      count: 4
+  }, function(){
+    $(".tweets_feed").owlCarousel({
+
+      pagination : true,
+      singleItem:true
+
+    });
+  });*/
 
 
   var theme_array = [{"stylers":[{"hue":"#ff1a00"},{"invert_lightness":true},{"saturation":-100},{"lightness":33},{"gamma":0.5}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#2D333C"}]}];
