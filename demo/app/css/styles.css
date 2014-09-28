@@ -302,8 +302,9 @@ img{
   margin-bottom: 80px;
 }
 
-.page_title span{
+.page_title span {
   font-weight: 700;
+  color: #555;
   font-size: 40px;
   font-family: 'Raleway', sans-serif;
   padding: 10px 20px;
