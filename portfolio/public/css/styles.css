@@ -299,6 +299,46 @@ margin-top: 2em;
   margin: 4em 0;
 }
 
+.title.skill {
+  background: transparent;
+  color: #444;
+}
+
+.chart {
+  position: relative;
+  display: inline-block;
+  width: 130px;
+  height: 130px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.percent {
+  display: inline-block;
+  line-height: 130px;
+  font-size: 45px;
+  z-index: 2;
+  margin-left: 5px;
+}
+.percent:after {
+  content: '%';
+  margin-left: 0.1em;
+  font-size: .8em;
+}
+
+.chart canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.section_title.skills {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+
 /*
 ===========================================================
       6. Portfolio 
@@ -307,6 +347,7 @@ margin-top: 2em;
 
 .col-md-12.page_title.portfolio {
   background: url('../img/bg-portfolio.png');
+  background-size: cover;
 }
 
 .portfolio span {
@@ -314,3 +355,8 @@ margin-top: 2em;
   border: 3px solid #fff;
 }
 
+/*
+===========================================================
+      7
+===========================================================
+*/
