@@ -372,6 +372,19 @@ margin-top: 2em;
   overflow: hidden;
 }
 
+.thumbnail>img, 
+.thumbnail a>img {
+  height: 370px;
+}
+
+.thumbnail {
+  height: 40em;
+}
+
+.btn-primary:hover{
+  background-color: #06A7F3;
+  border:0;
+}
 /*
 ===========================================================
       7
