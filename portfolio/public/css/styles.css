@@ -385,8 +385,85 @@ margin-top: 2em;
   background-color: #06A7F3;
   border:0;
 }
+
+a.btn.btn-primary {
+  padding: 13px 35px;
+}
 /*
 ===========================================================
-      7
+      7. Contact
 ===========================================================
 */
+
+.contact {
+  background: #FCF8F8;
+  padding: 3em 0;
+}
+
+.col-md-12.page-title.contact-container {
+  background: url('../img/bg-contact.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -3em;
+  height: 40em;
+  width: 100%;
+}
+
+.img-circle {
+  border: 5px solid #fff;
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-left: 4em;
+}
+
+.img-circle > i {
+  font-size: 3em;
+  color: #fff;
+  margin-top: 0.5em;
+}
+
+.contact_row {
+  margin: 8em 0;
+}
+
+.contact_content,
+.contact_container {
+  text-align: left;
+  margin-top: 1.5em;
+  margin-left: 12em;
+}
+
+h2 {
+  color: #fff;
+  margin-top: 4em;
+}
+
+.contact_title,
+.contact_description,
+.contact_description a{
+  background: transparent;
+  color: #fff;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+
+.social_icons a > i {
+  font-size: 2.5em;
+  color: #fff;
+  margin: 1em 0.6em;
+}
+
+footer {
+  height: 10em;
+  background: #282a26;
+  color: #fff;
+  margin-top: -1.3em;
+}
+
+footer > h3 {
+  font-size: 1.1em;
+  padding: 3em 0
+}
