@@ -661,11 +661,12 @@ footer > h3 {
     /* margin: 0 17em 0.4em 0; */
     margin-left: 20%;
     margin-bottom: 10%;
-    margin-top: -6em;
+    margin-top: 3em;
   }
 
   .col-md-12.page-title.contact-container {
     height: 70em;
+    margin-top: 2em;
   }
   .social_icons > a {
     margin-top: -1em;
