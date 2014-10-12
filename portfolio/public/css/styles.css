@@ -355,6 +355,23 @@ margin-top: 2em;
   border: 3px solid #fff;
 }
 
+.active {
+  background: #06A7F3;
+}
+
+.btn.active {
+  border: 2px solid transparent;
+  box-shadow: none;
+  color: #fff;
+}
+
+.portfolio_items .mix {
+  padding: 0;
+  display: none;
+  position: relative;
+  overflow: hidden;
+}
+
 /*
 ===========================================================
       7

@@ -10,4 +10,8 @@ $(document).on('ready', function(){
       }
     });
   }); 
+
+  $(function() {
+  	$(".container").mixItUp();
+	})
 });
