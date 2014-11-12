@@ -30,8 +30,10 @@ h1 {
   width: 50%;
   margin: 0px auto;
   font-weight: bold;
-  position: relative;
-  top: 150px;
+  position: absolute;
+  /* top: 150px; */
+  left: 25%;
+  top: 43%;
 }
 
 h2 {
