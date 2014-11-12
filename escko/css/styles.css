@@ -24,6 +24,10 @@ body, html, main {
   padding: 0;
 }
 
+.container {
+  width: 100%;
+}
+
 h1 {
   text-transform: uppercase;
   text-align: center;
@@ -104,7 +108,7 @@ ul.nav.navbar-nav.navbar-right {
 h3.program-text {
   margin: 68px 0 0 0;
   text-transform: uppercase;
-  font-size: 1.4em;
+  font-size: 300%;
   color: #4E4D4D;
   font-weight: bold;
   width: 90%;
@@ -113,7 +117,8 @@ h3.program-text {
 
 .program-description {
   width: 100%;
-  font-size: 14px;
+  font-size: 190%;
+  margin-top: 7%;
 }
 
 .cd-fixed-bg.cd-bg-3 {
