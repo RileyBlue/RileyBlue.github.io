@@ -51,7 +51,7 @@ h2 {
   position: absolute;
   left: 27%;
   font-size: 152%;
-  top: 52%;
+  top: 62%;
 }
 
 img.navbar-logo {
@@ -149,3 +149,78 @@ h3.program-text {
   top: 4em;
   font-size: 1.3em;
 }
+
+@media screen and (max-width: 2000px) {
+  body {
+    background: red;
+  }
+}
+
+
+@media screen and (max-width: 1600px) {
+  body {
+    background: blue;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    background: green;
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+  body {
+    background: cyan;
+  }
+}
+
+
+@media screen and (max-width: 960px) {
+  body {
+    background: pink;
+  }
+
+  h1 {
+    width: 88%;
+    left: 6%;
+    top: 20%;
+  }
+
+  h2 {
+    width: 84%;
+    left: 7%;
+    top: 48%;
+  }
+ .cd-fixed-bg.cd-bg-1 {
+    background-position: 0 -130px;
+    background-size: 100% 100%;
+    min-height: 80%;
+ }
+}
+
+
+@media screen and (max-width: 600px) {
+  body {
+    background: yellow;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background: magenta;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  body {
+    background: gray;
+  }
+}
+
+
+
+
+
+
