@@ -87,6 +87,17 @@ width: 100%;
   background-size: 100% 100%; 
 }
 
+.cd-fixed-bg.cd-bg-3 {
+  background-image: url("../img/9.jpg");
+  background-size: 100% 100%; 
+}
+
+
+.cd-fixed-bg.cd-bg-4 {
+  background-image: url("../img/10.jpg");
+  background-size: 100% 100%; 
+}
+
 
 /* Company Section */
 .company {
@@ -161,6 +172,8 @@ section.testimonials {
 /* News */
 .news {
   background: #D6E0C1;
+  width: 100%;
+  height: 935px;
 }
 
 a.news-enter-01 {
@@ -207,6 +220,33 @@ article.col-md-6.news-image-02 {
   margin-left: 10px;
   width: 100%;
 }
+
+
+/* Advertisement */
+.advertisement {
+  background: #c8d309;
+  width: 100%;
+}
+
+
+/* Waterless */
+.waterless {
+  width: 100%;
+  height: 100%;
+}
+
+
+/* Tree */
+.tree {
+  width: 100%;
+  height: 100%;
+}
+
+/* Footer */
+footer {
+  background: #171515;
+}
+
 /* Responsive */
 
 @media screen and (max-width: 2000px) {
