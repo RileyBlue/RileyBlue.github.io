@@ -56,7 +56,9 @@ h2 {
 
 img.navbar-logo {
   position: relative;
-  top: -112px;
+  top: -24px;
+  width: 58%;
+  left: -17px;
 }
 
 .second-image > img{
@@ -66,7 +68,7 @@ img.navbar-logo {
 
 li {
   margin-top: 0px;
-  padding: 34px 0;
+  padding: 9px 0;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -81,6 +83,11 @@ li {
 
 ul.nav.navbar-nav.navbar-right {
   margin-right: 15px;
+}
+
+.navbar-nav>li>a {
+  padding-top: 0;
+  padding-bottom: 30px;
 }
 
 .cd-fixed-bg {
