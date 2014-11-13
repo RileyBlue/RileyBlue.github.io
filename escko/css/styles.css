@@ -56,9 +56,10 @@ h2 {
 
 img.navbar-logo {
   position: relative;
-  top: -24px;
+  top: -81%;
   width: 58%;
   left: -17px;
+  height: 126px;
 }
 
 .second-image > img{
