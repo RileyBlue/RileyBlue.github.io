@@ -1,4 +1,3 @@
-
 @font-face {
   font-family: 'gandhi';
   src: url('../fonts/gandhiserif-regular-webfont.eot');
@@ -24,71 +23,50 @@ body, html, main {
   padding: 0;
 }
 
+h1, 
+h2 {
+  text-align: center;
+  width: 50%;
+  position: absolute;
+  text-transform: uppercase;
+  top: 52%;
+  left: 25%;
+}
+
+h2 {
+  top: 80%;
+  font-size: 1.3em;
+}
+a.navbar-brand {
+  display: block;
+  background-image: url('../img/back-logo.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 58%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .container {
   width: 100%;
 }
 
-h1 {
-  text-transform: uppercase;
-  text-align: center;
-  width: 50%;
-  margin: 0px auto;
-  font-weight: bold;
-  position: absolute;
-  font-size: 315%;
-  /* top: 150px; */
-  left: 25%;
-  top: 43%;
-}
-
-h2 {
-  width: 46%;
-  text-transform: uppercase;
-  text-align: center;
-  margin: 0px auto;
-  color: #444;
-  font-size: 1.2em;
-  position: absolute;
-  left: 27%;
-  font-size: 152%;
-  top: 62%;
-}
-
-img.navbar-logo {
+.navbar-brand > img {
+  width: 400px;
+  height: auto;
   position: relative;
-  top: -81%;
-  width: 58%;
-  left: -17px;
-  height: 126px;
+  /* top: -30px; */
+  left: 0;
+  margin-top: -26px;
 }
 
-.second-image > img{
-  width: 100%;
-  margin: 68px 0 0 0;
-}
-
-li {
-  margin-top: 0px;
-  padding: 9px 0;
-}
-
-.navbar-default .navbar-nav>li>a {
-  color: #444;
-  font-weight: bold;
-}
-
-.navbar-default .navbar-nav>li>a:hover {
-  color: #D0D61B;
-  font-weight: bold;
-}
-
-ul.nav.navbar-nav.navbar-right {
-  margin-right: 15px;
-}
-
-.navbar-nav>li>a {
-  padding-top: 0;
-  padding-bottom: 30px;
+/* Welcome Section */
+section.welcome {
+margin-top: 50px;
+height: 100%;
+width: 100%;
 }
 
 .cd-fixed-bg {
@@ -101,12 +79,18 @@ ul.nav.navbar-nav.navbar-right {
  
 .cd-fixed-bg.cd-bg-1 {
   background-image: url("../img/1.jpg");
-  margin-top: -21px;
-  background-position: 0 10px;
-  background-size: 100% 100%;
+  background-size: 100% 100%; 
 }
 
-.program {
+
+/* Company Section */
+
+.company-product > img{
+  width: 100%;
+  margin: 68px 0 0 0;
+}
+
+.company-advertisement {
   margin: 68px 0;
   background: #444;
   color: #fff;
@@ -115,7 +99,7 @@ ul.nav.navbar-nav.navbar-right {
   font-size: 1.4em;
 }
 
-h3.program-text {
+h3.company-product-title {
   margin: 68px 0 0 0;
   text-transform: uppercase;
   font-size: 300%;
@@ -125,37 +109,10 @@ h3.program-text {
   line-height: 1.3;
 }
 
-.program-description {
+.company-product-description {
   width: 100%;
   font-size: 190%;
   margin-top: 7%;
-}
-
-.cd-fixed-bg.cd-bg-3 {
-  background-image: url("../img/4.jpg");
-  margin-top: -21px;
-  background-position: 0 10px;
-  background-size: 100% 100%;
-}
-
-.restroom-title {
-  width: 50%;
-  color: #222;
-  text-align: center;
-  margin: 0 auto;
-  position: relative;
-  top: 2em;
-}
-
-.restroom-description {
-  text-transform: uppercase;
-  color: #444;
-  width: 40%;
-  text-align: center;
-  margin: 0 auto;
-  position: relative;
-  top: 4em;
-  font-size: 1.3em;
 }
 
 @media screen and (max-width: 2000px) {
@@ -226,9 +183,3 @@ h3.program-text {
     background: gray;
   }
 }
-
-
-
-
-
-
