@@ -35,6 +35,8 @@ h2 {
 
 h1 {
   font-size: 85px;
+  font-family: 'gandhi', Arial, Verdana;
+  font-weight: bold;
 }
 
 h2 {
@@ -90,13 +92,16 @@ a.navbar-brand {
 
 /* Welcome Section */
 section.welcome {
-margin-top: 50px;
-height: 100%;
-width: 100%;
+  margin-top: 50px;
+  height: 100%;
+  max-height: 100%;
+  width: 100%;
+  overflow: hidden;
 }
 
 .cd-fixed-bg {
   min-height: 100%;
+
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -105,23 +110,21 @@ width: 100%;
  
 .cd-fixed-bg.cd-bg-1 {
   background-image: url("../img/1.jpg");
-  background-size: 100% 100%; 
+  background-position: top center
 }
 
 .cd-fixed-bg.cd-bg-2 {
   background-image: url("../img/4.jpg");
-  background-size: 100% 100%; 
+  
 }
 
 .cd-fixed-bg.cd-bg-3 {
   background-image: url("../img/9.jpg");
-  background-size: 100% 100%; 
 }
 
 
 .cd-fixed-bg.cd-bg-4 {
   background-image: url("../img/10.jpg");
-  background-size: 100% 100%; 
 }
 
 
@@ -201,7 +204,7 @@ section.testimonials {
 .leaf > img {
   position: absolute;
   width: 100%;
-  top: 249%;
+  top: 252%;
   left: -109px;
   z-index: 3;
 }
