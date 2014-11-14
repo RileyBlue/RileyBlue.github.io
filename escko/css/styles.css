@@ -213,17 +213,13 @@ h3.testimonials-title {
 }
 
 p.testimonials-description {
-  top: 21%;
+  top: 1%;
   position: relative;
   font-size: 42px;
   text-align: center;
   width: 40%;
   margin: 0 auto;
   color: #6c6b6c;
-}
-
-p.testimonials-description {
-  margin-top: 1%;
 }
 
 section.testimonials {
@@ -237,7 +233,7 @@ section.testimonials {
 .leaf > img {
   position: absolute;
   width: 100%;
-  top: 252%;
+  top: 221%;
   left: -109px;
   z-index: 3;
 }
@@ -385,7 +381,8 @@ footer {
   text-decoration: none;
   color: #fff;
   font-size: 24px;
-  padding: 20px 0;
+  padding: 80px 0;
+  display: block;
   text-align: center;
 }
 
@@ -395,7 +392,8 @@ footer {
 }
 
 .footer-black > img {
-  margin-top: 20px;
+  margin-top: 65px;
+
 }
 
 /* Responsive */
