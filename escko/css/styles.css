@@ -397,13 +397,26 @@ footer {
 }
 
 .menu-parallax {
-  position: absolute;
-  width: 200px;
+  position: fixed;
+  width: 212px;
   height: 200px;
-  z-index: 5;
-  color: #444;
-  top: 20px;
-  left: 50%;
+  border-radius: 3px;
+  z-index: 10;
+  color: #fff;
+  background: #444;
+  top: 18%;
+  left: 81%;
+}
+
+.menu-parallax-options {
+  list-style: none;
+}
+
+.menu-parallax-options > a,
+.menu-parallax-options > a:hover {
+  color: #fff;
+  text-decoration: none;
+  padding: 4px 0;
 }
 
 /* Responsive */
