@@ -187,6 +187,10 @@ h3.waterless-title {
   margin: 0 auto;
 }
 
+h3.testimonials-title {
+  margin-top: 17%;
+}
+
 p.testimonials-description {
   top: 21%;
   position: relative;
@@ -195,6 +199,10 @@ p.testimonials-description {
   width: 40%;
   margin: 0 auto;
   color: #6c6b6c;
+}
+
+p.testimonials-description {
+  margin-top: -16%;
 }
 
 section.testimonials {
