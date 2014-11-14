@@ -396,6 +396,16 @@ footer {
 
 }
 
+.menu-parallax {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  z-index: 5;
+  color: #444;
+  top: 20px;
+  left: 50%;
+}
+
 /* Responsive */
 
 @media screen and (max-width: 2000px) {
