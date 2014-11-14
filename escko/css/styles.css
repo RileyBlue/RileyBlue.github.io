@@ -123,6 +123,12 @@ section.welcome {
 
 .cd-fixed-bg.cd-bg-3 {
   background-image: url("../img/9.jpg");
+  background-position: 0 -58%;
+  max-height: 100%;
+  height: 100%;
+  max-width: 100%;
+  background-size: cover;
+
 }
 
 
@@ -155,21 +161,23 @@ h3.company-product-title {
 }
 
 .company-product-description {
-  width: 60%;
+  width: 100%;
   /*color: #363A31;
   font-size: 190%;*/
   font-size: 24px;
-  margin-top: 5%;
+  margin-top: 3%;
+  margin-left: 3%;
   color: #676866;
 }
 
-.company-advertisement {
-  margin: 68px 0;
+.company-advertisement > a{
+  margin: 20px auto;
   background: #444;
   color: #fff;
   text-align: center;
   padding: 1em 0;
   font-size: 3.4em;
+  width: 50%;
 }
 
 
@@ -202,7 +210,7 @@ p.testimonials-description {
 }
 
 p.testimonials-description {
-  margin-top: -16%;
+  margin-top: 1%;
 }
 
 section.testimonials {
@@ -297,11 +305,34 @@ article.col-md-6.news-image-02 {
   height: 100%;
 }
 
+h3.waterless-title {
+  margin-top: 25%;
+  text-transform: none;
+}
+
+p.waterless-description {
+  margin-top: 1%;
+  margin-left: 36%;
+  font-size: 38px;
+  position: relative;
+  color: #6c6b6c;
+  text-transform: uppercase;
+}
+
 
 /* Tree */
 .tree {
   width: 100%;
   height: 100%;
+}
+
+/* Container Z-Trap */
+div.ztrap {
+  height: 100%;
+}
+
+.row.z-trap-row {
+  margin-top: 8%;
 }
 
 /* Footer */
