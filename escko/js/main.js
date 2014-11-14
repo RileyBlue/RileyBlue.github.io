@@ -1,6 +1,7 @@
 var home    = $('#homeOption'),
     company = $('#companyOption'),
     ztrap   = $('#ztrapOption'),
+    body    = $('body'),
     tree    = $('#treeOption');
 
 function onDocumentReady () {
