@@ -175,11 +175,16 @@ h3.company-product-title {
   background: #444;
   color: #fff;
   text-align: center;
-  padding: 1em 0;
+  padding: 0.5em 1em;
   font-size: 3.4em;
+  top: 80px;
   width: 50%;
 }
 
+
+.company-advertisement > a:hover {
+  text-decoration: none;
+}
 
 /* Testimonials */
 h3.testimonials-title,
