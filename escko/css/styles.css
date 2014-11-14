@@ -380,8 +380,8 @@ footer {
   width: 100%;
 }
 
-.footer > a,
-.footer > p {
+.footer-black > a,
+.footer-black > p {
   text-decoration: none;
   color: #fff;
   font-size: 24px;
@@ -389,12 +389,12 @@ footer {
   text-align: center;
 }
 
-.footer > a:hover {
+.footer-black > a:hover {
   color: #fff;
   text-decoration: none;
 }
 
-.footer > img {
+.footer-black > img {
   margin-top: 20px;
 }
 
