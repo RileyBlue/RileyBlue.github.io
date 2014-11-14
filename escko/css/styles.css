@@ -40,7 +40,7 @@ h1 {
 }
 
 h2 {
-  top: 72%;
+  top: 68%;
   font-size: 42px;
   color: #6c6b6c;
 }
@@ -101,7 +101,7 @@ section.welcome {
 
 .cd-fixed-bg {
   min-height: 100%;
-
+  overflow: hidden;
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -115,6 +115,9 @@ section.welcome {
 
 .cd-fixed-bg.cd-bg-2 {
   background-image: url("../img/4.jpg");
+  background-position: top center;
+  max-width: 100%;
+  max-height: 100%;
   
 }
 
@@ -135,6 +138,7 @@ section.welcome {
 
 .company-product > img{
   width: 100%;
+  max-height: 100%;
   margin: 68px 0 0 0;
 }
 
@@ -175,7 +179,7 @@ h3.waterless-title {
   text-align: center;
   width: 50%;
   text-transform: uppercase;
-  top: 20%;
+  top: 19%;
   color: #363A31;
   font-weight: bold;
   left: 25%;
@@ -184,12 +188,10 @@ h3.waterless-title {
 }
 
 p.testimonials-description {
-  top: 61em;
-  position: absolute;
-  left: 30%;
+  top: 21%;
+  position: relative;
   font-size: 42px;
   text-align: center;
-  color: #363A31;
   width: 40%;
   margin: 0 auto;
   color: #6c6b6c;
@@ -198,6 +200,8 @@ p.testimonials-description {
 section.testimonials {
   width: 100%;
   height: 100%;
+  overflow: hidden;
+  max-width: 100%;
 }
 
 /* Leaf */
