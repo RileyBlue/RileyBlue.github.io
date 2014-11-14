@@ -201,7 +201,7 @@ section.testimonials {
 .leaf > img {
   position: absolute;
   width: 100%;
-  top: 251%;
+  top: 249%;
   left: -109px;
   z-index: 3;
 }
