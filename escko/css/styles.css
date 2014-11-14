@@ -100,7 +100,6 @@ section.welcome {
 }
 
 .cd-fixed-bg {
-  min-height: 100%;
   overflow: hidden;
   background-size: cover;
   background-attachment: fixed;
@@ -110,7 +109,8 @@ section.welcome {
  
 .cd-fixed-bg.cd-bg-1 {
   background-image: url("../img/1.jpg");
-  background-position: top center
+  background-position: top center;
+  height: 100%;
 }
 
 .cd-fixed-bg.cd-bg-2 {
@@ -118,6 +118,7 @@ section.welcome {
   background-position: top center;
   max-width: 100%;
   max-height: 100%;
+  height: 100%;
   
 }
 
@@ -134,6 +135,11 @@ section.welcome {
 
 .cd-fixed-bg.cd-bg-4 {
   background-image: url("../img/10.jpg");
+  background-size: cover;
+  background-position: top center;
+  height: 100%;
+  max-height: 100%;
+  min-height: 100%;
 }
 
 
@@ -336,21 +342,24 @@ p.waterless-description {
 h3.tree-title {
   margin: 68px 0 0 0;
   text-transform: uppercase;
-  font-size: 37px;
+  font-size: 42px;
   color: #363A31;
   font-weight: bold;
   width: 70%;
   line-height: 1.3;
+  margin-top: 19%;
+  margin-left: 39.5%;
 }
 
 .tree-description {
-  width: 100%;
+  width: 18%;
   /*color: #363A31;
   font-size: 190%;*/
   font-size: 24px;
-  margin-top: 3%;
-  margin-left: 3%;
+  margin-top: 1%;
+  margin-left: 36.5%;
   color: #676866;
+  text-transform: uppercase;
 }
 
 
@@ -366,6 +375,19 @@ div.ztrap {
 /* Footer */
 footer {
   background: #171515;
+  height: 200px;
+  width: 100%;
+}
+
+footer > a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+}
+
+footer > p, {
+  font-size: 24px;
+  color: #fff;
 }
 
 /* Responsive */
