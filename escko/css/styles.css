@@ -177,8 +177,10 @@ h3.company-product-title {
   text-align: center;
   padding: 0.5em 1em;
   font-size: 3.4em;
+  position: relative;
   top: 80px;
   width: 50%;
+  left: 40%;
 }
 
 
