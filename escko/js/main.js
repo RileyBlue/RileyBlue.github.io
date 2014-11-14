@@ -4,8 +4,12 @@ var home    = $('#homeOption'),
     tree    = $('#treeOption');
 
 function onDocumentReady () {
-	home.on('click', function () {
-		body.animate({ scrollTop: 200 }, 'slow');
+	company.on('click', function () {
+		body.animate({ scrollTop: 1000 }, 'slow');
+	});
+
+	ztrap.on('click', function () {
+		body.animate({ scrollTop: 2000 }, 'slow');
 	});
 }
 
