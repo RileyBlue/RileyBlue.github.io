@@ -483,6 +483,34 @@ footer {
   body {
     background: magenta;
   }
+  .navbar-brand > img {
+    width: 401px;
+    left: -60px;
+    margin-top: 12px;
+  }
+
+  a.navbar-brand {
+    width: 77%;
+  }
+
+  .navbar-default .navbar-nav > li > a {
+    color: #FFF;
+  }
+
+  h1 {
+    font-size: 50px;
+    left: 6%;
+    top: 18%;
+  }
+
+  h2 {
+    top: 45%;
+    font-size: 26px;
+  }
+
+  .cd-fixed-bg.cd-bg-1 {
+    background-position: top right;
+  }
 }
 
 @media screen and (max-width: 320px) {
