@@ -437,6 +437,10 @@ footer {
     font-size: 1.2em;
   }
 
+  .nav.navbar.navbar-default.navbar-fixed-top {
+    padding: 22px 0;
+  }
+
   .navbar-brand > img {
     width: 460px;
     height: auto;
@@ -445,16 +449,20 @@ footer {
     left: 0;
     margin-top: 0px;
   }
+  h1 {
+    font-size: 45px;
+  }
   h1, 
   h2 {
-    width: 60%;
-    top: 43%;
+    width: 61%;
+    top: 36%;
     left: 20%;
   }
 
   h2 {
-    top: 74%;
-    font-size: 23px;
+    top: 47%;
+    font-size: 22px;
+    width: 60%;
   }
 
   h3.company-product-title {
@@ -464,7 +472,8 @@ footer {
   }
 
   .company-product-description {
-    font-size: 19px;
+    font-size: 17px;
+    margin-top: 15%;
   }
 
   .company-advertisement > a {
@@ -472,17 +481,67 @@ footer {
   }
 
   h3.testimonials-title {
-    margin-top: 15%;
+    margin-top: 24%;
   }
 
   h3.testimonials-title, 
   h3.waterless-title {
-    font-size: 44px;
+    font-size: 50px;
   }
 
   p.testimonials-description {
+    font-size: 24px;
+  }
+  .leaf > img {
+    top: 221%;
+  }
+  .news {
+    height: 1168px;
+  }
+
+  .advertisement > p {
+    font-size: 16px;
+  }
+  .cd-fixed-bg.cd-bg-3 {
+    background-position: 0% 26%;
+    background-size: 100%;
+  }
+
+  h3.waterless-title {
+    font-size: 39px;
+  }
+  p.waterless-description {
+    margin-top: 0;
+    margin-left: 35%;
     font-size: 20px;
   }
+
+  h3.tree-title {
+    margin: 61px 0 0 0;
+    font-size: 38px;
+    margin-top: 44%;
+    margin-left: 34.5%;
+  }
+
+  .tree-description {
+    width: 32%;
+    font-size: 20px;
+    margin-left: 30.5%;
+  }
+  .footer-black > img {
+    width: 250px;
+    margin-top: 60px;
+  }
+
+ .footer-black > a,
+ .footer-black {
+  font-size: 17px;
+  padding: 60px 0;
+ }
+
+ footer {
+  height: 168px;
+ }
 
 }
 
