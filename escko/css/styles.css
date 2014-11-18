@@ -433,6 +433,57 @@ footer {
   body {
     background: blue;
   }
+    .navbar-default .navbar-nav>li>a {
+    font-size: 1.2em;
+  }
+
+  .navbar-brand > img {
+    width: 460px;
+    height: auto;
+    position: relative;
+    /* top: 27px; */
+    left: 0;
+    margin-top: 0px;
+  }
+  h1, 
+  h2 {
+    width: 60%;
+    top: 43%;
+    left: 20%;
+  }
+
+  h2 {
+    top: 74%;
+    font-size: 23px;
+  }
+
+  h3.company-product-title {
+    margin: 60px 0 0 0;
+    font-size: 20px;
+    width: 90%;
+  }
+
+  .company-product-description {
+    font-size: 19px;
+  }
+
+  .company-advertisement > a {
+    font-size: 1.5em;
+  }
+
+  h3.testimonials-title {
+    margin-top: 15%;
+  }
+
+  h3.testimonials-title, 
+  h3.waterless-title {
+    font-size: 44px;
+  }
+
+  p.testimonials-description {
+    font-size: 20px;
+  }
+
 }
 
 @media screen and (max-width: 1200px) {
