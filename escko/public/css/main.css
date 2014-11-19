@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'gandhi';
+    src: url('public/fonts/GandhiSans-Regular-webfontt.eot');
+    src: url('public/fonts/GandhiSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('public/fonts/GandhiSans-Regular-webfont.woff') format('woff'),
+    url('public/fonts/GandhiSans-Regular-webfont.ttf') format('truetype'),
+    url('public/fonts/GandhiSans-Regular-webfont.svg#gandhi') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	font-family: 'gandhi', verdana, arial;
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+.navbar.navbar-default.navbar-fixed-top {
+	padding: 22px 0;
+}
+
+.nav.navbar-nav.navbar-right { margin-right: 7em; }
+
+.welcome-section {
+	background-image: url('../img/bg-1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 1250px;
+	margin-top: 94px;
+	width: 100%;
+	max-width: 100%;
+}
+
+.welcome-title { 
+	text-align: center; 
+	width: 46%; 
+	text-transform: uppercase; 
+}
+
+
+
+@media screen and(max-width: 1024px) {
+	body, .navbar.navbar-default.navbar-fixed-top{
+		background: cyan;
+	}
+}
+
+@media screen and(max-width: 960px) {
+	body, .navbar.navbar-default.navbar-fixed-top {
+		background: pink;
+	}
+}
+
+@media screen and(max-width: 600px) {
+	body, .navbar.navbar-default.navbar-fixed-top {
+		background: yellow;
+	}
+}
+
+@media screen and(max-width: 480px) {
+	body, .navbar.navbar-default.navbar-fixed-top {
+		background: magenta;
+	}
+}
+
+@media screen and(max-width: 320px) {
+	body, .navbar.navbar-default.navbar-fixed-top {
+		background: gray;
+	}
+}

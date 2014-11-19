@@ -10,9 +10,9 @@
   font-style: normal;
 }
 
-body, html, main {
+body {
   font-family: 'gandhi', Arial, Verdana;
-  font-weight: normal;
+  font-size: 16px;
   height: 100%;
   -webkit-font-smoothing: antialiased;
   -webkit-box-sizing: border-box;
@@ -23,7 +23,7 @@ body, html, main {
   padding: 0;
 }
 
-h1, 
+/*h1, 
 h2 {
   text-align: center;
   width: 46%;
@@ -33,24 +33,60 @@ h2 {
   left: 25%;
 }
 
-h1 {
-  font-size: 85px;
-  font-family: 'gandhi', Arial, Verdana;
-  font-weight: bold;
+.nav.navbar-nav.navbar-right { margin-right: 2em; }
+
+.welcome-section {
+  background-image: url('../img/bg-1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1250px;
+  margin-top: 94px;
+  width: 100%;
+  max-width: 100%;
 }
 
-h2 {
+.welcome-title { text-align: center; width: 46%; text-transform: uppercase; }
+
+
+/*h2 {
   top: 68%;
   font-size: 42px;
   color: #6c6b6c;
-}
+}*/
 
 li {
-  margin-left: 2em;
+  margin-left: 1em;
 }
 
-nav.navbar.navbar-default.navbar-fixed-top {
-  padding: 40px 0;
+.navbar.navbar-default.navbar-fixed-top {
+  padding: 22px 0;
+}
+
+.welcome-section {
+  background-image: url('../img/bg-1.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 568px;
+  margin-top: 94px;
+  width: 100%;
+  max-width: 100%;
+}
+
+.welcome-title { 
+  text-align: center; 
+  width: 50%; 
+  text-transform: uppercase; 
+  margin: 0 auto;
+  margin-top: 190px;
+}
+
+.welcome-subtitle {
+  font-size: 1.75em;
+  color: #6c6b6c;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 15px;
+  width: 46%;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -61,8 +97,16 @@ nav.navbar.navbar-default.navbar-fixed-top {
   color: #D0D61B;
 }
 
-ul.nav.navbar-nav.navbar-right {
-  margin-right: 7em;
+.nav.navbar-nav.navbar-right {
+  margin-right: 2em;
+}
+
+.brand > img {
+  width: 300px;
+  height: auto;
+  position: relative;
+  top: 0px;
+  left: 65px;
 }
 
 a.navbar-brand {
@@ -168,13 +212,9 @@ h3.company-product-title {
 }
 
 .company-product-description {
-  width: 100%;
-  /*color: #363A31;
-  font-size: 190%;*/
-  font-size: 24px;
-  margin-top: 3%;
-  margin-left: 3%;
-  color: #676866;
+  font-size: 17px;
+  margin-top: 10px;
+  margin-left: 0;
 }
 
 .company-advertisement > a{
@@ -210,7 +250,7 @@ h3.waterless-title {
 }
 
 h3.testimonials-title {
-  margin-top: 17%;
+  margin-top: 166px;
 }
 
 p.testimonials-description {
@@ -225,7 +265,7 @@ p.testimonials-description {
 
 section.testimonials {
   width: 100%;
-  height: 100%;
+  height: 600px;
   overflow: hidden;
   max-width: 100%;
 }
@@ -471,6 +511,7 @@ footer {
     width: 90%;
   }
 
+
   .company-product-description {
     font-size: 17px;
     margin-top: 15%;
@@ -481,8 +522,9 @@ footer {
   }
 
   h3.testimonials-title {
-    margin-top: 24%;
+    margin-top: 166px;
   }
+
 
   h3.testimonials-title, 
   h3.waterless-title {
@@ -493,7 +535,7 @@ footer {
     font-size: 24px;
   }
   .leaf > img {
-    top: 221%;
+    top: 1480px;
   }
   .news {
     height: 1168px;
