@@ -6,7 +6,7 @@ var home    = $('#homeOption'),
 
 function onDocumentReady () {
 	company.on('click', function () {
-		body.animate({ scrollTop: 1000 }, '600');
+		body.animate({ scrollTop: 1000 }, 'slow');
 	});
 
 	ztrap.on('click', function () {
@@ -14,5 +14,6 @@ function onDocumentReady () {
 	});
 }
 
+$(window).stellar();
 
 $(document).on('ready', onDocumentReady);
