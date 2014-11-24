@@ -6,11 +6,15 @@ var home    = $('#homeOption'),
 
 function onDocumentReady () {
 	company.on('click', function () {
-		body.animate({ scrollTop: 1000 }, 'slow');
+		body.animate({ scrollTop: 1565 }, 2000);
+	});
+
+	tree.on('click', function () {
+		body.animate({ scrollTop: 1565 }, 2000);
 	});
 
 	ztrap.on('click', function () {
-		body.animate({ scrollTop: 4000 }, 'slow');
+		body.animate({ scrollTop: 3490 }, 3000);
 	});
 }
 
