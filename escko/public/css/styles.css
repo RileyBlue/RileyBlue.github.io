@@ -164,7 +164,7 @@ section.welcome {
 }
 
 .cd-fixed-bg.cd-bg-2 {
-  background-image: url("../img/4.jpg");
+  background-image: url("../img/2.jpg");
   background-position: top center;
   max-width: 100%;
   max-height: 100%;
@@ -499,6 +499,21 @@ li.menu-parallax-options:last-child > a {
 
 li.menu-parallax-options:last-child > a:hover { 
   background-position: 213px 222px;
+}
+
+.advertisement-antisplash > img,
+.advertisement-biodegradable > img {
+  width: 200px;
+  position: absolute;
+  top: 435px;
+  left: 39px;
+}
+
+
+.advertisement-biodegradable > img {
+  /* left: 936px; */
+  top: 1288px;
+  width: 294px;
 }
 
 /*
