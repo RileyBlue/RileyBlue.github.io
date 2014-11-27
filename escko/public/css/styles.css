@@ -14,6 +14,7 @@ body {
   font-family: 'gandhi', Arial, Verdana;
   font-size: 16px;
   height: 100%;
+  background: #D6E0C1;
   -webkit-font-smoothing: antialiased;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -265,7 +266,7 @@ h3.company-product-title {
   text-align: center;
   padding: 0.5em 1em;
   /* font-size: 3.4em; */
-  font-size: 1.5em;
+  font-size: 12.4pt;
   margin-bottom: 84.41px;
   top: 80px;
   display: block;
@@ -275,6 +276,19 @@ h3.company-product-title {
   text-transform: uppercase;
 }
 
+
+a.news-enter {
+display: block;
+background: #3C3A39;
+color: #fff;
+width: 49%;
+padding: 12px 10px;
+text-align: center;
+text-transform: uppercase;
+font-weight: bold;
+letter-spacing: 2px;
+margin-top: 485px;
+}
 .arrow-up {
   height: 70px;
   width: 70px;
@@ -282,19 +296,40 @@ h3.company-product-title {
   background: #D6E0C1;
   margin: 0 auto;
   left: 48%;
-  top: 4817px;
+  top: 4737px;
   /* border: 1px solid red; */
   border-radius: 50%;
+
 }
 
-.arrow {
+.arrow > span{
   /* margin-top: 135px; */
   /* margin: 0 auto; */
   display: block;
   left: 18px;
   position: relative;
-  top: 31px;
+  top: 10px;
   color: #444;
+  font-weight: bold;
+}
+
+.arrow:hover {
+  text-decoration: none;
+  color: #444;
+}
+
+.arrow > img {
+  position: relative;
+  top: 6px;
+  width: 24px;
+  height: 24px;
+  left: 21px;
+}
+
+.enter-here {
+  padding: 0px 10px;
+  width: 67%;
+  margin: 0 auto;
   font-weight: bold;
 }
 
@@ -346,7 +381,7 @@ section.testimonials {
   width: 100%;
   /*top: 227%;*/
   left: -109px;
-  top: 1569px;
+  top: 1611px;
   z-index: 3;
 }
 
@@ -367,8 +402,8 @@ a.news-enter {
   display: block;
   background: #3C3A39;
   color: #fff;
-  width: 49%;
-  padding: 12px 10px;
+  width: 40%;
+  padding: 8px 0px;
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
@@ -387,7 +422,13 @@ a.news-enter {
 }
 
 a.news-enter.news-enter-02 {
-margin-left: 110px;
+  margin-left: 124px;
+  font-size: 12.4pt;
+}
+
+a.news-enter.news-enter-01 {
+  font-size: 12.4pt;
+  margin-left: 171px;
 }
 
 a.news-enter:hover {
@@ -622,21 +663,43 @@ li.menu-parallax-options:last-child > a:hover {
 }*/
 
 /* Responsive */
-
-@media screen and (max-width: 2000px) {
-  body {
-    background: red;
-  }
-}
-
-
-@media screen and (max-width: 1600px) {
-  body {
-    background: #D6E0C1;
+ h3.testimonials-title {
+    /*margin-top: 166px;*/
+    /*margin-top: 163.516px;*/
+    margin-top: 92.516px;
   }
 
 
-  .nav.navbar.navbar-default.navbar-fixed-top {
+  h3.testimonials-title, 
+  h3.waterless-title {
+    font-size: 33.17pt;
+  }
+
+  p.testimonials-description {
+    font-size: 15.49pt;
+    margin-top: -21px;
+    width: 31%;
+  }
+
+
+h3.waterless-title {
+    font-size: 26.17pt;
+    text-transform: uppercase;
+  }
+  p.waterless-description {
+    margin: 0 auto;
+    font-size: 13.49pt;
+    text-align: center;
+  }
+
+  h3.tree-title {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 281px;
+  }
+
+.nav.navbar.navbar-default.navbar-fixed-top {
     padding: 22px 0;
     
   }
@@ -680,7 +743,7 @@ li.menu-parallax-options:last-child > a:hover {
   }
 
   .company-advertisement > a {
-    font-size: 1.5em;
+    font-size: 12.4pt;
     margin-bottom: 84.41px;
   }
 
@@ -703,7 +766,8 @@ li.menu-parallax-options:last-child > a:hover {
   }
   .leaf > img {
     /*top: 1480px;*/
-    top: 1569px;
+    top: 1591px;
+
   }
   .news {
     /*height: 1168px;*/
@@ -745,89 +809,3 @@ li.menu-parallax-options:last-child > a:hover {
     margin: 0 auto;
     text-align: center;
   }
-
-}
-
-@media screen and (max-width: 1200px) {
-  body {
-    background: green;
-  }
-}
-
-
-@media screen and (max-width: 1024px) {
-  body {
-    background: cyan;
-  }
-}
-
-
-@media screen and (max-width: 960px) {
-  body {
-    background: pink;
-  }
-
-  h1 {
-    width: 88%;
-    left: 6%;
-    top: 20%;
-  }
-
-  h2 {
-    width: 84%;
-    left: 7%;
-    top: 48%;
-  }
- .cd-fixed-bg.cd-bg-1 {
-    background-position: 0 -130px;
-    background-size: 100% 100%;
-    min-height: 80%;
- }
-}
-
-
-@media screen and (max-width: 600px) {
-  body {
-    background: yellow;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  body {
-    background: magenta;
-  }
-  .navbar-brand > img {
-    width: 401px;
-    left: -60px;
-    margin-top: 12px;
-  }
-
-  a.navbar-brand {
-    width: 77%;
-  }
-
-  .navbar-default .navbar-nav > li > a {
-    color: #FFF;
-  }
-
-  h1 {
-    font-size: 50px;
-    left: 6%;
-    top: 18%;
-  }
-
-  h2 {
-    top: 45%;
-    font-size: 26px;
-  }
-
-  .cd-fixed-bg.cd-bg-1 {
-    background-position: top right;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  body {
-    background: gray;
-  }
-}
