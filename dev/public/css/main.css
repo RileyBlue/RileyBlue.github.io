@@ -70,9 +70,8 @@ header {
 .navbar ul {
 	list-style: none;
 	position: absolute;
-	margin-right: 237px;
-	margin-top: -96px;
 	left: 471px;
+	top: 15px;
 }
 
 .navbar li {
