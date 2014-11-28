@@ -51,13 +51,14 @@ header {
 .brand-logo {
 	width: 498px;
 	height: auto;
-	position: relative;
+	position: absolute;
 	left: 231px;
 }
 
 .brand {
 	background-image: url('../images/png/back-logo.png');
-	background-size: cover;
+	background-size: 729px;
+	background-repeat: no-repeat;
 	width: 731px;
 	padding: 10px;
 	position: relative;
@@ -68,9 +69,10 @@ header {
 
 .navbar ul {
 	list-style: none;
-	float: right;
+	position: absolute;
 	margin-right: 237px;
 	margin-top: -96px;
+	left: 471px;
 }
 
 .navbar li {
@@ -107,3 +109,4 @@ header {
 	background-position: 100%;
 	background-size: 100%;
 }
+
