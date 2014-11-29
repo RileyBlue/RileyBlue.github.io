@@ -63,8 +63,8 @@ li {
   background-image: url('../images/jpg/background-01.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 569.11px;
-  margin-top: 62px;
+  height: 728.11px;
+  margin-top: 66px;
   width: 100%;
   max-width: 100%;
 }
@@ -296,7 +296,7 @@ margin-top: 485px;
   background: #D6E0C1;
   margin: 0 auto;
   left: 48%;
-  top: 4737px;
+  top: 5014px;
   /* border: 1px solid red; */
   border-radius: 50%;
 
@@ -478,12 +478,15 @@ article.col-md-4.news-image-01 {
 .advertisement {
   background: #c8d309;
   width: 100%;
+  padding: 12px 0;
+  margin-bottom: 86px
 }
 
 .advertisement > p {
   width: 100%;
-  text-align: center; 
+  text-align: center;
   padding: 13px 0;
+  margin-top: -8px;
   margin-bottom: 0px;
   font-style: italic;
   font-size: 14.48pt;
@@ -551,7 +554,7 @@ h3.tree-title {
 /* Container Z-Trap */
 div.ztrap {
   /*height: 100%;*/
-  height: 664px;
+  height: 737px;
 }
 
 .row.z-trap-row {
@@ -588,7 +591,7 @@ div.ztrap {
   border-radius: 3px;
   z-index: 10;
   color: #fff;
-  top: 34%;
+  top: 27%;
   left: 75%;
 }
 
@@ -643,8 +646,9 @@ li.menu-parallax-options:last-child > a:hover {
 .advertisement-biodegradable > img {
   width: 185px;
   position: absolute;
-  top: 410px;
+  top: 450px;
   left: 36px;
+
 }
 
 
@@ -766,12 +770,13 @@ h3.waterless-title {
   }
   .leaf > img {
     /*top: 1480px;*/
-    top: 1591px;
+    top: 1750px;
 
   }
   .news {
     /*height: 1168px;*/
-    height: 586.45px;
+    /*height: 586.45px;*/
+    height: 560.45px;
   }
 
   .advertisement > p {

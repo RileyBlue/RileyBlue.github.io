@@ -1,0 +1,299 @@
+# Webalizer V2.23-08 Incremental Data - 11/27/2014 23:24:50
+2014 11 27 23 24 50
+354 278 21 37 15 2 92858100 40 12 0
+4 82 89 1 27
+90 61 4719068 16 15 5
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+58 54 20903839 1 5 1
+206 163 67235193 4 20 6
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0
+57 53 20903620 4
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+1 0 767 0
+89 61 4718301 15
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+57 54 20903619 4
+1 0 220 1
+38 29 10488414 7
+29 27 10452193 2
+82 54 25390966 7
+0
+0
+0
+278
+0
+0
+0
+0
+0
+30
+0
+4
+0
+0
+10
+0
+0
+0
+0
+0
+15
+17
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/public/images/jpg/background-01.jpg
+1 10 0 7593432 0 0
+/public/fonts/GandhiSans-Regular-webfont.woff
+0 10 0 228852 0 0
+/app/
+0 8 0 6008 1 0
+/public/images/png/view-cart.png
+1 8 0 41272 0 0
+/app/css/main.css
+0 6 0 6690 0 0
+/public/js/vendor/bootstrap.min.js
+0 8 0 232880 0 0
+/public/images/png/power-screen.png
+1 8 0 1647400 0 0
+/public/images/png/tru-fresh.png
+1 10 0 4995280 0 0
+/public/img/sprite-menu.png
+1 8 0 1320280 0 0
+/public/img/2.jpg
+1 12 0 12673688 0 0
+/public/images/png/leaf.png
+1 12 0 18913032 0 0
+/app/img/divider.png
+1 13 0 413784 0 0
+/vendor/animate.css/animate.css
+0 6 0 365705 0 0
+/favicon.ico
+0 7 0 5362 0 0
+/public/images/jpg/ez-trap.jpg
+1 8 0 2158336 0 0
+/public/images/png/ekcos-screen.png
+1 8 0 1651040 0 0
+/vendor/jquery/dist/jquery.min.js
+0 6 0 421400 0 0
+/public/img/1.jpg
+1 12 0 12828345 0 0
+/public/images/jpg/air-fresheners.jpg
+1 10 0 13261194 0 0
+/public/img/9.jpg
+1 8 0 1616416 0 0
+/app/img/background.jpg
+1 5 0 2601845 0 0
+/public/js/main.js
+0 8 0 4864 0 0
+/public/img/back-logo.png
+1 8 0 130120 0 0
+/public/css/bootstrap.min.css
+0 8 0 907984 0 0
+/app/js/main.js
+0 6 0 1090 0 0
+/public/images/png/ez-trap.png
+1 8 0 3609128 0 0
+/vendor/bootstrap-sass/dist/css/bootstrap.min.css
+0 6 0 507525 0 0
+/
+0 13 0 79113 8 0
+/public/js/vendor/jquery.stellar.js
+0 8 0 186256 0 0
+/app/img/phrase.png
+1 11 0 107906 0 0
+/public/img/3.png
+1 8 0 2176656 0 0
+/public/js/vendor/jquery-1.11.1.min.js
+0 8 0 766288 0 0
+/public/images/png/arrow-up.png
+1 8 0 1504 0 0
+/public/img/menu-fixed-bg-.png
+1 8 0 514560 0 0
+/public/css/styles.css
+0 8 0 106872 0 0
+/public/img/ekcos-logo.png
+1 8 0 478096 0 0
+/app/img/dream.png
+1 11 0 280617 0 0
+# End Of Table - urls
+# -sites- (monthly)
+66.220.156.114
+0 1 1 9000 0 0
+-
+189.162.55.223
+0 33 22 1747299 1 1414847845
+/app/
+173.252.120.119
+0 1 1 9000 0 0
+-
+187.133.200.144
+0 29 27 10452193 1 1417050273
+-
+173.252.120.115
+0 2 2 18000 0 0
+-
+173.252.103.1
+0 1 1 11558 0 0
+-
+173.252.102.116
+0 1 1 42976 0 0
+-
+161.18.125.104
+0 60 54 20905373 2 1417129740
+-
+66.220.156.115
+0 3 3 27000 0 0
+-
+173.252.102.113
+0 2 2 79207 0 0
+-
+66.220.156.118
+0 3 3 18751 1 1414847448
+/app/
+161.18.88.28
+0 12 11 873708 1 1414847460
+/app/
+187.133.183.128
+0 25 21 1747843 1 1414847557
+/app/
+173.252.103.5
+0 1 1 36231 0 0
+-
+187.216.136.43
+0 28 26 10451427 1 1417051050
+-
+66.220.156.116
+0 1 1 42976 0 0
+-
+173.252.102.112
+0 1 1 11558 0 0
+-
+187.191.51.170
+0 58 54 20903839 1 1417032176
+-
+173.252.120.112
+0 2 1 985 1 1414847452
+/app/
+173.252.103.6
+0 1 1 42976 0 0
+-
+187.133.209.159
+0 89 74 25426200 2 1417130673
+-
+# End Of Table - sites (monthly)
+# -sites- (daily)
+187.133.200.144
+0 29 27 10452193 1 1417050273
+-
+161.18.125.104
+0 60 54 20905373 2 1417129740
+-
+187.216.136.43
+0 28 26 10451427 1 1417051050
+-
+187.133.209.159
+0 89 74 25426200 2 1417130673
+-
+# End Of Table - sites (daily)
+# -referrers- 
+http://indiestudiomx.ipage.com/public/css/styles.css
+1 48
+http://www.indiestudio.mx/app/
+1 16
+https://www.indiestudio.mx/app/
+1 17
+http://indiestudio.mx/app/
+1 23
+http://www.indiestudio.mx/public/css/styles.css
+1 36
+http://indiestudio.mx/public/css/styles.css
+1 12
+- (Direct Request)
+0 43
+http://indiestudio.mx/app
+1 3
+http://indiestudio.mx/
+1 17
+http://indiestudiomx.ipage.com/
+1 67
+http://www.indiestudio.mx/
+1 40
+http://www.indiestudio.mx/app/css/main.css
+1 2
+https://www.indiestudio.mx/
+1 1
+http://www.indiestudiomx.ipage.com/
+1 28
+http://indiestudio.mx/app/css/main.css
+1 1
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0
+0 334
+Netscape 6 compatible
+2 334
+facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+0 20
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

@@ -1,0 +1,62 @@
+@import "settings";
+
+body {
+	background-image: url('../img/background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: auto;
+}
+
+p {
+	text-align: right;
+	display: inline-block;
+	vertical-align: middle;
+	width: 45%;
+	font-size: 3em;
+	color: $text-color;
+	background: -webkit-linear-gradient(185deg, #aaa, #000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+img.img-divider {
+	z-index: 2;
+	position: absolute;
+	width: 100%;
+	height: auto;
+}
+
+.img-phrase,
+.img-dream {
+	width: 30%;
+	height: auto;
+	position: absolute;
+	top: 50%;
+	left: 17%;
+	z-index: 1;
+}
+
+.img-dream {
+	z-index: 3;
+	width: 30%;
+	left: 55%;
+}
+
+
+.brand {
+  -moz-animation-duration: 3s;
+  -webkit-animation-delay: 1s;
+  animation-delay: 3s;
+  /*position: relative;
+  top: 3em;*/
+}
+
+.studio {
+  -moz-animation-duration: 3s;
+  -webkit-animation-delay: 2s;
+  animation-delay: 3s;
+  /*position: relative;
+  text-align: left;
+  top: 3.5em;
+left: 3em;*/
+}
