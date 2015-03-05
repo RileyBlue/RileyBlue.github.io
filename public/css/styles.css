@@ -295,6 +295,9 @@ margin-top: 2em;
   margin-bottom: 4em;
 }
 
+.row.tutorials-row {
+  margin: 4rem 0px;
+}
 .education, .employment {
   height: 12em;
   border: 1px solid #ededed;
@@ -309,12 +312,18 @@ margin-top: 2em;
   color: #555;
   font-weight: bold;
   background: #eee;
+  margin-top .8rem;
 }
 
 .title, 
 .subtitle {
   font-weight: bold;
   color: #444;
+}
+
+.subtitle {
+  padding: 1rem 0;
+  margin-bottom: -3rem;
 }
 
 .title {

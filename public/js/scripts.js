@@ -1,5 +1,13 @@
-var arrowDown   = $('#arrow-down');
-var navbar      = $('.navbar-default');
+'use strict';
+
+var arrowDown    = $('#arrow-down');
+var navbar       = $('.navbar-default');
+var navHome      = $('.navHome');
+var navAbout     = $('.navAbout');
+var navResume    = $('.navResume');
+var navPortfolio = $('.navPortfolio');
+var navContact   = $('.navContact');
+var navBlog      = $('.navBlog'); 
 
 $(document).on('ready', function(){
 	var scroll_pos = 0;
@@ -15,6 +23,26 @@ $(document).on('ready', function(){
 
 	arrowDown.on('click', function() {
 		$('body').animate({ scrollTop: 800}, 'slow');
+	});
+
+	navHome.on('click', function() {
+		$('body').animate({ scrollTop: 800}, 'slow');
+	});
+
+	navAbout.on('click', function() {
+		$('body').animate({ scrollTop: 900}, 'slow');
+	});
+
+	navResume.on('click', function() {
+		$('body').animate({ scrollTop: 2000}, 'slow');
+	});
+
+	navContact.on('click', function() {
+		$('body').animate({ scrollTop: 8400}, 'slow');
+	});
+
+	navPortfolio.on('click', function() {
+		$('body').animate({ scrollTop: 4600}, 'slow');
 	});
 	$(function() {
     $('.chart').easyPieChart({
