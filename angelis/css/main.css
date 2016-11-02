@@ -188,7 +188,7 @@ p.jumbotron--description {
 	background: rgba(5,23,54,.9);
     background-image: url(../img/teatro.png);
     background-size: cover;
-    height: 64rem;
+    height: 66rem;
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -262,13 +262,26 @@ textarea {
     background: #051736;
     color: white;
     padding: 2rem 0 .5rem 0;
-    margin-bottom: 0;
+    margin-bottom: -1rem;
     padding-bottom: 0;
+    background: rgba(5,23,54,.85);
+    color: white;
+    padding: .5rem 0 .3rem 0;
+
+}
+
+.payment {
+    margin-bottom: 0;
+    font-size: 1.7rem;
+    padding-top: 1rem;
+    letter-spacing: 1px;
 }
 
 .cards {
     list-style: none;
     text-align: center;
+    margin-bottom: 0;
+    padding-bottom: .5rem;
 }
 
 .cards li {
@@ -277,7 +290,7 @@ textarea {
 }
 
 .cards li > img {
-    width: 32px;
+    width: 45px;
 }
 
 .white-bar {
