@@ -356,7 +356,7 @@ textarea {
 }
 
 .tromp {
-	background: url('../img/trompetas.PNG');
+	background: url('../img/trompetas.png');
 	background-size: cover;
 }
 
@@ -405,7 +405,7 @@ textarea {
     right: 0;
     margin: 0 auto;
     width: 50%;
-    top: 70%;
+    top: 7	0%;
     z-index: 99999;
 }
 .scroll_to_down a {
