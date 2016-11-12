@@ -1,6 +1,14 @@
 var navbar       = $('.navbar-default');
 var arrowDown    = $('#arrow-down');
 var footer       = $('.footer--container');
+var faq          = $('#faq');
+var faqLink      = $('#faqLink');
+var services     = $('#services');
+var servicesLink = $('#servicesLink');
+var gallery      = $('#gallery');
+var galleryLink  = $('#galleryLink');
+var contact      = $('#contact');
+var contactLink  = $('#contactLink');
 
 $(document).ready(function() {
 	console.log('Hello World');
@@ -28,6 +36,22 @@ $(document).ready(function() {
 	arrowDown.on('click', function() {
 		$('body').animate({ scrollTop: 800}, 'slow');
 	});
+
+	servicesLink.on('click', function() {
+		$('body').animate({ scrollTop: 700}, 'slow');
+	});
+
+	galleryLink.on('click', function() {
+		$('body').animate({ scrollTop: 1300}, 'slow');
+	});
+
+	faqLink.on('click', function() {
+		$('body').animate({ scrollTop: 2110}, 'slow');
+	});	
+
+	contactLink.on('click', function() {
+		$('body').animate({ scrollTop: 2700}, 'slow');
+	});	
 
 	$('.grid').masonry({
   // set itemSelector so .grid-sizer is not used in layout

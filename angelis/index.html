@@ -27,7 +27,7 @@
         <div class="jumbotron--content">
           <h2 class="jumbotron--title title">¿Quiénes somos?</h2>
           <img src="img/white-bar.png" alt="" class="img-responsive img-title white-bar">
-          <p class="jumbotron--description">En Angelis Coro y Orquesta ofrecemos servicios musicales para cualquier tipo de celebraciones religiosas y sociales. Nuestra amplia experiencia nos permite ofrecer un servicio de primera calidad contando con la más variada gama de músicos que harán de tu evento un recuerdo digno de recordarse por siempre.</p>
+          <p class="jumbotron--description">En Angelis Coro y Orquesta ofrecemos servicios musicales para cualquier tipo de celebraciones religiosas y sociales. Nuestra amplia experiencia nos permite ofrecer un servicio de primera calidad contando con la más variada gama de músicos que harán de tu evento una ocasión digna de recordarse por siempre.</p>
         </div>
       </div>
        <div class="scroll_to_down">
@@ -60,17 +60,17 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li><a class="navigation--item" href="#services">Servicios</a></li>
-            <li><a class="navigation--item" href="#gallery">Galería</a></li>
-            <li><a class="navigation--item" href="#contact">Contacto</a></li>
-            <li><a class="navigation--item" href="#faq">Preguntas Frecuentes</a></li>
+            <li><a class="navigation--item" id="servicesLink" href="#services">Servicios</a></li>
+            <li><a class="navigation--item" id="galleryLink" href="#gallery">Galería</a></li>
+            <li><a class="navigation--item" id="faqLink" href="#faq">Preguntas Frecuentes</a></li>
+            <li><a class="navigation--item" id="contactLink" href="#contact">Contacto</a></li>
           </ul>
       
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="https://www.facebook.com/CoroAngelisGDL/"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="https://www.instagram.com/coroangelisgdl/"><i class="fa fa-instagram"></i></a></li>
-            <li><a href="https://twitter.com/coro_angelis"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="https://www.youtube.com/channel/UCQQZpptm2AWdNxHciomwccg/featured?view_as=public"><i class="fa fa-youtube"></i></a></li>
+            <li><a target="_blank" href="https://www.facebook.com/CoroAngelisGDL/"><i class="fa fa-facebook"></i></a></li>
+            <li><a target="_blank" href="https://www.instagram.com/coroangelisgdl/"><i class="fa fa-instagram"></i></a></li>
+            <li><a target="_blank" href="https://twitter.com/coro_angelis"><i class="fa fa-twitter"></i></a></li>
+            <li><a target="_blank" href="https://www.youtube.com/channel/UCQQZpptm2AWdNxHciomwccg/featured?view_as=public"><i class="fa fa-youtube"></i></a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
@@ -85,234 +85,56 @@
         </div>
       </div>
       <div class="row">
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="4"></li>
-          </ol>
-
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner" role="listbox">
-            <div class="item active">
-              <img src="img/products/1.png" alt="...">
-              <div class="carousel-caption">
-                <h3 class="services--item__title">4 Músicos</h3>
-                <ul class="services--item">
-                  <li>1 Organista</li>
-                  <li>1 Violín / Flauta</li>
-                  <li>1 Soprano</li>
-                  <li>1 Tenor</li>
-                </ul>
-              </div>
+        <div class="col-md-8 col-md-offset-2">
+          <div class="panel-group" id="accordion2">
+          <div class="panel panel-default">
+            <div class="panel-heading accordion-toggle collapsed package-title1" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3,#accordion4" data-target="#collapseX1">
             </div>
-            <div class="item">
-              <img src="img/products/cello.png" alt="...">
-              <div class="carousel-caption">
-                <h3 class="services--item__title">7 Músicos</h3>
-                <ul class="services--item">
-                  <li>1 Organista</li>
-                  <li>1 Violín</li>
-                  <li>1 Flauta / Percusión / Trompeta</li>
-                  <li>1 Soprano</li>
-                  <li>1 Contralto</li>
-                  <li>1 Tenor</li>
-                  <li>1 Bajo</li>
-                </ul>
-              </div>
+            <div id="collapseX1" class="panel-collapse collapse">
+              <div class="panel-body package-content1"></div>
+            </div>
+          </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading accordion-toggle collapsed package-title2" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3" data-target="#collapseY1">
             </div>
 
-            <div class="item">
-              <img src="img/products/hands-.png" alt="...">
-              <div class="carousel-caption">
-                <h3 class="services--item__title">11 Músicos</h3>
-                <ul class="services--item">
-                  <li>1 Organista</li>
-                  <li>1 Violín</li>
-                  <li>1 Flauta / Percusión / Trompeta</li>
-                  <li>2 Sopranos</li>
-                  <li>2 Tenores</li>
-                  <li>2 Contraltos</li>
-                  <li>2 Bajos</li>
-                </ul>
-              </div>
+            <div id="collapseY1" class="panel-collapse collapse">
+              <div class="panel-body package-content2"></div>
+            </div>
+          </div>
+    
+          <div class="panel panel-default">
+            <div class="panel-heading accordion-toggle collapsed package-title3" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3" data-target="#collapseZ1">
             </div>
 
-            <div class="item">
-              <img src="img/products/piano.png" alt="...">
-              <div class="carousel-caption">
-                <h3 class="services--item__title">16 Músicos</h3>
-                <div class="col-md-12">
-                  <div class="col-md-6">
-                    <ul class="services--item">
-                      <li>1 Organista</li>
-                      <li>1 Director</li>
-                      <li>2 Violines</li>
-                      <li>1 Violonchelo</li>
-                      <li>2 Sopranos</li>
-                      <li>2 Tenores</li>
-                    </ul>
-                  </div>
-                  <div class="col-md-6">
-                    <ul class="services--item">
-                      <li>1 Flauta</li>
-                      <li>1 Percusión</li>
-                      <li>1 Trompeta</li>
-                      <li>2 Contraltos</li>
-                      <li>2 Bajos</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="item">
-              <img src="img/products/tromp.png" alt="...">
-              <div class="carousel-caption">
-                <h3 class="services--item__title">23 Músicos</h3>
-                <div class="col-md-4">
-                  <ul class="services--item">
-                    <li>1 Organista</li>
-                    <li>1 Director</li>
-                    <li>2 Violines</li>
-                    <li>1 Violonchelo</li>
-                    <li>1 Trompeta</li>
-                  </ul>
-                </div>
-                <div class="col-md-4">
-                  <ul class="services--item">
-                    <li>1 Percusión</li>
-                    <li>1 Flauta</li>
-                    <li>1 Saxofón</li>
-                    <li>1 Saxofón 2 / Violín 3</li>
-                    <li>1 Melófono</li>
-                  </ul> 
-                </div>
-                <div class="col-md-4">
-                  <ul class="services--item">
-                    <li>3 Sopranos</li>
-                    <li>3 Contraltos</li>
-                    <li>3 Tenores</li>
-                    <li>3 Bajos</li>
-                  </ul>
-                </div>
+            <div id="collapseZ1" class="panel-collapse collapse">
+              <div class="panel-body package-content3">
               </div>
             </div>
           </div>
 
-          <!-- Controls -->
-          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
+          <div class="panel panel-default">
+            <div class="panel-heading accordion-toggle collapsed package-title4" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3" data-target="#collapseA1">
+            </div>
+
+            <div id="collapseA1" class="panel-collapse collapse">
+              <div class="panel-body package-content4"></div>
+            </div>
+          </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading accordion-toggle collapsed package-title5" data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3" data-target="#collapseB1">
+            </div>
+
+            <div id="collapseB1" class="panel-collapse collapse">
+              <div class="panel-body package-content5"></div>
+            </div>
+          </div>
+
+        </div>
         </div>
       </div>
-      <!--div class="row">
-        <div class="col-md-8 col-md-offset-2">
-          <div class="col-md-6 no-padding services--item__container">
-            <h3 class="services--item__title">4 Músicos</h3>
-            <ul class="services--item">
-              <li>1 Organista</li>
-              <li>1 Violín / Flauta</li>
-              <li>1 Soprano</li>
-              <li>1 Tenor</li>
-            </ul>
-          </div>
-          <div class="col-md-6 no-padding services--item__container">
-            <h3 class="services--item__title">7 Músicos</h3>
-            <ul class="services--item">
-              <li>1 Organista</li>
-              <li>1 Violín</li>
-              <li>1 Flauta / Percusión / Trompeta</li>
-              <li>1 Soprano</li>
-              <li>1 Contralto</li>
-              <li>1 Tenor</li>
-              <li>1 Bajo</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-          <div class="col-md-6 no-padding services--item__container">
-            <h3 class="services--item__title">11 Músicos</h3>
-            <ul class="services--item">
-              <li>1 Organista</li>
-              <li>1 Violín</li>
-              <li>1 Flauta / Percusión / Trompeta</li>
-              <li>2 Sopranos</li>
-              <li>2 Tenores</li>
-              <li>2 Contraltos</li>
-              <li>2 Bajos</li>
-            </ul>
-          </div>
-          <div class="col-md-6 no-padding services--item__container">
-            <h3 class="services--item__title">11 Músicos</h3>
-            <div class="col-md-12">
-              <div class="col-md-6">
-                <ul class="services--item">
-                  <li>1 Organista</li>
-                  <li>1 Director</li>
-                  <li>2 Violines</li>
-                  <li>1 Violonchelo</li>
-                  <li>2 Sopranos</li>
-                  <li>2 Tenores</li>
-                </ul>
-              </div>
-              <div class="col-md-6">
-                <ul class="services--item">
-                  <li>1 Flauta</li>
-                  <li>1 Percusión</li>
-                  <li>1 Trompeta</li>
-                  <li>2 Contraltos</li>
-                  <li>2 Bajos</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-          <div class="col-md-12 no-padding services--item__container">
-            <h3 class="services--item__title">23 Músicos</h3>
-            <div class="col-md-4">
-              <ul class="services--item">
-                <li>1 Organista</li>
-                <li>1 Director</li>
-                <li>2 Violines</li>
-                <li>1 Violonchelo</li>
-                <li>1 Trompeta</li>
-              </ul>
-            </div>
-            <div class="col-md-4">
-              <ul class="services--item">
-                <li>1 Percusión</li>
-                <li>1 Flauta</li>
-                <li>1 Saxofón</li>
-                <li>1 Saxofón 2 / Violín 3</li>
-                <li>1 Melófono</li>
-              </ul> 
-            </div>
-            <div class="col-md-4">
-              <ul class="services--item">
-                <li>3 Sopranos</li>
-                <li>3 Contraltos</li>
-                <li>3 Tenores</li>
-                <li>3 Bajos</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div-->
     </div>
 
     <div class="container">
@@ -482,10 +304,10 @@
             </div>
 
             <ul class="social--container">
-              <li><a href="https://www.facebook.com/CoroAngelisGDL/"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="https://www.instagram.com/coroangelisgdl/"><i class="fa fa-instagram"></i></a></li>
-              <li><a href="https://twitter.com/coro_angelis"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="https://www.youtube.com/channel/UCQQZpptm2AWdNxHciomwccg/featured?view_as=public"><i class="fa fa-youtube"></i></a></li>
+              <li><a target="_blank" href="https://www.facebook.com/CoroAngelisGDL/"><i class="fa fa-facebook"></i></a></li>
+              <li><a target="_blank" href="https://www.instagram.com/coroangelisgdl/"><i class="fa fa-instagram"></i></a></li>
+              <li><a target="_blank" href="https://twitter.com/coro_angelis"><i class="fa fa-twitter"></i></a></li>
+              <li><a target="_blank" href="https://www.youtube.com/channel/UCQQZpptm2AWdNxHciomwccg/featured?view_as=public"><i class="fa fa-youtube"></i></a></li>
               
             </ul>
           </div>

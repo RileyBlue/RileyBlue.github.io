@@ -1,8 +1,3 @@
-body {
-	background: #fff;
-	font-family: 'HelveticaNeue', Verdana, Arial;
-}
-
 @font-face {
 	font-family: 'Footlight MT';
 	src: url('../fonts/FootlightMTLight.eot');
@@ -25,6 +20,31 @@ body {
 		url('../fonts/HelveticaNeueRegular.svg#HelveticaNeueRegular') format('svg');
 	font-weight: 100;
 	font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueMedium';
+  src: url('../fonts/HelveticaNeueMedium.eot');
+  src: url('../fonts/HelveticaNeueMedium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/HelveticaNeueMedium.woff') format('woff'),
+    url('../fonts/HelveticaNeueMedium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueLight';
+  src: url('../fonts/HelveticaNeueLight.eot');
+  src: url('../fonts/HelveticaNeueLight.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/HelveticaNeueLight.woff') format('woff'),
+    url('../fonts/HelveticaNeueLight.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+body {
+  background: #fff;
+  font-family: 'HelveticaNeueLight', Verdana, Arial;
 }
 
 .no-padding {
@@ -188,7 +208,7 @@ p.jumbotron--description {
 	background: rgba(5,23,54,.9);
     background-image: url(../img/teatro.png);
     background-size: cover;
-    height: 66rem;
+    height: 64rem;
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -266,7 +286,7 @@ textarea {
     padding-bottom: 0;
     background: rgba(5,23,54,.85);
     color: white;
-    padding: .5rem 0 .3rem 0;
+    padding: 1.5rem 0 2.3rem 0;
 
 }
 
@@ -470,7 +490,7 @@ textarea {
     /* adjust as needed, taken from bootstrap.css */
     float: right;
     position: relative;
-    bottom: 23px;
+    bottom: -18px;
     font-size: 15pt;
     /* adjust as needed */
     color: #fff;
@@ -488,14 +508,78 @@ textarea {
     text-decoration: none;
 }
 
-.panel-default>.panel-heading {
-	background: #051736;
-	color: #fff;
+.panel-default>.panel-heading.package-title1,
+.panel-default>.panel-heading.package-title2,
+.panel-default>.panel-heading.package-title3,
+.panel-default>.panel-heading.package-title4,
+.panel-default>.panel-heading.package-title5 {
+	background-color: #051736;
+  background-image: url(../img/products/paquete1.png);
+  color: #fff;
+  background-repeat: no-repeat;
+  height: 8rem;
 }
 
-.panel-default > .panel-heading + .panel-collapse > .panel-body {
-	background: #eaedf2;
-	color: #797b79;
+.panel-default>.panel-heading.package-title2 {
+  background-image: url(../img/products/paquete2.png);
+  background-repeat: no-repeat;
+}
+
+.panel-default>.panel-heading.package-title3 {
+  background-image: url(../img/products/paquete3.png);
+  background-repeat: no-repeat;
+}
+
+.panel-default>.panel-heading.package-title4 {
+  background-image: url(../img/products/paquete4.png);
+  background-repeat: no-repeat;
+}
+
+.panel-default>.panel-heading.package-title5 {
+  background-image: url(../img/products/paquete5.png);
+  background-repeat: no-repeat;
+}
+
+.panel-default > .panel-heading + .panel-collapse > .panel-body.package-content1,
+.panel-default > .panel-heading + .panel-collapse > .panel-body.package-content2,
+.panel-default > .panel-heading + .panel-collapse > .panel-body.package-content3,
+.panel-default > .panel-heading + .panel-collapse > .panel-body.package-content4,
+.panel-default > .panel-heading + .panel-collapse > .panel-body.package-content5 {
+	background-color: #051736;
+  background-image: url(../img/products/paquete1.png);
+  color: #fff;
+  background-repeat: no-repeat;
+  background-size: initial;
+  height: 34rem;
+  background-position: 0 -79px;
+}
+
+.panel-default > .panel-heading + .panel-collapse > .panel-body.package-content2 {
+  background-image: url(../img/products/paquete2.png);
+  background-repeat: no-repeat;
+  height: 34rem;
+  background-position: 0 -79px;
+}
+
+.panel-default > .panel-heading + .panel-collapse > .panel-body.package-content3 {
+  background-image: url(../img/products/paquete3.png);
+  background-repeat: no-repeat;
+  height: 34rem;
+  background-position: 0 -79px;
+}
+
+.panel-default > .panel-heading + .panel-collapse > .panel-body.package-content4 {
+  background-image: url(../img/products/paquete4.png);
+  background-repeat: no-repeat;
+  height: 34rem;
+  background-position: 0 -79px;
+}
+
+.panel-default > .panel-heading + .panel-collapse > .panel-body.package-content5 {
+  background-image: url(../img/products/paquete5.png);
+  background-repeat: no-repeat;
+  height: 34rem;
+  background-position: 0 -79px;
 }
 
 .container {
