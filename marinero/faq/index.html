@@ -1,0 +1,1963 @@
+<!DOCTYPE html>
+<html data-language="en-us">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Chipotle — FAQ</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"d5924f31c4","applicationID":"5552385","transactionName":"IAsMQRRYWg5VQ0lHBQQBERoVX1kV","queueTime":0,"applicationTime":5,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(u(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(2),u=t(3),c=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],p="api-",l=p+"ixn-";a(s,function(t,e){f[e]=o(p+e,!0,"api")}),f.addPageAction=o(p+"addPageAction",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){d[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],2:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],3:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?u(t,a,i):i()}function n(n,r,o){t&&t(n,r,o);for(var i=e(o),a=l(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var s=f[m[n]];return s&&s.push([w,n,r,i]),i}function p(t,e){g[t]=l(t).concat(e)}function l(t){return g[t]||[]}function d(t){return s[t]=s[t]||o(n)}function v(t,e){c(t,function(t,n){e=e||"feature",m[n]=e,e in f||(f[e]=[])})}var g={},m={},w={on:p,emit:n,get:d,listeners:l,context:e,buffer:v};return w}function i(){return new r}var a="nr@context",u=t("gos"),c=t(2),f={},s={},p=e.exports=o();p.backlog=f},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!h++){var t=y.info=NREUM.info,e=s.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(m,function(e,n){t[e]||(t[e]=n)});var n="https"===g.split(":")[0]||t.sslForHttp;y.proto=n?"https://":"http://",u("mark",["onload",a()],null,"api");var r=s.createElement("script");r.src=y.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function o(){"complete"===s.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=t("handle"),c=t(2),f=window,s=f.document,p="addEventListener",l="attachEvent",d=f.XMLHttpRequest,v=d&&d.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:d,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},t(1);var g=""+location,m={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-974.min.js"},w=d&&v&&v[p]&&!/CriOS/.test(navigator.userAgent),y=e.exports={offset:a(),origin:g,features:{},xhrWrappable:w};s[p]?(s[p]("DOMContentLoaded",i,!1),f[p]("load",r,!1)):(s[l]("onreadystatechange",o),f[l]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link href="http://chipotle.com/themes/chipotle-demo-theme/css/application.css?v=10.6" rel="stylesheet" media="screen">
+  <meta name="language" content="en-us">
+<meta name="time-zone" content="Pacific/Pago_Pago">
+<link rel="shortcut icon" href="https://d5bzqyuki558t.cloudfront.net/cms-assets/system/sites/favicons/000/000/001/original/64.ico?1428527746">
+<meta name="og:image" content="https://d5bzqyuki558t.cloudfront.net/cms-assets/system/asset_versions/attachments/000/000/456/original/social_share_placeholder.jpg?1429200830">
+<meta name="description" content="Frequently Asked Questions about Chipotle Mexican Grill, Contact Us, Talk To Us. Restaurants, Catering, Ordering information. ">
+<meta name="keywords" content="FAQs, questions, contact, email, ordering, catering, allergens, nutrition, menu, food, information, vegan, vegetarian, comments, feedback, supplier, FAQ, ask, restaurants, barbacoa, burritos, mexican, grill, food, dining, carnitas, jalapeno, restaurant, Denver, fast food, steak, beef, chicken, rice, vegetables, salsa, nacho, pepper, guacamole, cilantro, tortilla, fresh mex, quick service, Food With Integrity, unprocessed food, seasonal food, family-farmed food, sustainable food, nutritious food, naturally raised food, added hormone free food, organic food, artisanal, Pork">
+<!-- Google Tag Manager Data Layer -->
+<script>
+analyticsEvent = function() {};
+analyticsSocial = function() {};
+analyticsVPV = function() {};
+analyticsClearVPV = function() {};
+window.dataLayer = window.dataLayer || [];
+dataLayer.push({
+  'language': 'English',
+  'region': 'US'
+});
+</script>
+<!-- End Google Tag Manager Data Layer --><meta name="site-env" content="live">
+<link rel="canonical" href="../faq.html">
+</head>
+  <body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="http://www.googletagmanager.com/ns.html?id=GTM-557MDK" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-557MDK');</script>
+<!-- End Google Tag Manager -->
+
+    
+
+<header class="section section--header">
+  <div class="header">
+    <div class="header--content">
+
+      <!-- MOBILE MENU BURGER BTN -->
+      <div class="menu-toggle">
+        <button type="button" class="menu-toggle__button js-menu-toggle">
+          <span class="menu-toggle__bar"></span>
+          <span class="menu-toggle__bar"></span>
+          <span class="menu-toggle__bar"></span>
+        </button>
+      </div> <!-- . menu-toggle -->
+
+
+      <!-- LOGO -->
+      <a href="http://chipotle.com/" class="logo">
+        <img src="http://drpma142ptgxf.cloudfront.net/assets/logo.svg" alt="Chipotle">
+      </a> <!-- . logo -->
+
+
+      <!-- DESKTOP: TOP-RIGHT TINY LINKS -->
+      <nav class="nav--secondary">
+        <ul class="menu">
+
+          <li class="menu__item">
+            <div class="placeholder reset" data-type="placeholder" data-marker_id="header-link-1" data-edit-style="width: 90px; min-height: 30px; height: 30px; margin-top: 20px;" data-allow-modules="link">
+            </div> <!-- / Placeholder -->
+          </li>
+
+          <li class="menu__item">
+            <div class="placeholder reset" data-type="placeholder" data-marker_id="header-link-2" data-edit-style="width: 90px; min-height: 30px; height: 30px; margin-top: 20px;" data-allow-modules="link">
+            </div> <!-- / Placeholder -->
+          </li>
+
+          <li class="menu__item">
+            <div class="placeholder reset" data-type="placeholder" data-marker_id="header-link-3" data-edit-style="width: 90px; min-height: 30px; height: 30px; margin-top: 20px;" data-allow-modules="link">
+            </div> <!-- / Placeholder -->
+          </li>
+
+          <li class="menu__item">
+            <div class="placeholder reset" data-type="placeholder" data-marker_id="header-link-4" data-edit-style="width: 90px; min-height: 30px; height: 30px; margin-top: 20px;" data-allow-modules="link"><div class="link-module" data-id="33" data-type="module" data-url_name="links">
+  <a href="http://careers.chipotle.com" target="_blank">careers</a>
+</div></div> <!-- / Placeholder -->
+          </li>
+
+          <li class="menu__item">
+            <div class="placeholder reset" data-type="placeholder" data-marker_id="header-link-5" data-edit-style="width: 90px; min-height: 30px; height: 30px; margin-top: 20px;" data-allow-modules="link"><div class="link-module" data-id="34" data-type="module" data-url_name="links">
+  <a href="../gift-cards.html" target="_self">gift cards</a>
+</div></div> <!-- / Placeholder -->
+          </li>
+
+        </ul> <!-- . menu -->
+      </nav> <!-- . nav secondary -->
+
+
+      <!-- DESKTOP: MAIN PAGE LINKS -->
+      <nav class="nav--main" role="navigation" data-type="navigation" data-level="0"><ul data-type="menu" class="menu">
+<li data-active="true" data-type="menu-item" class="menu__item">
+    <a href="http://chipotle.com/menu" data-link="true" data-value="true">Menu</a>
+  </li>
+<li data-active="true" data-type="menu-item" class="menu__item">
+    <a href="http://chipotle.com/nutrition-calculator" data-link="true" data-value="true">Nutrition</a>
+  </li>
+<li data-active="true" data-type="menu-item" class="menu__item">
+    <a href="http://chipotle.com/food-with-integrity" data-link="true" data-value="true">Food with Integrity</a>
+  </li>
+<li data-active="true" data-type="menu-item" class="menu__item">
+    <a href="http://chipotle.com/whats-happening" data-link="true" data-value="true">What’s Happening</a>
+  </li>
+<li data-active="true" data-type="menu-item" class="menu__item">
+    <a href="http://chipotle.com/catering" data-link="true" data-value="true">Catering</a>
+  </li>
+<li data-active="true" data-type="menu-item" class="menu__item">
+    <a href="http://chipotle.com/delivery" data-link="true" data-value="true">Delivery</a>
+  </li>
+<li data-active="true" data-type="menu-item" class="menu__item is-active current-menu-item">
+    <a href="http://chipotle.com/faq" data-link="true" data-value="true">Talk to Us</a>
+  </li>
+</ul></nav> <!-- . nav main -->
+
+
+      <!-- DESKTOP: RIGHT SIDE BTNS (Locations/Order Now/Search) -->
+      <nav class="nav--bottom cf pull-right">
+        <ul class="menu">
+
+          <li class="menu__item">
+            <a href="index.html#" class="menu__link search__link js-panel-trigger" data-trigger="#panel-search">
+              <i class="menu__icon search__icon"></i>
+            </a>
+          </li> <!-- . menu item -->
+
+          <li class="menu__item">
+            <a href="index.html#" class="menu__link pin__link js-panel-trigger" data-trigger="#panel-location">
+              <i class="menu__icon pin__icon"></i>
+              <span class="menu__title pin__title">locations</span>
+            </a>
+          </li> <!-- . menu item -->
+
+          <li class="menu__item" data-language="en-us,en-ca,en-uk">
+            <a href="https://order.chipotle.com/" target="_blank" class="menu__link order__link">
+              <span class="menu__title order__title">order now</span>
+            </a>
+          </li> <!-- . menu item -->
+
+           <!-- . menu item -->
+
+        </ul> <!-- . menu -->
+      </nav> <!-- . nav bottom -->
+
+
+      <!-- MOBILE MAIN MENU -->
+      <nav class="nav--side js-side-menu">
+
+        <!-- Order Now link -->
+        <div class="nav--side__top">
+          <ul class="menu">
+
+            <li class="menu__item" data-language="en-us,en-ca,en-uk">
+              <a href="https://order.chipotle.com/" target="_blank" class="menu__link">order now</a>
+            </li>
+
+            
+
+          </ul>
+        </div> <!-- . nav side -->
+
+        <!-- Main Nav items -->
+        <div class="nav--side__top" data-type="navigation"><ul data-type="menu" class="menu">
+<li data-active="true" data-type="menu-item" class="menu__item">
+    <a href="http://chipotle.com/menu" data-link="true" data-value="true">Menu</a>
+  </li>
+<li data-active="true" data-type="menu-item" class="menu__item">
+    <a href="http://chipotle.com/nutrition-calculator" data-link="true" data-value="true">Nutrition</a>
+  </li>
+<li data-active="true" data-type="menu-item" class="menu__item">
+    <a href="http://chipotle.com/food-with-integrity" data-link="true" data-value="true">Food with Integrity</a>
+  </li>
+<li data-active="true" data-type="menu-item" class="menu__item">
+    <a href="http://chipotle.com/whats-happening" data-link="true" data-value="true">What’s Happening</a>
+  </li>
+<li data-active="true" data-type="menu-item" class="menu__item">
+    <a href="http://chipotle.com/catering" data-link="true" data-value="true">Catering</a>
+  </li>
+<li data-active="true" data-type="menu-item" class="menu__item">
+    <a href="http://chipotle.com/delivery" data-link="true" data-value="true">Delivery</a>
+  </li>
+<li data-active="true" data-type="menu-item" class="menu__item is-active current-menu-item">
+    <a href="http://chipotle.com/faq" data-link="true" data-value="true">Talk to Us</a>
+  </li>
+</ul></div> <!-- . nav side -->
+
+        <!-- Thin, utility nav items -->
+        <div class="nav-side__bottom">
+          <ul class="menu">
+            <li class="menu_link" data-copy-placeholder="header-link-1">
+            </li>
+            <li class="menu_link" data-copy-placeholder="header-link-2">
+            </li>
+            <li class="menu_link" data-copy-placeholder="header-link-3">
+            </li>
+            <li class="menu_link" data-copy-placeholder="header-link-4">
+            </li>
+            <li class="menu__item" data-copy-placeholder="header-link-5">
+            </li>
+          </ul> <!-- . menu -->
+        </div> <!-- . nav side bottom -->
+      </nav> <!-- . nav side -->
+
+
+    </div> <!-- . content -->
+  </div> <!-- . header -->
+
+
+  <!-- SLIDE-DOWN SEARCH FIELD  -->
+  <div class="panel panel--search" id="panel-search">
+
+    <a href="index.html#" class="icon-x panel__close js-panel-close" aria-label="close"></a>
+
+    <div class="content">
+      <form method="post" class="form panel__form js-panelFormSearch" action="http://chipotle.com/search">
+
+        <div class="form__group">
+          <span class="form__icon icon-search panel__icon"></span>
+          <input type="text" name="query" class="input input--clear panel__input js-panelInput" placeholder="">
+        </div>
+
+        <div class="form__group">
+          <button class="button button--icon panel__submit" type="submit" aria-label="Submit"></button>
+        </div>
+
+      </form> <!-- .form -->
+    </div> <!-- .content -->
+
+  </div> <!-- .panel search -->
+
+
+  <!-- SLIDE-DOWN LOCATIONS FIELD -->
+  <div class="panel panel--location " id="panel-location">
+    <div class="content">
+
+      <form method="post" class="form panel__form location-results-form js-panelFormLocation panel__form--location" action="http://chipotle.com/search">
+
+        <input type="hidden" name="_action" value="/">
+
+        <div class="form__group">
+          <span class="form__icon icon-location panel__icon"></span>
+          <input type="text" name="query" class="input input--clear panel__input js-panelInput" placeholder="">
+        </div>
+
+        <div class="form__group">
+          <button class="button button--icon panel__submit" type="submit" aria-label="Submit"></button>
+        </div>
+
+      </form> <!-- .form -->
+
+      <ul class="location-switcher js-locationResultsToggles">
+
+        <li class="location-switcher__item">
+          <a href="index.html#" class="location-switcher__link is-active location-switcher__link--list" data-action="/">
+            <span class="location-switcher__icon icon-list"></span>
+            <span class="location-switcher__title">List</span>
+          </a>
+        </li>
+
+        <li class="location-switcher__item">
+          <a href="index.html#" class="location-switcher__link location-switcher__link--list" data-action="/map">
+            <span class="location-switcher__icon icon-map"></span>
+            <span class="location-switcher__title">Map</span>
+          </a>
+        </li>
+
+      </ul>
+
+    </div> <!-- .content -->
+  </div> <!-- .panel location -->
+
+</header>
+
+
+
+    <main id="main" role="main">
+
+
+      <div class="nav--sub">
+
+        <nav class="menu" data-type="navigation" data-level="1"><ul data-type="menu" class="menu">
+<li data-active="true" data-type="menu-item" class="menu__item is-active current-menu-item">
+    <a href="http://chipotle.com/faq" data-link="true" data-value="true">FAQ</a>
+  </li>
+<li data-active="true" data-type="menu-item" class="menu__item">
+    <a href="http://chipotle.com/email-us" data-link="true" data-value="true">Email Us</a>
+  </li>
+</ul></nav>
+      
+      </div> <!-- .sub nav -->
+
+
+      <div class="faq">
+
+        <div class="container">
+
+          <div class="placeholder" data-type="placeholder" data-marker_id="faq-module-section-1" data-draggable="false" data-disabled="false" data-edit-style="min-height: 200px;"><div data-id="1" data-type="module" data-url-name="faqs">
+  <section class="module module--faq js-faqModule is-expandable">
+
+    <h2>FAQ</h2>
+
+
+    <div class="faq-search">
+
+      <div class="faq-search__title-wrap cf">
+        <h3 class="h3 faq-search__title">Filter by Tag</h3>
+      </div>
+
+      <div class="faq-search__grid filter-control">
+
+        <select class="select-control select" id="category_filter" name="category_filter"><option data-class="cc-all" value="All">All</option>
+<option data-class="cc-catering" value="Catering">Catering</option>
+<option data-class="cc-chiptopia" value="Chiptopia">Chiptopia</option>
+<option data-class="cc-company-info" value="Company Info">Company Info</option>
+<option data-class="cc-delivery" value="Delivery">Delivery</option>
+<option data-class="cc-gmos" value="GMOs">GMOs</option>
+<option data-class="cc-gift-cards-coupons" value="Gift Cards &amp; Coupons">Gift Cards &amp; Coupons</option>
+<option data-class="cc-menu-nutrition" value="Menu &amp; Nutrition">Menu &amp; Nutrition</option>
+<option data-class="cc-ordering" value="Ordering">Ordering</option>
+<option data-class="cc-restaurants" value="Restaurants">Restaurants</option></select>
+      </div>
+
+    </div>
+
+    <div class="faq-questions">
+        <article class="faq-question js-faqQuestion cc-all cc-menu-nutrition faq_item">
+
+          <h3>Where can I find nutritional information?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p><span style="color:rgb(84, 57, 45)">Check out our <a href="http://chipotle.com/nutrition-calculator">Nutrition Calculator</a>.</span></p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-menu-nutrition faq_item">
+
+          <h3>Where can I find allergen information?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Click on over to the <a href="http://chipotle.com/allergens">Allergen Page</a><a href="http://chipotle.com/allergens" target="_self">.</a></p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-menu-nutrition faq_item">
+
+          <h3>I have certain allergies and specific questions regarding Chipotle's food and diet not mentioned on the <a href="http://chipotle.com/allergens" target="_self">Allergen Page.</a> What do I do?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Contact us on the <a href="http://chipotle.com/email-us">Talk To Us</a> section of our website, and we'll be happy to help you further.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-menu-nutrition faq_item">
+
+          <h3>I am a vegan. What can I eat?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>You should avoid our meats (obviously), cheese, sour cream, and chipotle-honey vinaigrette.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-menu-nutrition faq_item">
+
+          <h3>I am a vegetarian. What can I eat?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>You should avoid our meats (obviously). Our cheese is made with a vegetable-based rennet, and our sour cream is 100% cultured cream. If your own personal vegetarian guidelines therefore allow you to eat these dairy items, then that's terrific. If not, then you should avoid them. Please note this information is different for those who choose a vegan diet.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-menu-nutrition faq_item">
+
+          <h3>I can only have pasteurized dairy. Can I eat Chipotle's cheese and sour cream?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Feel free! Our cheese and sour cream are both pasteurized.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-menu-nutrition faq_item">
+
+          <h3>I love the dressing and salsa. Can I buy them by the gallon?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>We're flattered. We really are, but we do not actually sell any of our foods in bulk. In order to maintain the shelf life required for retail, we’d have to add preservatives and we don’t want to do that. We're happy to sell you some sides if you'd like.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-menu-nutrition faq_item">
+
+          <h3>We're addicted, but my kids don't like spicy foods. Does Chipotle have a meat option they can eat?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Our carnitas have black pepper only (no jalapeños or anything like that) and are very mild. Some kids aren’t into trying new things, but we're happy to offer them a sample before they commit to a meal. Just ask us.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-restaurants faq_item">
+
+          <h3>Where can I find out about new restaurants in my area?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Sign up for our e-mail or mobile alerts in the footer of the website. If you're more of the social type, you can like us on Facebook at <a href="https://www.facebook.com/chipotle?_rdr">facebook.com/chipotle</a> or follow us on Twitter at <a href="https://twitter.com/chipotletweets">@chipotletweets</a>.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-restaurants faq_item">
+
+          <h3>When are Chipotle restaurants open?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Most of our restaurants are open from 11 am to 10 pm every day of the week. This being said, there are a few that aren’t. You can double-check individual restaurant hours by using the location finder at the top of the website. Additionally, we are closed on some major holidays like New Year’s Day, Easter, July 4th, Thanksgiving, and Christmas. And most of our restaurants have limited hours on Christmas Eve and New Year’s Eve.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-restaurants faq_item">
+
+          <h3>Where can I find restaurant locations?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Check out the Find A Chipotle field in the upper right corner of the site.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-ordering faq_item">
+
+          <h3>How do I order food via the world wide web (assuming this whole internet thing isn’t just a passing fad)?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>You can do that by pressing the Order Now button up and to the right If you need something special or have extra instructions, just include it in the Comments section. We'll add it to your order.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-ordering faq_item">
+
+          <h3>I don’t see Sign In or Account on Chipotle.com. How do I access my Chipotle account?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Go to “<a href="https://order.chipotle.com/" target="_blank">Order Now</a>” and sign in to go to your account settings. From there you can update your account information.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-ordering cc-catering faq_item">
+
+          <h3>Does Chipotle cater?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Yes we do. Depending on your location, Chipotle Catering offers several delicious options that are perfect for any business meeting, event or party—feeding as few as 6 or as many as 200. We have Taco &amp; Bowl Spreads that are easy to set up and come with everything you need: napkins, utensils, stands, chafing dishes and fuel to keep everything hot. If you need a solution that’s fast and easy, our Burritos by the Box allows you to order a lot of burritos with little effort. Or, when something lighter is in order, try our Chips &amp; Salsa Spread, which comes with all of our salsas and our fresh, hand-mashed guacamole.<br>
+<br>
+It’s super-easy. Just call 1-800-Chipotle (7am-7pm MST).</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-ordering faq_item">
+
+          <h3>I can’t order online? What gives?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Make sure your browser accepts all cookies in all situations. If you are trying to get a new password, check your spam folder. Burritos are not spam, but some e-mail systems don’t have any taste. If you're still having trouble, contact us on the <a href="http://chipotle.com/email-us">Email Us</a> section of our website and we’ll help you out.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-company-info faq_item">
+
+          <h3>I want to be a supplier. How do I do that?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Check out our section on <a href="http://chipotle.com/email-us#supplier">Becoming a Supplier</a>.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-company-info faq_item">
+
+          <h3>What kind of fundraisers and donations does Chipotle support?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>We provide opportunities for K-12 schools, youth community groups, university groups, community gardens and food and sustainable agriculture groups to have in-restaurant fundraisers where 50% of sales during the event go to the group. We also provide in-kind donations for K-12 schools, youth community groups, university groups, community gardens and food and sustainable agriculture groups.<br>
+<br>
+For more details on how fundraisers work, visit <a href="http://www.chipotle.com/fundraisers">http://www.chipotle.com/fundraisers</a>.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-company-info faq_item">
+
+          <h3>Where do I go for more information about sponsorship, donations and in-restaurant fundraiser opportunities?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Just go to the <a href="http://chipotle.com/email-us#philanthropy">Philanthropy</a> section of our website. Please note that we get a lot of requests so we ask for 6 weeks notice so we can review them all. If your event is sooner than that, we're sorry we can’t help, but we hope you'll keep us in mind next time.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-company-info faq_item">
+
+          <h3>How can my non-profit organization raise money outside of in-restaurant fundraisers?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>We participate in Scrip programs, which are a great way for your non-profit organization to raise money outside of our in-restaurant fundraisers. Through Scrip, your supporters can help earn you money by purchasing Chipotle gift cards. Your organization is able to purchase Chipotle gift cards at a discount, resell to your supporters, and keep the difference. Click <a href="https://www.shopwithscrip.com/Learn?banneroverride=chpo&amp;refID=chpo" target="_blank">here</a> to learn more.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-company-info faq_item">
+
+          <h3>Can I start a franchise or be involved in owning a restaurant in any way?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Nope. We’re not into franchising. But if you have a recommendation for a location, hit up the <a href="http://chipotle.com/email-us#real-estate">Development</a> section of the site. You should also note that we are a publicly traded company on the NYSE. So, you can get a piece of the action by investing in CMG.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-company-info faq_item">
+
+          <h3>Do you love me as much as I love Chipotle?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Assuming your love of us falls within the generally accepted social constructs of right and wrong, then yes. We love you too. Drop us a line and tell us about how you feel in the <a href="http://chipotle.com/email-us#comments-questions">Talk To Us</a> section.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-company-info faq_item">
+
+          <h3>I need more information on the company. Okay, I’m doing a paper and it's due soon. Can you help?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>We are a publicly traded company so most everything we are allowed to share, we do on the <a href="http://ir.chipotle.com/phoenix.zhtml?c=194775&amp;p=irol-irhome">Investor</a> section of our website. Other things, like recipes and internal functions of our company, are things we've dedicated time and resources to and it's all proprietary information. There is some good stuff though so check it out.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-gift-cards-coupons faq_item">
+
+          <h3>Where can I buy gift cards?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Gift cards are available at all US restaurants and at select US retail stores. Gift cards are also available online at <a href="../gift-cards.html">www.chipotle.com/gift-cards</a> but may only be redeemed at U.S. Locations. Chipotle gift cards purchased through any other web site may be fraudulent. We cannot guarantee validity for cards purchased through any means other than those listed.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-gift-cards-coupons faq_item">
+
+          <h3>How can I check my gift card balance?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>You can check the balance on any gift card (bought in restaurant, at retail, online and for the digital and mobile cards). To check your gift-card balance, visit <a href="http://www.chipotle.com/gift-cards" style="line-height: 1.6;">www.chipotle.com/gift-cards</a> and click "Check your gift card balance" at the bottom of the screen. Enter the 16-digit gift card number and you will see your balance immediately. You can enter your email and/or mobile phone number to have your balance sent to you. If you have your gift card stored in the Chipotle App, it will automatically display your balance in the "My Cards" screen.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-gift-cards-coupons faq_item">
+
+          <h3>Where can I buy 10 or more gift cards at a time?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Chipotle bulk gift card orders can be placed online. To purchase more than 10 gift cards go to <a href="http://www.chipotle.com/gift-cards" style="line-height: 1.6;" target="_self">www.chipotle.com/gift-cards</a> and click "Bulk order 10 or more gift cards” at the bottom of your screen.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-gift-cards-coupons faq_item">
+
+          <h3>Where can I find coupons?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>We try to limit our freebies to events and promotions so we can get to know our guests better. If you'd like to learn more, like us on Facebook at <a href="https://www.facebook.com/chipotle?_rdr">facebook.com/chipotle</a> or follow us on Twitter at <a href="https://twitter.com/chipotletweets">@chipotletweets</a>. You can also sign up for email and mobile alerts in the footer of the website.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-gift-cards-coupons faq_item">
+
+          <h3>What do I do if my gift card has no balance or is not swiping at the register?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>We can look into that for you, but we need a little more information. Please provide some details.</p>
+
+<p>From Your Receipt: the 16-digit gift-card number,restaurant or retail store where it was purchased, date of purchase, amount added to the card at the time of purchase. </p>
+
+<p>Additional Information: restaurant where redemption failed, date on which the card failed.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-gift-cards-coupons faq_item">
+
+          <h3>What do I do if my gift card is lost or stolen?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Unfortunately, cards are treated like cash and we cannot replace them for you.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-restaurants cc-ordering cc-delivery faq_item">
+
+          <h3>Does Chipotle deliver?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Yes. We work with several partners to deliver in select markets in the U.S. and Canada. We only deliver orders for individuals and small groups, not catering or Burritos by the Box. Find out more on the <a href="http://chipotle.com/delivery" target="_self">Delivery page.</a></p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-delivery faq_item">
+
+          <h3>Do you partner with additional delivery companies other than those listed on Chipotle.com?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>We currently only work with the approved delivery partners featured on our <a href="http://chipotle.com/delivery" target="_self">Delivery page</a> to ensure you receive the high-quality customer service you deserve along with delicious food.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-delivery faq_item">
+
+          <h3>How long will it take to deliver my food? </h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Each partner is responsible for delivering your order within a reasonable amount of time based on their guidelines.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-delivery faq_item">
+
+          <h3>Do I pay a mark-up to have my Chipotle order delivered through your partners? </h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>We do not allow our partners to mark-up any of our food. However, each partner may add a delivery and/or service fee which is not associated or required by Chipotle. Each delivery/service fee varies by partner.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-delivery faq_item">
+
+          <h3>What if my delivery order is inaccurate?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Our delivery partners take full ownership for ensuring your order is placed correctly. Currently, we require all of our partners to place their orders like any other customer in our restaurant. This helps to ensure they are checking every step of the order creation process. If your order happens to be inaccurate, please contact the delivery partner directly.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-delivery faq_item">
+
+          <h3>Who do I contact regarding delivery payment issues, including refund requests?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            If you have questions regarding payment issues including refunds, you will need to work directly with the delivery partner. 
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-delivery faq_item">
+
+          <h3>Do you deliver internationally?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Currently Favor offers delivery service in Toronto.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-catering faq_item">
+
+          <h3>How far in advance should I place my catering order?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            For the Chiptopia Catering for 20 Reward, we ask for 7 days advance notice on all catering spread orders (The Two Meat Spread or The Big Spread), and 24 hours notice for Burritos By The Box orders. If you know you want to place your order months in advance, that’s great—we’re happy to place the order as soon as we hear from you.
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-catering faq_item">
+
+          <h3>Do you deliver catering orders?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>We don’t offer delivery right now, but we’ve gotten the message loud and clear, and this is something we’re looking into for catering orders.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-catering faq_item">
+
+          <h3>How much food do I get per person in a catering order?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Our portions for catering spreads are consistent with the portions each person receives in our restaurants. We also include one crispy taco shell and one soft flour tortilla per person so everyone can choose between tacos or a bowl.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-catering faq_item">
+
+          <h3>How can I place my catering order?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>It’s super-easy. Just place an order by calling 1-800-CHIPOTLE (7am-7pm MST).</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-catering faq_item">
+
+          <h3>How much time should I plan on to set up my catering order?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Once you get the food home, it takes about 10-15 minutes to set up. If you have a couple people setting up the order, you should be ready to serve your party in 10 minutes. Yay!</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-catering faq_item">
+
+          <h3>Can we roll our own burritos with a catering spread?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Our catering spreads give you everything you need for your guests to make their own tacos or bowls, but there are no burrito tortillas. Our large tortillas are yummiest when warmed in a tortilla press (and they’re a lot harder to roll than you might think). If you want to provide burritos for a group, check out our Burritos by the Box option.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-catering faq_item">
+
+          <h3>Do catering orders include salads?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Right now, catering is designed to serve all of your guests tasty tacos and delicious bowls. We don’t include enough lettuce for everyone to have salads and also don’t include our chipotle-honey vinaigrette.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-catering faq_item">
+
+          <h3>Do catering orders include beverages?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>We don’t currently offer bulk beverage selections, but you can pick up individual drinks at the restaurant.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-catering faq_item">
+
+          <h3>Do catering orders include dessert?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Chipotle currently doesn’t serve any desserts, so your order won’t come with a dessert option.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-catering faq_item">
+
+          <h3>Do I need to supply my own plates, forks, and napkins when I order catering?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>No! Your order will include bowls, forks, napkins, serving spoons and tongs. We even include the matches to light the fuel. All you need to bring to the party is water to add to the hotel pans before you light the fuel.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-catering faq_item">
+
+          <h3>Do you accept checks for catering orders?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>We accept business checks, but not personal checks.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-catering faq_item">
+
+          <h3>Can I pay in advance for a catering order?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Yes you can. We accept pre-payment for all orders placed through 1-800-CHIPOTLE.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-catering faq_item">
+
+          <h3>Can I set up a House Account, PO Number, or be invoiced for catering orders?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Not yet. We’re working on getting a system in place though, stay tuned.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-catering faq_item">
+
+          <h3>I want to use Chipotle Catering for my wedding, but I want a full service line, complete with servers. Is this something you can do?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>We don’t offer full service catering, and we are unable to send a team out to serve the food (although we’d love to be part of your big day). Our catering is simple to set up though, and easy to maintain throughout your event, so you, your friends and family can enjoy the meal without too much hassle.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-catering faq_item">
+
+          <h3>Can I customize a catering order, or order just a few pans of rice and beans?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Our catering is non-customizable, and we don’t offer specific items in bulk. We do have the Two Meat Spread option that may work for smaller parties, while our Big Spread is a great option for groups who want a little more food. You’re always welcome to ask for both meat options to be chicken if you really, really love chicken. Burritos by the Box is a great option for smaller parties, but comes with set items. If you choose this option, please keep this in mind.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-gmos faq_item">
+
+          <h3>What is a GMO?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>A genetically modified organism (GMO) is created by inserting genes from one species (typically bacteria or a virus) into the DNA of another. This results in a plant with characteristics that wouldn’t occur naturally, such as producing pesticides or the ability to withstand high doses of chemical herbicides.<br>
+<br>
+Currently, GMO varieties of 8 crops are cultivated in the U.S. at commercial scale. These are:<br>
+<br>
+    •    Corn<br>
+    •    Canola<br>
+    •    Soy<br>
+    •    Cotton<br>
+    •    Sugar Beets<br>
+    •    Alfalfa<br>
+    •    Papaya<br>
+    •    Zucchini and Yellow Summer Squash</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-gmos faq_item">
+
+          <h3>Which ingredients in the food served at Chipotle were previously genetically modified?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Of the eight common GMO crops grown in the U.S., only two were found as ingredients in Chipotle’s food prior to our move to non-GMO ingredients: corn and soy.<br>
+<br>
+<strong>Corn.</strong> GMO corn flour, corn starch, and a small number of other corn-based ingredients were used in Chipotle’s corn and flour tortillas. We have worked with our tortilla suppliers to remove these ingredients or replace them with non-GMO versions. The white sweet corn in Chipotle’s Roasted Chili-Corn Salsa has always been a non-GMO variety of corn.<br>
+<br>
+<strong>Soy.</strong> GMO soybean oil was an ingredient in our flour tortillas and used as a cooking oil in our restaurants. Our restaurants now cook with Sunflower Oil and Rice Bran Oil. Our tortillas are now made with non-GMO Canola oil (while canola is often genetically modified, the canola oil in Chipotle tortillas is non-GMO). The organic soybeans used to make the tofu in our Sofritas have always been non-GMO, like all certified organic ingredients.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-gmos faq_item">
+
+          <h3>Why did Chipotle decide to use non-GMO ingredients in its food?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>As part of Chipotle’s commitment to serving Food With Integrity, we believe that the food we serve should be made with ingredients raised with care for animals, farmers, and the environment. We’re doubtful that the GMO ingredients that used to be in our food meet these criteria. Here are the three key reasons.</p>
+
+<ol>
+	<li>
+<strong>Scientists are still studying the long term implications of GMOs.</strong> While some studies have shown GMOs to be safe, most of this research was funded by companies that sell GMO seeds and did not evaluate long-term effects. More independent studies are needed.<br>
+	<br>
+	The chemical industry claims that GMOs are widely considered to be safe, but the scientific community has not yet reached a consensus on the long-term implications of widespread GMO cultivation and consumption. For example, in October 2013 a group of about 300 scientists from around the world signed a statement rejecting the claim that there is a scientific consensus on the safety of GMOs for human consumption. These scientists would like to see more research conducted, and they’d like more of the research to be conducted by independent third parties, not the companies marketing GMO crops themselves. Until such studies are conducted, we believe it is prudent to take a cautious approach toward GMOs.<br>
+	 </li>
+	<li>
+<strong>The cultivation of GMOs can damage the environment.</strong> Evidence suggests that GMOs engineered to produce pesticides or withstand powerful chemical herbicides damage beneficial insect populations and create herbicide resistant super-weeds.<br>
+	<br>
+	The companies that sell GMO seeds claim that genetically modified crops are better for the environment because they reduce the amount of pesticides and herbicides used in farming. But this has not been shown to be the case. One recent study by researchers at Washington State University estimated that between 1996 and 2011, pesticide and herbicide use increased by more than 400 million pounds as a result of GMO cultivation. This and other evidence suggests that GMO crops are fueling an escalating chemical arms race with weeds and insects.<br>
+	 </li>
+	<li>
+<strong>Chipotle should be a place where people who choose to avoid GMOs can still enjoy eating.</strong> In our quest to serve the best ingredients, we decided to replace the few GMO ingredients we were using in our food with non-GMO alternatives so that our customers who choose to avoid GMOs can enjoy eating at Chipotle.</li>
+</ol>
+
+<p>For the last 21 years, Chipotle has been making high-quality whole ingredients prepared using classic cooking techniques accessible to all. To that end, we want our customers to have access to ingredients that have not been genetically modified.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-gmos faq_item">
+
+          <h3>Do the meat and dairy products at Chipotle contain GMOs?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>The meat and dairy products we buy come from animals that are not genetically modified. But it is important to note that most animal feed in the U.S. is genetically modified, which means that the meat and dairy served at Chipotle are likely to come from animals given at least some GMO feed. We are working hard on this challenge, and have made substantial progress: for example, the 100% grass-fed beef served in many Chipotle restaurants was not fed GMO grain—or any grain, for that matter. This is an important start, but we recognize that sourcing meat and dairy exclusively from animals never fed GMOs would be a long-term project that would represent further progress in this area.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-gmos faq_item">
+
+          <h3>Is the cheese Chipotle serves made with GMO enzymes?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Most cheese makers in the U.S., including those who supply cheese to Chipotle, use what is called Fermentation-Produced Chymosin (FPC), which is a vegetarian rennet that is classified as non-GMO by the EU and all existing U.S. state GMO labeling laws. While this enzyme is non-GMO, it is produced by bacteria that have been genetically modified. During the production process, the enzyme used to make cheese is completely separated from these organisms and does not contain any GMO material. The bacteria are classified as “processing aids” because they are not used as ingredients to make cheese. For this reason, cheese made with FPC enzyme does not contain any GMO material. All of our cheese suppliers provide us with documentation of the non-GMO status of the enzyme used to make cheese for Chipotle.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-gmos faq_item">
+
+          <h3>Are all of the beverages sold at Chipotle made with non-GMO ingredients?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>The fountain sodas we sell are typically sweetened with corn syrup, which is almost always made from GMO corn. We offer a number of other beverages, such as organic milk, organic apple juice, and Izze sodas, which are made without genetically modified ingredients. We also provide packets of artificial sweetener for use in the fountain iced tea we serve. That sweetener, like many artificial sweeteners, contains dextrose, which may also be made from GMO corn.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-gmos faq_item">
+
+          <h3>Does Chipotle’s recent announcement apply to processing aids in addition to food ingredients?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            No. While all of the ingredients we use to make the food we serve—such as the corn flour in our corn tortillas, or the organic tofu in our Sofritas—are non-GMO, some of our suppliers may use processing aids that contain GMO material.<br>
+<br>
+The FDA defines “processing aids” as:
+<ol>
+	<li>Substances that are added to a food during the processing of such food but are removed in some manner from the food before it is packaged in its finished form.</li>
+	<li>Substances that are added to a food during processing, are converted into constituents normally present in the food, and do not significantly increase the amount of the constituents naturally found in the food.</li>
+	<li>Substances that are added to a food for their technical or functional effect in the processing but are present in the finished food at insignificant levels and do not have any technical or functional effect in that food.</li>
+</ol>
+Processing aids aren’t additives like preservatives, colors, or flavors, which are required to be included on ingredient lists. Instead, they are substances that serve a specific purpose in food production, but either do not appear in the finished food or are present at insignificant levels in the finished food. Fruit and vegetable washes are a good example of a processing aid. We use fruit and vegetable wash to clean the produce we serve in Chipotle restaurants, and some of our produce suppliers use fruit and vegetable washes in the process of packing produce.<br>
+<br>
+Some of the food producers who supply Chipotle may use various processing aids that contain GMO material or are produced by genetically modified organisms.
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-gmos faq_item">
+
+          <h3>How does Chipotle know your ingredients are non-GMO?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>When we decided in 2013 to disclose the GMO ingredients in our food, we undertook a comprehensive review of all of our ingredients to identify those that were likely to be genetically modified. Most of the ingredients we serve—such as jalapeño peppers, red onions, cilantro, and pinto beans—have not been approved for commercial use in genetically modified form in the U.S. In other words, these ingredients can be safely presumed to be non-GMO. In cases where ingredients in our food do exist in genetically modified form, we have moved to non-GMO alternatives. To get assurance of the non-GMO status of those alternatives, we’ve used ingredients that are organically grown (since intentional use of GMOs is not permitted for organic growers), and/or obtained documentation from the ingredient suppliers attesting to their use of non-GMO ingredients. We also ensure that certain ingredients are tested periodically for the presence of GMOs. In some cases, such as sunflower oil, we use ingredients verified as non-GMO by the Non-GMO Project.</p>
+
+<p>It is important to understand that these protocols may not necessarily result in all of our foods being 100% GMO-free. Due to the potential for cross-contamination in fields, facilities or during shipping, it may be that trace amounts of GMOs are present in our food from time to time. For this reason, we identify our ingredients as “non-GMO” rather than “GMO-free” or other terminology that might be misunderstood as a guarantee of absolutely zero genetically engineered content. The United States currently lacks a regulatory definition for “non-GMO” or similar terminology, but private organizations in the U.S. as well as the European Union have put forth standards that allow for food labeled as non-GMO to contain trace amounts (typically up to 0.9%) of genetically modified material.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-gmos faq_item">
+
+          <h3>Was it expensive to remove GMO ingredients from Chipotle’s food?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Not really. While removing genetically modified ingredients from our food took substantial effort by Chipotle in partnership with our food suppliers, we found the cost increases to be less than we initially expected.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-gmos faq_item">
+
+          <h3>How else has Chipotle taken action on the issue of GMOs?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Beyond being the first national restaurant company to disclose the GMOs in our food and switch to non-GMO alternatives where applicable, Chipotle has voiced its support for GMO labeling initiatives—such as I-522 in Washington and Prop. 37 in California—because we believe all consumers deserve transparency when it comes to food.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-gmos faq_item">
+
+          <h3>Isn’t Chipotle’s decision to switch to non-GMO ingredients for its food mainly about making money?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Chipotle is committed to serving our customers the very best ingredients we can find. At the end of the day, we do not believe GMO ingredients make our food better in any meaningful way. This view, in addition to the three reasons mentioned above, is the main reason we believe that switching to non-GMO ingredients was the right thing to do.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-gmos faq_item">
+
+          <h3>What is Chipotle’s position on GMO labeling?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Transparency has always been an important part of Chipotle’s vision. We believe that the more people know about where their food comes from, the better. For this reason, we support mandatory GMO labeling laws.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-gmos faq_item">
+
+          <h3>Isn’t Chipotle contributing to unnecessary hysteria about GMOs?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>When Chipotle first started talking about GMOs, it was in the context of transparency—we were the first large restaurant company to disclose the fact that there were GMOs in our food, and commit to switching to non-GMO alternatives. Now, we want people to understand more about GMOs, whether they are in our food or not. We believe people should be interested in the food they eat and where it comes from, and make choices that make sense for them and their families.<br>
+<br>
+There are real concerns about the health and environmental impacts of GMO foods. People can debate this topic, but those who have looked into the issue know that it is extremely complex. We believe the implications of growing and eating GMOs must be studied more by independent scientists who do not have an incentive to produce particular results. What we do know is that some of the chemicals and toxins used in GMO cultivation have caused health and environmental issues, and that is at the very least a reason to be cautious. Caution and hysteria are not the same thing.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-gmos faq_item">
+
+          <h3>Does Chipotle’s stance on genetically modified foods hurt farmers?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Growing non-GMO ingredients can benefit farmers in a number of ways. Farmers growing non-GMO version of crops that are typically genetically modified—like corn, soy, and canola—typically receive a substantial premium for their non-GMO crops.<br>
+<br>
+While we are committed to sourcing non-GMO ingredients, Chipotle respects the right of every farmer, rancher and grower to follow practices that make sense for their business, even if they do not make sense for ours. Just as we believe that consumers have the right to know what’s in their food and avoid ingredients they choose to, farmers have the right to grow whichever crops they choose.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-gmos faq_item">
+
+          <h3>Where can I go to learn more about genetically modified foods?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>There are many resources available online to learn about GMOs, and we encourage everyone to learn more about this issue and anything else that impacts the food they eat. The following links represent a diverse set of views on the topic:<br>
+<br>
+    •    <a href="http://www.centerforfoodsafety.org" target="_blank">Center for Food Safety</a><br>
+    •    <a href="http://www.ewg.org" target="_blank">Environmental Working Group</a><br>
+    •    <a href="http://www.gmo-compass.org/eng/home/" target="_blank">GMO Compass</a><br>
+    •    <a href="http://gmomythsandtruths.earthopensource.org" target="_blank">GMO Myths and Truths</a><br>
+    •    <a href="http://nas-sites.org/ge-crops/" target="_blank">National Academy of Sciences</a><br>
+    •    <a href="http://www.nongmoproject.org/" target="_blank">Non-GMO Project</a><br>
+    •    <a href="http://ers.usda.gov/webdocs/publications/err162/43668_err162.pdf" target="_blank">USDA Report: Genetically Engineered Crops in the United States</a><br>
+    •    <a href="http://www.who.int/foodsafety/areas_work/food-technology/faq-genetically-modified-food/en/%0D%0A" target="_blank">World Health Organization</a><br>
+<br>
+<br>
+<br>
+ </p>
+ 
+
+<p> </p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-chiptopia faq_item">
+
+          <h3>Chiptopia: ABOUT CHIPTOPIA SUMMER REWARDS</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>The answers in these FAQs are qualified in their entirety by reference to the Chiptopia Terms and Conditions of Participation, available at <a href="http://www.chipotle.com/chiptopia-terms" target="_self"><span style="color:#DAA520">chipotle.com/chiptopia-terms</span></a>. In the event of a conflict between these FAQs and the Terms and Conditions of Participation, the Terms and Conditions of Participation will control.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-chiptopia faq_item">
+
+          <h3>Chiptopia: What is CHIPTOPIA SUMMER REWARDS?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Getting rewarded in burritos for eating burritos so you can eat even more burritos is every Chipotle fan’s dream come true. That dream is Chiptopia Summer Rewards—a three-month-long promotion designed to reward you with free food by achieving status levels each month. Chiptopia purchases unlock status levels (MILD, MEDIUM and HOT) and rewards (1 Free Entrée at each level), and those earned rewards can even be used toward your next status level. There is so much awesome here, it’s ridiculous.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-chiptopia faq_item">
+
+          <h3>Chiptopia: How can I get a CHIPTOPIA SUMMER REWARDS CARD?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Chiptopia Summer Rewards cards are available at any participating US Chipotle restaurant. You may also obtain and activate a digital 'card' online at <a href="../chiptopia.html" target="_self"><span style="color:#DAA520">chipotle.com/chiptopia</span></a>. When you register your physical card, you will automatically get a digital version as well. You cannot, however, get a physical card associated with the same member number if you get a digital card online first. So if you want the tactile pleasure of an actual card, start by picking up a card in one of our restaurants.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-chiptopia faq_item">
+
+          <h3>Chiptopia: How does it work?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Visit Chipotle as frequently as you'd like per month, using the free entrées you’ve earned as you go. With your 4th, 8th and 11th qualifying purchases on separate days each month (that is, a purchase of $6.00 or more, excluding alcohol or gift cards), you unlock a new status level and receive a reward for one (1) free entrée. These rewards expire 30 days after earned. At the end of each month, your purchase activity and any acquired status level resets back to zero. While monthly activity will reset, any status level reached will be tracked, and will count toward Bonus Rewards, available for redemption at the end of the promotion. Unlocking the same status level in three consecutive months unlocks Bonus Rewards specific to that level. Achievement unlocked!</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-chiptopia faq_item">
+
+          <h3>Chiptopia: How do I register a CHIPTOPIA SUMMER REWARDS card?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>All cards picked up in-restaurant or created online - must be registered at <a href="../chiptopia.html" target="_self"><span style="color:#DAA520">chipotle.com/chiptopia</span></a> in order for you to be able to claim any earned rewards.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-chiptopia faq_item">
+
+          <h3>Chiptopia: What is a digital rewards card?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>You can either pick up a rewards card at Chipotle, or you can create a digital rewards card by signing up online. If you have a physical card, you will also get a digital version of it once you register, but if you start with a digital card, you will be unable to get a physical card that can be associated with your unique member number (so if you want to impress your friends with your Chiptopia card, be sure to pick up the physical card first).</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-chiptopia faq_item">
+
+          <h3>Chiptopia: If I forgot my CHIPTOPIA card, can I still get credit for a visit?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Yes, you can either log into your account at <a href="../chiptopia.html" target="_self"><span style="color:#DAA520">chipotle.com/chiptopia</span></a> to access the digital version of your card, or the cashier can look up your account using your mobile phone number. </p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-chiptopia faq_item">
+
+          <h3>Chiptopia: Why am I receiving an 'Already Registered' message?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>A mobile phone number is needed in order to register a Chiptopia card, either physical or digital. If you're getting an "Already Registered" message, the phone number that you've entered is already associated with an existing Chiptopia account. Only one account can be created per unique telephone number. Please double-check the number entered.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-chiptopia faq_item">
+
+          <h3>Chiptopia: Having problems with your Chiptopia account or a question not listed here?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Please contact us at <a href="https://www.chipotle.com/email-us" target="_self"><span style="color:#DAA520">chipotle.com/email-us</span></a>.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-chiptopia faq_item">
+
+          <h3>Chiptopia: Can I use BOTH a physical CHIPTOPIA a digital CHIPTOPIA card?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>If you received a physical card first, the answer is yes. You can use whichever you like because they are both associated with the same member number. However, if you signed up for a digital card first, instead of picking up and registering a physical card from the restaurant, you will only be able to use the digital version.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-chiptopia faq_item">
+
+          <h3>Chiptopia: When does Chiptopia Summer Rewards begin?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Registration opens on July 1st at 12:00:01am EDT, and you can start earning rewards with your first purchase that day (so you should probably get to bed early the night before and set your alarm).</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-chiptopia faq_item">
+
+          <h3>Chiptopia: How long does CHIPTOPIA SUMMER REWARDS last?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>CHIPTOPIA SUMMER REWARDS ends September 30th, 2016, at 11:59:59 PDT. Rewards earned in September will expire 30 days later (other than Bonus Rewards, which have later expiration dates), but you'll no longer be able to earn rewards on your Chiptopia card after Sept 30th—although you may want to keep your card as a reminder of the most incredible summer ever.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-chiptopia faq_item">
+
+          <h3>Chiptopia: Do I need to register my CHIPTOPIA SUMMER REWARDS card?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Yes, you need to register the card you picked up at Chipotle in order to redeem any rewards you earn. You can register your card at <a href="../chiptopia.html" target="_self"><span style="color:#DAA520">chipotle.com/chiptopia</span></a>. No register, no rewards. Make registration a priority. Super important. </p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-chiptopia faq_item">
+
+          <h3>Chiptopia: What's a STATUS LEVEL and how do I achieve it?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>You need to achieve a STATUS LEVEL in order to earn most rewards. Status levels are achieved by making purchases of at least $6 before tax (and excluding alcohol and gift cards), but only once per day. For example, you need to purchase at least four entrées on four different days within the the same month to achieve MILD STATUS, which earns you a free entrée. Easy and awesome. Then, by coming more times that same month, you can earn even higher status levels and more free entrées. Still easy, more awesome. Learn about the reward levels by clicking <a href="http://www.chipotle.com/chiptopia" target="_self"><span style="color:#DAA520">here</span></a>.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-chiptopia faq_item">
+
+          <h3>Chiptopia: How do I earn Free Chips &amp; Guac for signing up?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>If you joined CHIPTOPIA SUMMER REWARDS and registered your card on <a href="../chiptopia.html" target="_self"><span style="color:#DAA520">chipotle.com/chiptopia</span></a> during the month of July, you will EARN your first reward of Free Chips &amp; Guac with your first qualifying purchase (of $6 or greater, before tax, excluding alcohol and gift cards). Then, when you make a qualifying purchase of $6 or more, you'll GET your free chips &amp; guac—you can't just get them on their own; like "hey, give me some free chips &amp; guac".</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-chiptopia faq_item">
+
+          <h3>Chiptopia: What qualifies as a visit?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>A single purchase with a total greater than $6 before tax qualifies as a visit. Alcohol and gift cards are excluded.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-chiptopia faq_item">
+
+          <h3>Chiptopia: Do multiple visits per day count towards my Chiptopia status?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>No. Each day you can only earn credit for a single purchase. </p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-chiptopia faq_item">
+
+          <h3>Chiptopia: Can I get credit for buying more than one entrée each day?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>No. Each day, only one entrée purchase counts toward your status level. For example, if you bought two entrées in one day — either by coming more than once, splitting the purchase of two entrées into two transactions, sharing your card with a friend, or whatever — you would only get credit for purchasing one entrée that day.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-chiptopia faq_item">
+
+          <h3>Chiptopia: When I redeem CHIPTOPIA rewards, do they count as a purchase?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Yes! You can redeem entrée rewards earned in Chiptopia to help you achieve the next level. For example, when you earn a free entrée for achieving MILD STATUS, you can redeem that reward and it will count as a purchase on your way to achieving MEDIUM STATUS (as long as you redeem it in the same month you earned MILD STATUS). But just like any qualifying purchase for Chiptopia, you can only have one per day, even if it's your free reward.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-chiptopia faq_item">
+
+          <h3>Chiptopia: Will other (non-CHIPTOPIA) offers or coupons from Chipotle count as CHIPTOPIA purchases?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>No. Other offers from Chipotle cannot be combined with CHIPTOPIA SUMMER REWARDS. For example, if you have an offer for a free burrito that you received in the mail, when you redeem that offer it will NOT count as a purchase toward the next status level.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-chiptopia faq_item">
+
+          <h3>Chiptopia: Do entrées purchased online or with the Chipotle mobile ordering app count as purchases for CHIPTOPIA SUMMER REWARDS?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Yes, but only if you select the “In-Store” payment method; then at the time of pick-up have your card swiped, your digital barcode scanned, or provide you mobile number, as you would with any transaction.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-chiptopia faq_item">
+
+          <h3>Chiptopia: Do entrées ordered through one of your delivery partners, like Postmates, count as purchases for CHIPTOPIA SUMMER REWARDS?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>No. Since your payment is indirect with delivery partners and not in-restaurant, we’re unable to swipe/scan your card.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-chiptopia faq_item">
+
+          <h3>Chiptopia: Does a Burritos by the Box or Catering Order count as an entrée purchase?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Yes. If you happen to be ordering for a large group, you can also earn Chiptopia credit for yourself that day. But even if you’re ordering 20 Burritos by the Box, or Catering for 200, it’s only going to count as a single purchase for that day. </p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-chiptopia faq_item">
+
+          <h3>Chiptopia: Does the status I earn one month carry over to the next month?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Nope. Status resets at the beginning of each month. You must achieve your status again each of the three months during CHIPTOPIA SUMMER REWARDS if you are looking to score a Bonus Reward at the end of the promotion. For example, if you achieve MEDIUM status in July, you’ll need to start over in August and and first earn MILD and then earn MEDIUM, just like you did in July. Then do the same in September. </p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-chiptopia faq_item">
+
+          <h3>Chiptopia: What if I come more than the 11 times it takes to achieve HOT STATUS in one month, do my extra visits roll over into the next month?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>That would be amazing, but no. Each month, your purchases reset to zero for that month. For example, if you have 15 visits in July, even though only 11 were needed to achieve HOT STATUS, the four extra visits will not count toward August. But it would still be amazing.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-chiptopia faq_item">
+
+          <h3>Chiptopia: How do I redeem a reward?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Chiptopia rewards can only be redeemed in-restaurant. To redeem your reward, order the item you've earned and present your Chiptopia card to the cashier to swipe or scan at the register. Your reward will be automatically redeemed at the register. Easy peasy.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-chiptopia faq_item">
+
+          <h3>Chiptopia: How long do I have to redeem my rewards?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Rewards earned in <span style="color:#FF0000">July, August, and September</span> expire 30 days after they’re earned. Bonus Rewards expire December 31, 2016 (except the Chipotle Catering for 20 Bonus Reward earned by achieving HOT status in all three months – that expires March 31, 2017).  So don’t dawdle. </p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-chiptopia faq_item">
+
+          <h3>Chiptopia: Can I choose when to redeem my rewards?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Yes, as long as you redeem them prior to their expiration, you can choose when to redeem them. But you can only redeem one entrée reward each day. And remember, you can use your rewards to help you achieve the next status level because when you redeem them, they count as a visit.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-chiptopia faq_item">
+
+          <h3>Chiptopia: What is a BONUS REWARD?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>BONUS REWARDS are extra rewards you can earn if you achieve one of the status levels (MILD, MEDIUM, or HOT) across all three months: July, August AND September. Learn about the BONUS REWARDS you can earn at <a href="../chiptopia.html" target="_self"><span style="color:#DAA520">chipotle.com/chiptopia</span></a>.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-chiptopia faq_item">
+
+          <h3>Chiptopia: How do I qualify to earn a BONUS REWARD?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>In order to qualify for the Bonus Rewards, you need to achieve at least MILD, MEDIUM or HOT status EACH MONTH in July, August AND September. For example, if you achieve MILD status each month, you will earn the MILD BONUS REWARD which is an additional free entrée. If you earn HOT status each month, you will earn the Catering for 20 reward. That, would be awesome.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-chiptopia faq_item">
+
+          <h3>Chiptopia: How do I redeem a BONUS REWARD?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>If you qualify for Bonus Rewards at the end of Chiptopia, it will appear in the My Rewards module in your account at <a href="../chiptopia.html" target="_self"><span style="color:#DAA520">chipotle.com/chiptopia</span></a>. If you’ve achieved a MILD Bonus Reward (a FREE entrée), you’ll redeem your reward by presenting your Chiptopia card to be swiped or scanned at the time of checkout. If you’ve achieved a MEDIUM Bonus Reward ($20 credit for Chipotle gear), you’ll enter your Chiptopia member card number as a promo code at checkout on store.chipotle.com. If you’ve achieved a HOT Bonus Reward (Catering for 20: Burritos by the Box, The Two Meat Spread, or The Big Spread), you’ll redeem your reward by presenting your Chiptopia card to be swiped or scanned at the time of checkout when you pick up your catering order. To redeem a catering Bonus Reward and as with all catering orders, we suggest that you order at least 7 days in advance.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-chiptopia faq_item">
+
+          <h3>Chiptopia: If I earn different status levels each of the three months, which BONUS REWARD do I earn?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>If you earn a status level each of the three months but they are different levels, you qualify for the reward equal to the LOWEST status level you achieve in any one month. For example, if in July and August you earn MEDIUM STATUS, but in September you earn MILD STATUS, you will qualify for the MILD BONUS REWARD.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-chiptopia faq_item">
+
+          <h3>Chiptopia: If I earn HOT STATUS each of the three months, and earn the HOT BONUS REWARD, do I also get the MEDIUM and MILD BONUS REWARDS?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>No. You earn only the reward at the BONUS REWARD level you achieved (but nice try).</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-chiptopia faq_item">
+
+          <h3>Chiptopia: If I achieve HOT status, am I able to choose rewards from lesser status levels instead?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>No. And why on earth would you want to do that? You earn only the reward at the BONUS REWARD level you achieved. So, have a party.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-chiptopia faq_item">
+
+          <h3>Chiptopia: What's up with all the messages on my Chiptopia receipt?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>We've created a handy visual guide to your Chiptopia receipts at <a href="http://www.chipotle.com/chiptopia-receipts">chipotle.com/chiptopia-receipts</a>.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-chiptopia faq_item">
+
+          <h3>Chiptopia: What do I do if my card isn’t scanned at the time of purchase?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Doh! Sorry we forgot to scan your card. There isn't a way for customers to add their own visits online (because you can just imagine what that would lead to), but our Customer Service team can help. Please click <a href="http://www.chipotle.com/email-us#comments-questions" target="_self"><span style="color:#DAA520">here</span></a> to share your full name and 14-digit card number, as well as the restaurant address, date, time, and total of the transaction. They can dig-in to our systems and connect the dots in order to credit your account for the visit.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-chiptopia faq_item">
+
+          <h3>Chiptopia: Why do you need my mobile number?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>We only ask for your mobile number so that we can connect you to your account in case you don't have access to your plastic or digital Chiptopia cards. We do not share any personal information with anyone, ever. We sell burritos, not phone lists.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-chiptopia faq_item">
+
+          <h3>Chiptopia: Can I use a free burrito reward from a previous month for the first status-qualifying burrito of the next month?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>YES! You can cleverly roll your reward from one month over to the next to start you on your way to achieving the next month's status.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-chiptopia faq_item">
+
+          <h3>Chiptopia: Once I’ve hit HOT status, what happens? Do I get more credit? Does my receipt show my additional visits?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Once you've hit HOT status, you get another free burrito, and you're totally awesome. Other than that, you won't get more credit for additional visits, but you'll be completely prepared to crush it the next month and hit HOT status again, on your way to the big bonus reward.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-chiptopia faq_item">
+
+          <h3>Chiptopia: Where can I find what Bonus Reward I have earned?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            You can check to see what Bonus Reward you have earned starting at 9:00am EST on October 1, 2016. You can use the same page where  you’ve been checking your progress for Chiptopia—<a href="http://chipotle.com/faq/www.chipotle.com/chiptopia" target="_self"><span style="color:#DAA520">www.chipotle.com/chiptopia</span></a> or feel free to visit any US Chipotle restaurant.
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-chiptopia faq_item">
+
+          <h3>Chiptopia: How do I redeem my Mild Bonus Reward?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            You can redeem your MILD Bonus Reward of one FREE entree at any Chipotle restaurant (awesome). Please just present your Chiptopia card at the time of payment.  
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-chiptopia faq_item">
+
+          <h3>Chiptopia: How do I redeem my Medium Bonus Reward?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            To redeem your MEDIUM Bonus reward, please visit our gear store at Store.chipotle.com to choose the merchandise you’d like, and enter your Chiptopia number as the promo code prior to checkout. Your reward is good for up to $20 in merchandise, shipping, handling and tax (awesomer) If your total purchase exceeds $20, you will need to cover the remaining balance along with any shipping and handling fees. If you have a physical card, your Chiptopia number is located on the back of your card. If you do not have a physical card, login in to your account at <a href="http://chipotle.com/faq/www.chipotle.com/chiptopia" target="_self"><span style="color:#DAA520">www.chipotle.com/chiptopia</span></a> to look up your Chiptopia account number.
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-chiptopia faq_item">
+
+          <h3>Chiptopia: How do I redeem my Hot Bonus Reward?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            You can claim your HOT Bonus Reward of Catering for 20 (Burritos by the Box, The Two Meat Spread, or The Big Spread) by calling 1-800-CHIPOTLE and placing your order. When you go in to pick up your order at the restaurant you selected, just go straight to the register and simply present your Chiptopia card. The cashier will swipe / scan your Chiptopia card and you’ll be walking out with the awesomerest reward of all.
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-chiptopia faq_item">
+
+          <h3>Chiptopia: When will I be able to receive my Bonus Reward?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Chiptopia ends at 11:59:59 PDT on September 30, 2016. Bonus Rewards will be available starting October 1 at 9am EDT.  </p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-chiptopia faq_item">
+
+          <h3>Chiptopia: When does my Bonus Reward expire?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>The bonus rewards for Mild and Medium expire on December 31, 2016, so don’t dawdle. The bonus reward for Hot expires on March 31, 2017, so you should have time enough to plan your party.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-chiptopia faq_item">
+
+          <h3>Chiptopia: I’ve received the Medium Bonus Reward, can I order merchandise on the Gear Store that is more than $20?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>You sure can! Think of it as Chipotle cash: add as much to your shopping cart as you’d like and we’ll pick up $20 of your tab. If your total purchase (including tax, shipping and handling) exceeds $20, you will need to cover the remaining balance.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-chiptopia faq_item">
+
+          <h3>Chiptopia: Can I switch my Bonus Reward for another reward?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            Unfortunately, not. If you’ve achieved Medium, your reward will be the Medium reward.
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-chiptopia faq_item">
+
+          <h3>Chiptopia: I have a Chiptopia card and used it but haven’t registered it. Can I still register after September 30?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Registration ends on September 30, 2016 at 11:59:59 PDT. You cannot register your card after then, so endeavor to do it before then or you’ll be out of luck.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-chiptopia faq_item">
+
+          <h3>Chiptopia: I received the Hot Bonus Reward, can I choose between Catering for 20 and Burritos by the Box?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>If Catering for 20 is your Bonus Reward, you have the choice of Burritos by the Box, The Two Meat Spread, or The Big Spread. So pick whichever option works best for you, then go ahead and order that. In some areas, we offer limited Catering, so Burritos by the Box is the only option.</p>
+
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-chiptopia faq_item">
+
+          <h3>Chiptopia: If I've achieved HOT Bonus Reward (FREE Catering for 20), how do I best redeem my delicious, awesomerest reward?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            Start by checking your My Rewards section in your account at <a href="../chiptopia.html">chipotle.com/chiptopia</a> to confirm the status of your reward. Then just visit <a href="http://www.chipotle.com/catering">www.chipotle.com/catering</a> for Chipotle Catering details, including what options are available for your area. When you're ready to order, call 1-800-Chipotle to place your order at least 24-hours in advance of your event or party—however we suggest that you order at least 7 days in advance when possible. Then, when you come in to pick up your catering at the location listed on your catering order confirmation, just present your Chiptopia card to be swiped or scanned at the time of checkout.  It's that easy, and so very delicious.
+          </div>
+        </article>
+        <article class="faq-question js-faqQuestion cc-all cc-chiptopia faq_item">
+
+          <h3>CHIPTOPIA: How do I redeem my bonus rewards if I've lost or inadvertently thrown away my physical Chiptopia Card?</h3>
+
+
+          <div class="faq-question__answer js-faqAnswer">
+            <p>Don't despair. Just log in to your Chiptopia account to access your digital card. See? That was easy. If you have trouble logging in or have any issues with your bonus reward, contact Chipotle customer service by going to <a href="http://chipotle.com/email-us">chipotle.com/email-us</a>.</p>
+
+          </div>
+        </article>
+    </div>
+  </section>
+</div></div>
+<!-- / FAQ Placeholder -->
+
+        </div> <!-- / Container -->
+
+      </div> <!-- / Faq -->
+
+    </main> <!-- / Main -->
+
+    
+
+<footer class="section section--footer" data-language="en-us,en-ca,en-uk,fr-fr">
+
+
+  <div class="footer container">
+
+
+    <div class="Grid">
+
+      
+
+      <section class="Grid-cell u-sizeFull u-size1of2--md footer__connect">
+
+        <form id="email-opt-in" class="form footer__form" data-modal-id="email-opt-in-modal" data-service-url="/subscribers/email" data-language="en-us,en-ca,en-uk">
+
+          <legend class="h5 footer__title">Subscribe to our email</legend>
+
+          <div class="form__group footer__group--border">
+            <input type="text" name="email" class="input input--clear footer__input" placeholder="Enter your email address" data-key="email" aria-label="Enter your email address">
+          </div> <!-- .form group -->
+
+          <div class="form__group">
+            <button type="submit" class="button button--icon footer__button" aria-label="Subscribe to our email" value="submit"></button>
+            <div class="sk-spinner sk-spinner-three-bounce" style="display: none;">
+              <div class="one"></div>
+              <div class="two"></div>
+              <div class="three"></div>
+            </div>
+          </div> <!-- .form group -->
+
+          <div class="form__error">
+            <div class="arrow-up"></div>
+            <div class="message"></div>
+          </div>
+
+          <div class="form__group">
+            <div class="footer__rules">
+              <div class="checkbox__label">
+                <div class="placeholder reset" data-type="placeholder" data-marker_id="footer-email-rules"><div class="text-block-module" data-id="34" data-type="module" data-url-name="text_blocks">
+    <p>Enter your email address to receive future updates and newsletters from Chipotle. You can unsubscribe at any time. View <a href="http://chipotle.com/terms">Terms of Use</a> and <a href="http://chipotle.com/privacy-policy">Privacy Policy</a>.</p>
+
+</div></div> <!-- / Placeholder -->
+              </div>
+            </div>
+          </div> <!-- .form group -->
+
+        </form> <!-- .form -->
+
+
+        <form id="mobile-opt-in" class="form footer__form" data-modal-id="mobile-opt-in-modal" data-service-url="/subscribers/mobile" data-language="en-us,en-ca">
+
+          <legend class="h5 footer__title footer__title-no-padding">Subscribe to our mobile list</legend>
+
+          <div class="form__group footer__group--border">
+            <input type="text" class="input input--clear footer__input" name="mobile" placeholder="Enter your mobile number (U.S. only)" data-key="mobile" data-rule="only-numeric" aria-label="Enter your mobile number (U.S. only)">
+          </div> <!-- .form group -->
+
+          <div class="form__group">
+            <button type="submit" class="button button--icon footer__button" aria-label="Subscribe to our mobile list" value="submit"></button>
+            <div class="sk-spinner sk-spinner-three-bounce" style="display: none;">
+              <div class="one"></div>
+              <div class="two"></div>
+              <div class="three"></div>
+            </div>
+          </div> <!-- .form group -->
+
+          <div class="form__error">
+            <div class="arrow-up"></div>
+            <div class="message"></div>
+          </div>
+
+          <div class="form__group">
+            <div class="footer__rules">
+              <div class="checkbox__label">
+                <div class="placeholder reset" data-type="placeholder" data-marker_id="footer-mobile-rules"><div class="text-block-module" data-id="35" data-type="module" data-url-name="text_blocks">
+    <p>Enter your mobile number to receive Chipotle updates and offers via text. Recurring automated marketing messages will be sent to the mobile number provided. Consent is not a condition of purchase. Msg and data rates may apply. Text <strong>STOP</strong> to 888222. Text <strong>HELP </strong>for help. View <a href="http://chipotle.com/terms">Terms of Use</a> and <a href="http://chipotle.com/privacy-policy">Privacy Policy</a>.</p>
+
+</div></div> <!-- / Placeholder -->
+              </div>
+            </div>
+          </div> <!-- .form group -->
+
+        </form> <!-- .form -->
+
+
+        <h3 class="h5 footer__title footer__title-no-padding" data-language="en-us,en-ca,fr-fr,de-de">Stay Connected</h3>
+        
+
+
+        <ul class="list list--horizontal footer__social-media">
+
+          <li class="list__item footer__item">
+            <div class="placeholder" data-type="placeholder" data-marker_id="footer-social-1" data-image-width="60" data-image-height="60" data-allow-modules="image,link" data-edit-style="min-width: 82px; text-align: center; min-height: 45px;"><div class="image-module" data-id="22" data-type="module" data-url-name="images">
+    <div class="title">
+  
+</div>
+
+<div class="image">
+    <a href="https://facebook.com/chipotle" target="_blank"><img alt="Facebook" src="https://d5bzqyuki558t.cloudfront.net/cms-assets/system/asset_versions/attachments/000/000/156/original/Facebook.png?1428410673"></a>
+</div>
+
+
+</div></div> <!-- .placeholder -->
+          </li>
+
+          <li class="list__item footer__item">
+            <div class="placeholder" data-type="placeholder" data-marker_id="footer-social-2" data-image-width="60" data-image-height="60" data-allow-modules="image,link" data-edit-style="min-width: 82px; text-align: center; min-height: 45px;"><div class="image-module" data-id="23" data-type="module" data-url-name="images">
+    <div class="title">
+  
+</div>
+
+<div class="image">
+    <a href="https://twitter.com/chipotletweets" target="_blank"><img alt="Twitter" src="https://d5bzqyuki558t.cloudfront.net/cms-assets/system/asset_versions/attachments/000/000/159/original/Twitter.png?1428410690"></a>
+</div>
+
+
+</div></div> <!-- .placeholder -->
+          </li>
+
+          <li class="list__item footer__item">
+            <div class="placeholder" data-type="placeholder" data-marker_id="footer-social-3" data-image-width="60" data-image-height="60" data-allow-modules="image,link" data-edit-style="min-width: 82px; text-align: center; min-height: 45px;"><div class="image-module" data-id="50" data-type="module" data-url-name="images">
+    <div class="title">
+  
+</div>
+
+<div class="image">
+    <a href="https://instagram.com/chipotlemexicangrill" target="_blank"><img alt="Instagram" src="https://d5bzqyuki558t.cloudfront.net/cms-assets/system/asset_versions/attachments/000/001/855/original/CMG_InstaIcon.png?1464016350"></a>
+</div>
+
+
+</div></div> <!-- .placeholder -->
+          </li>
+
+          <li class="list__item footer__item">
+            <div class="placeholder" data-type="placeholder" data-marker_id="footer-social-4" data-image-width="60" data-image-height="60" data-allow-modules="image,link" data-edit-style="min-width: 82px; text-align: center; min-height: 45px;"><div class="image-module" data-id="51" data-type="module" data-url-name="images">
+    <div class="title">
+  
+</div>
+
+<div class="image">
+    <a href="https://plus.google.com/+chipotle/posts" target="_blank"><img alt="Google+" src="https://d5bzqyuki558t.cloudfront.net/cms-assets/system/asset_versions/attachments/000/000/157/original/GooglePlus.png?1428410678"></a>
+</div>
+
+
+</div></div> <!-- .placeholder -->
+          </li>
+
+          <li class="list__item footer__item">
+            <div class="placeholder" data-type="placeholder" data-marker_id="footer-social-5" data-image-width="60" data-image-height="60" data-allow-modules="image,link" data-edit-style="min-width: 82px; text-align: center; min-height: 45px;"><div class="image-module" data-id="52" data-type="module" data-url-name="images">
+    <div class="title">
+  
+</div>
+
+<div class="image">
+    <a href="https://www.youtube.com/user/chipotle" target="_blank"><img alt="YouTube" src="https://d5bzqyuki558t.cloudfront.net/cms-assets/system/asset_versions/attachments/000/000/155/original/Youtube.png?1428410667"></a>
+</div>
+
+
+</div></div> <!-- .placeholder -->
+          </li>
+
+          <li class="list__item footer__item">
+            <div class="placeholder" data-type="placeholder" data-marker_id="footer-social-6" data-image-width="60" data-image-height="60" data-allow-modules="image,link" data-edit-style="min-width: 82px; text-align: center; min-height: 45px;"><div class="image-module" data-id="53" data-type="module" data-url-name="images">
+    <div class="title">
+  
+</div>
+
+<div class="image">
+    <a href="https://www.pinterest.com/chipotlemg/" target="_blank"><img alt="Pinterest" src="https://d5bzqyuki558t.cloudfront.net/cms-assets/system/asset_versions/attachments/000/000/154/original/Pinterest.png?1428410659"></a>
+</div>
+
+
+</div></div> <!-- .placeholder -->
+          </li>
+
+          <li class="list__item footer__item">
+            <div class="placeholder" data-type="placeholder" data-marker_id="footer-social-7" data-image-width="60" data-image-height="60" data-allow-modules="image,link" data-edit-style="min-width: 82px; text-align: center; min-height: 45px;">
+            </div> <!-- .placeholder -->
+          </li>
+
+        </ul> <!-- .list -->
+
+        
+
+         
+
+
+      </section> <!-- .footer connect -->
+
+
+      <section class="Grid-cell u-sizeFull u-size1of2--md footer-find-chipotle">
+
+        <form method="post" class="form footer__form js-nearyou" action="http://chipotle.com/" data-language="en-us,en-ca,en-uk">
+
+          <legend class="h5 footer__title footer__title-no-padding-lt-md">Search for careers near you</legend>
+
+          <div class="form__group footer__group--border">
+            <input type="text" name="location" placeholder="Enter city, state or zip code" class="input input--clear footer__input js-nearyou-field" aria-label="Enter city, state or zip code">
+          </div> <!-- .form group -->
+
+          <div class="form__group">
+            <button class="button button--icon footer__button" type="submit" aria-label="Search for careers near you" value="submit"></button>
+          </div> <!-- .form group -->
+
+        </form> <!-- .form -->
+
+
+        <div class="Grid" data-language="en-us,en-ca">
+
+          <div class="Grid-cell u-size7of12 u-size1of3--sm">
+
+            <h3 class="h5 footer__title footer__title--padding">Our Other Sites</h3>
+
+            <ul class="list footer__list">
+
+              <li class="list__item footer__item">
+                <div data-marker_id="link-module-1" data-type="placeholder" data-allow="links" data-allow-modules="image,link"><div class="link-module" data-id="3" data-type="module" data-url_name="links">
+  <a href="http://chipotlecultivate.com" target="_blank">Cultivate Festival</a>
+</div></div>
+              </li>
+              <li class="list__item footer__item">
+                <div data-marker_id="link-module-2" data-type="placeholder" data-allow="links" data-allow-modules="image,link"><div class="link-module" data-id="4" data-type="module" data-url_name="links">
+  <a href="http://www.cultivatefoundation.org/" target="_blank">Cultivate Foundation</a>
+</div></div>
+              </li>
+              <li class="list__item footer__item">
+                <div data-marker_id="link-module-3" data-type="placeholder" data-allow="links" data-allow-modules="image,link"><div class="link-module" data-id="5" data-type="module" data-url_name="links">
+  <a href="http://store.chipotle.com/" target="_blank">The Chipotle Store</a>
+</div></div>
+              </li>
+              <li class="list__item footer__item">
+                <div data-marker_id="link-module-4" data-type="placeholder" data-allow="links" data-allow-modules="image,link"><div class="link-module" data-id="38" data-type="module" data-url_name="links">
+  <a href="../gift-cards.html" target="_self">Gift Cards</a>
+</div></div>
+              </li>
+              <li class="list__item footer__item">
+                <div data-marker_id="link-module-5" data-type="placeholder" data-allow="links" data-allow-modules="image,link"><div class="link-module" data-id="36" data-type="module" data-url_name="links">
+  <a href="http://www.shophousekitchen.com" target="_blank">ShopHouse Southeast Asian Kitchen</a>
+</div></div>
+              </li>
+              <li class="list__item footer__item">
+                <div data-marker_id="link-module-6" data-type="placeholder" data-allow="links" data-allow-modules="image,link"><div class="link-module" data-id="37" data-type="module" data-url_name="links">
+  <a href="http://www.pizzerialocale.com/denver.html" target="_blank">Pizzeria Locale</a>
+</div></div>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <div class="Grid-cell u-size5of12 u-size1of3--sm">
+
+            <h3 class="h5 footer__title footer__title--padding">About</h3>
+
+            <ul class="list footer__list">
+
+              <li class="list__item footer__item">
+                <div data-marker_id="link-module-7" data-type="placeholder" data-allow="links" data-allow-modules="image,link"><div class="link-module" data-id="7" data-type="module" data-url_name="links">
+  <a href="http://chipotle.com/company">Company</a>
+</div></div>
+              </li>
+
+              <li class="list__item footer__item">
+                <div data-marker_id="link-module-8" data-type="placeholder" data-allow="links" data-allow-modules="image,link"><div class="link-module" data-id="8" data-type="module" data-url_name="links">
+  <a href="http://ir.chipotle.com/" target="_blank">Investors</a>
+</div></div>
+              </li>
+
+              <li class="list__item footer__item">
+                <div data-marker_id="link-module-9" data-type="placeholder" data-allow="links" data-allow-modules="image,link"><div class="link-module" data-id="9" data-type="module" data-url_name="links">
+  <a href="http://careers.chipotle.com" target="_blank">Careers</a>
+</div></div>
+              </li>
+
+              <li class="list__item footer__item">
+                <div data-marker_id="link-module-10" data-type="placeholder" data-allow="links" data-allow-modules="image,link"><div class="link-module" data-id="10" data-type="module" data-url_name="links">
+  <a href="http://chipotle.com/transparency">California Transparency in Supply Chain Act</a>
+</div></div>
+              </li>
+
+              <li class="list__item footer__item">
+                <div data-marker_id="link-module-11" data-type="placeholder" data-allow="links" data-allow-modules="image,link"><div class="link-module" data-id="11" data-type="module" data-url_name="links">
+  <a href="http://chipotle.com/privacy-policy">Privacy Policy</a>
+</div></div>
+              </li>
+
+              <li class="list__item footer__item">
+                <div data-marker_id="link-module-12" data-type="placeholder" data-allow="links" data-allow-modules="image,link"><div class="link-module" data-id="436" data-type="module" data-url_name="links">
+    <a href="http://www.chipotle.com/terms" target="_self">Terms of Use</a>
+</div></div>
+              </li>
+
+            </ul> <!-- .footer list -->
+
+          </div>
+
+          <div class="Grid-cell u-size1of3--sm around_the_world">
+
+           <h3 class="h5 footer__title">Chipotle Around the World</h3>
+
+            <select class="select footer__select country-select" aria-label="Chipotle Around the World">
+              <option value="http://chipotle.com" data-locale="en-us">USA</option>
+              <option value="http://chipotle.ca" data-locale="en-ca">Canada</option>
+              <option value="http://chipotle.fr" data-locale="fr-fr">France</option>
+              <option value="http://chipotle.de" data-locale="de-de">Germany</option>
+              <option value="http://chipotle.co.uk" data-locale="en-uk">UK</option>
+            </select>
+
+            <small class="footer__disclaimer">&copy; 2016 Chipotle Mexican Grill <br> 1401 Wynkoop St. <br> Denver, CO 80202 <br> www.chipotle.com</small>
+          </div>
+
+        </div>
+
+        
+
+      </section> <!-- .find chipotle -->
+
+    </div> <!-- .grid -->
+
+    
+
+    
+
+
+  </div> <!-- .container -->
+
+</footer> <!-- .footer -->
+
+
+
+<div class="remodal remodal--fwi js-remodal-video" data-remodal-id="video-modal">
+
+  <a href="index.html#" class="icon-x remodal-cancel remodal__close" aria-label="close"></a>
+
+  <div class="remodal__inner">
+
+
+  </div> <!-- .modal inner -->
+
+</div> <!-- .modal -->
+
+<div class="remodal remodal--subscribe" data-remodal-id="email-opt-in-modal">
+
+  <a href="index.html#" class="remodal-cancel close-icon" aria-label="close"><i class="icon-x"></i></a>
+  <h2 class="remodal__title">Thank You</h2>
+
+  <div class="remodal__inner">
+    <p>You've taken the first step in subscribing to the Chipotle email list. You should receive an email from us shortly asking you to verify your email address. Please click the link in that email to complete your subscription.</p>
+
+    <div class="buttons">
+      <input type="button" class="button remodal-confirm" value="Close">
+    </div>
+  </div>
+
+</div>
+
+<div class="remodal remodal--subscribe" data-remodal-id="mobile-opt-in-modal">
+
+  <a href="index.html#" class="remodal-cancel close-icon" aria-label="close"><i class="icon-x"></i></a>
+  <h2 class="remodal__title">Thank You</h2>
+
+  <div class="remodal__inner">
+    <p><strong>Thanks for subscribing to Chipotle mobile updates.</strong></p>
+
+    <p>You will receive a text from us shortly asking you to confirm your mobile number. Please reply to this text to complete the process.</p>
+
+    <div class="buttons">
+      <input type="button" class="button remodal-confirm" value="OK">
+    </div>
+  </div>
+
+</div>
+
+<!-- modal unsubscribe confirmation -->
+<div class="remodal remodal--subscribe" data-remodal-id="opt-out-all-confirmation-modal">
+  <a href="index.html#" class="remodal-cancel close-icon" aria-label="close"><i class="icon-x"></i></a>
+  <h2 class="remodal__title">Unsubscribed</h2>
+  <div class="remodal__inner">
+    <p>Sorry to see you go. Your request to unsubscribe from all Chipotle promotional emails has been submitted.</p>
+    <p>If you change your mind and wish to re-subscribe to receive future updates and newsletters from Chipotle, simply enter your email address in the form below.</p>
+    <div class="buttons">
+      <input type="button" class="button remodal-confirm" value="Close">
+    </div>
+  </div>
+</div>
+
+
+
+    <script src="http://chipotle.com/themes/chipotle-demo-theme/js/application.js?v=10.6"></script>
+
+  <script type="text/javascript" data-cds-asset-relative_path="modules/faq.js" src="http://d5bzqyuki558t.cloudfront.net/cms-assets/modules/faq-ac44eedda274cb7faf01905fb7fe54f9c0b1ba832fcb37a4c6216b4e81dd3876.js">
+      </script>
+</body>
+</html>
