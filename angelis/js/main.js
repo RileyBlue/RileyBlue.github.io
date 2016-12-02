@@ -16,21 +16,27 @@ $(document).ready(function() {
 	$(document).scroll(function(){
 		scroll_pos = $(this).scrollTop();
 		if(scroll_pos > 750){
-			navbar.addClass('navbar-fixed-top');
-			navbar.css('margin-top', '0');
+			/*navbar.addClass('navbar-fixed-top');
+			navbar.css('margin-top', '0');*/
 			footer.css({
 				'display': 'block'
 			});
 			footer.addClass('navbar-fixed-bottom');
 		}
 		else {
-			navbar.removeClass('navbar-fixed-top');
-			navbar.css('margin-top', '-3rem');
+			/*navbar.removeClass('navbar-fixed-top');
+			navbar.css('margin-top', '-3rem');*/
 			footer.css({
 				'display': 'none'
 			});
 			footer.removeClass('navbar-fixed-bottom');
 		}
+	});
+
+	$(document).on('click','.navbar-collapse.in',function(e) {
+	    if( $(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle' ) {
+	        $(this).collapse('hide');
+	    }
 	});
 
 	arrowDown.on('click', function() {

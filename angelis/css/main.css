@@ -94,8 +94,13 @@ body {
     padding-bottom: 2rem;
     background-color: white;
     color: #193f8e;
+    font-weight: bold;
     text-transform: uppercase;
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    -ms-transition: all .5s ease-out;
     transition: all .5s ease-out;
+    font-size: 1.7rem;
 }
 
 .navbar-default .navbar-nav > li > .navigation--item:hover {
@@ -199,7 +204,7 @@ p.jumbotron--description {
 /* Contact */
 .layer-blue {
     width: 100%;
-    height: 100%;
+    height: 62rem;
     position: absolute;
     background: rgba(5,23,54,.6);
 }
@@ -208,7 +213,7 @@ p.jumbotron--description {
 	background: rgba(5,23,54,.9);
     background-image: url(../img/teatro.png);
     background-size: cover;
-    height: 64rem;
+    height: 62rem;
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -482,6 +487,26 @@ textarea {
   transition: all 400ms linear;
 }
 
+.panel-default>.panel-heading {
+  background: #051736;
+  color: #fff;
+}
+
+.panel-heading.panel-h.accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family:'Glyphicons Halflings';
+    /* essential for enabling glyphicon */
+    content:"\e114";
+    /* adjust as needed, taken from bootstrap.css */
+    float: right;
+    position: relative;
+    bottom: 23px;
+    font-size: 15pt;
+    /* adjust as needed */
+    color: #fff;
+    /* adjust as needed */
+}
+
 .panel-heading.accordion-toggle:after {
     /* symbol for "opening" panels */
     font-family:'Glyphicons Halflings';
@@ -552,6 +577,7 @@ textarea {
   background-size: initial;
   height: 34rem;
   background-position: 0 -79px;
+  border-top: 0;
 }
 
 .panel-default > .panel-heading + .panel-collapse > .panel-body.package-content2 {
@@ -655,10 +681,11 @@ source {
   margin: 30px auto;
 }
 
-#video{
- position: relative;
- background: rgba(9, 34, 105, 0.32);
- height: 100vh;
+#video {
+  position: relative;
+  background: rgba(9, 34, 105, 0.32);
+  height: 100vh;
+  margin-bottom: 0;
 }
 
 .ytplayer-container{
@@ -678,4 +705,123 @@ source {
 	.grid {
 		width: 100%;
 	}
+
+  #video,
+  .scroll_to_down {
+    display: none;
+  }
+
+  .brand > img {
+    width: 24rem;
+    margin: 0;
+  }
+
+  .brand-container {
+    width: 66%;
+    background: #051736;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .container-fluid.nav-container {
+    display: inline-block;
+    vertical-align: top;
+    width: 32%;
+    height: 9.2rem;
+  }
+
+  .navbar-default {
+    background: #051736;
+  }
+
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+  }
+
+  .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #051736;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: #fff;
+  }
+
+  .navbar-default .navbar-toggle {
+    border-color: #fff;
+    float: right;
+    margin: 0 auto;
+    left: -33px;
+    right: 0;
+    position: relative;
+    top: 3.1rem;
+  }
+
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    background: #fff;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 9.5rem;
+    height: 32rem;
+    padding-right: 0;
+    padding-left: 0;
+    margin-left: 0;
+    margin-right: 0;
+    z-index: 2;
+  }
+
+  .navbar-default .navbar-nav > li > .navigation--item {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .navbar-nav {
+    height: 24rem;
+  }
+
+  ul.nav.navbar-nav.navbar-right {
+    height: auto;
+    text-align: center;
+  }
+
+  ul.nav.navbar-nav.navbar-right li {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20%;
+    text-align: center;
+    padding: 0;
+  }
+
+  ul.nav.navbar-nav.navbar-right li a {
+    padding-right: 0;
+  }
+  .m-container,
+  .m-row,
+  .col-m-md {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .panel-default>.panel-heading.package-title1, 
+  .panel-default>.panel-heading.package-title2, 
+  .panel-default>.panel-heading.package-title3, 
+  .panel-default>.panel-heading.package-title4, 
+  .panel-default>.panel-heading.package-title5 {
+    height: 8rem;
+    background-position: -174px -7px;
+  }
+
+  .panel-default > .panel-heading + .panel-collapse > .panel-body.package-content1, 
+  .panel-default > .panel-heading + .panel-collapse > .panel-body.package-content2, 
+  .panel-default > .panel-heading + .panel-collapse > .panel-body.package-content3, 
+  .panel-default > .panel-heading + .panel-collapse > .panel-body.package-content4, 
+  .panel-default > .panel-heading + .panel-collapse > .panel-body.package-content5 {
+    background-position: -33px -79px;
+  }
+
+  .payment {
+    padding: 1rem 3rem;
+    text-align: center;
+  }
 }
