@@ -179,6 +179,7 @@ p.jumbotron--description {
     text-align: center;
     width: 70%;
     margin: 0rem auto 3rem auto;
+    display: none;
 }
 
 .services--item__title {
@@ -291,7 +292,7 @@ textarea {
     padding-bottom: 0;
     background: rgba(5,23,54,.85);
     color: white;
-    padding: 1.5rem 0 2.3rem 0;
+    padding: 0.5rem 0 1.3rem 0;
 
 }
 
@@ -688,10 +689,122 @@ source {
   margin-bottom: 0;
 }
 
-.ytplayer-container{
+.ytplayer-container {
  position: absolute;
  top: 0;
  z-index: -1;
+}
+
+.gallery--desktop {
+  display: block;
+}
+
+.gallery--mobile {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .modal-dialog {
+      width: 70%;
+      margin: 30px auto;
+  }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {  
+  .panel-default>.panel-heading.package-title1 {
+    background-image: url(../img/products/paquete1-m.png);
+    background-repeat: no-repeat;
+    background-position: 0 -15px;
+    background-size: cover;
+    height: 12rem;
+  }
+
+
+  .panel-default>.panel-heading.package-title2 {
+    background-image: url(../img/products/paquete2-m.png);
+    background-repeat: no-repeat;
+    background-position: 0 -15px;
+    background-size: cover;
+    height: 12rem;
+  }
+
+  .panel-default>.panel-heading.package-title3 {
+    background-image: url(../img/products/paquete3-m.png);
+    background-repeat: no-repeat;
+    background-position: 0 -15px;
+    background-size: cover;
+    height: 12rem;
+  }
+
+  .panel-default>.panel-heading.package-title4 {
+    background-image: url(../img/products/paquete4-m.png);
+    background-repeat: no-repeat;
+    background-position: 0 -15px;
+    background-size: cover;
+    height: 12rem;
+  }
+
+  .panel-default>.panel-heading.package-title5 {
+    background-image: url(../img/products/paquete5-m.png);
+    background-repeat: no-repeat;
+    background-position: 0 -15px;
+    background-size: cover;
+    height: 12rem;
+  }
+
+  .panel-default > .panel-heading + .panel-collapse > .panel-body.package-content1,
+  .panel-default > .panel-heading + .panel-collapse > .panel-body.package-content2,
+  .panel-default > .panel-heading + .panel-collapse > .panel-body.package-content3,
+  .panel-default > .panel-heading + .panel-collapse > .panel-body.package-content4,
+  .panel-default > .panel-heading + .panel-collapse > .panel-body.package-content5 {
+    background-image: url(../img/products/paquete1-m.png);
+    background-repeat: no-repeat;
+    height: 64rem;
+    background-position: 0px -134px;
+    background-size: cover;
+  }
+
+  .panel-default > .panel-heading + .panel-collapse > .panel-body.package-content2 {
+    background-image: url(../img/products/paquete2-m.png);
+    background-repeat: no-repeat;
+  }
+
+  .panel-default > .panel-heading + .panel-collapse > .panel-body.package-content3 {
+    background-image: url(../img/products/paquete3-m.png);
+    background-repeat: no-repeat;
+  }
+
+  .panel-default > .panel-heading + .panel-collapse > .panel-body.package-content4 {
+    background-image: url(../img/products/paquete4-m.png);
+    background-repeat: no-repeat;
+  }
+
+  .panel-default > .panel-heading + .panel-collapse > .panel-body.package-content5 {
+    background-image: url(../img/products/paquete5-m.png);
+    background-repeat: no-repeat;
+  }
+
+  .layer-blue,
+  .contact--container {
+    height: 100rem;
+  }
+
+  #video, 
+  .scroll_to_down {
+    display: none;
+  }
+
+  .payment {
+    text-align: center;
+  }
+
+  .gallery--mobile {
+    display: none;
+  }
+
+  .gallery--desktop {
+    display: block;
+  }
 }
 
 
@@ -713,7 +826,7 @@ source {
 
   .brand > img {
     width: 24rem;
-    margin: 0;
+    margin: 0 4rem;
   }
 
   .brand-container {
@@ -824,4 +937,145 @@ source {
     padding: 1rem 3rem;
     text-align: center;
   }
+
+  .social--container li {
+    width: 23%;
+  }
+
+  .cards {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .contact--info__list li {
+    width: 100%;
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .contact--info__list li:last-child {
+    width: 100%;
+    padding: 0.5rem 0 0 0;
+    text-align: center;
+  }
+  
+  .panel-default>.panel-heading.package-title1 {
+    background-image: url(../img/products/paquete1-m.png);
+    background-repeat: no-repeat;
+    background-position: 0 -15px;
+    background-size: cover;
+  }
+
+
+  .panel-default>.panel-heading.package-title2 {
+    background-image: url(../img/products/paquete2-m.png);
+    background-repeat: no-repeat;
+    background-position: 0 -15px;
+    background-size: cover;
+  }
+
+  .panel-default>.panel-heading.package-title3 {
+    background-image: url(../img/products/paquete3-m.png);
+    background-repeat: no-repeat;
+    background-position: 0 -15px;
+    background-size: cover;
+  }
+
+  .panel-default>.panel-heading.package-title4 {
+    background-image: url(../img/products/paquete4-m.png);
+    background-repeat: no-repeat;
+    background-position: 0 -15px;
+    background-size: cover;
+  }
+
+  .panel-default>.panel-heading.package-title5 {
+    background-image: url(../img/products/paquete5-m.png);
+    background-repeat: no-repeat;
+    background-position: 0 -15px;
+    background-size: cover;
+  }
+
+  .panel-heading.accordion-toggle.collapsed:after,
+  .panel-heading.accordion-toggle:after {
+    display: none;
+  }
+
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .panel-default > .panel-heading + .panel-collapse > .panel-body.package-content1,
+  .panel-default > .panel-heading + .panel-collapse > .panel-body.package-content2,
+  .panel-default > .panel-heading + .panel-collapse > .panel-body.package-content3,
+  .panel-default > .panel-heading + .panel-collapse > .panel-body.package-content4,
+  .panel-default > .panel-heading + .panel-collapse > .panel-body.package-content5 {
+    background-image: url(../img/products/paquete1-m.png);
+    background-repeat: no-repeat;
+    height: 37rem;
+    background-position: -2px -82px;
+    background-size: cover;
+  }
+
+  .panel-default > .panel-heading + .panel-collapse > .panel-body.package-content2 {
+    background-image: url(../img/products/paquete2-m.png);
+    background-repeat: no-repeat;
+  }
+
+  .panel-default > .panel-heading + .panel-collapse > .panel-body.package-content3 {
+    background-image: url(../img/products/paquete3-m.png);
+    background-repeat: no-repeat;
+  }
+
+  .panel-default > .panel-heading + .panel-collapse > .panel-body.package-content4 {
+    background-image: url(../img/products/paquete4-m.png);
+    background-repeat: no-repeat;
+  }
+
+  .panel-default > .panel-heading + .panel-collapse > .panel-body.package-content5 {
+    background-image: url(../img/products/paquete5-m.png);
+    background-repeat: no-repeat;
+  }
+  
+  .contact--container {
+    height: 119.5rem;
+  }
+  
+  .layer-blue {
+    height: 119.5rem;
+  }
+
+  .gallery--desktop {
+    display: none;
+  }
+
+  .gallery--mobile {
+    display: block;
+  }
+  
+}
+
+
+@media all and (min-width: 320px) and (max-width: 570px) { 
+  .panel-default>.panel-heading.package-title1,
+  .panel-default>.panel-heading.package-title2,
+  .panel-default>.panel-heading.package-title3,
+  .panel-default>.panel-heading.package-title4,
+  .panel-default>.panel-heading.package-title5 {
+    background-position: 0 0;
+    background-size: cover;
+  }
+
+  .contact--container,
+  .layer-blue {
+    height: 127.5rem;
+  }
+
+  .gallery--desktop {
+    display: none;
+  }
+
+  .gallery--mobile {
+    display: block;
+  } 
 }
