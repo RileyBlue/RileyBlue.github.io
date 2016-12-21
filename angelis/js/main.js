@@ -48,15 +48,15 @@ $(document).ready(function() {
 	});
 
 	galleryLink.on('click', function() {
-		$('body').animate({ scrollTop: 1300}, 'slow');
+		$('body').animate({ scrollTop: 1200}, 'slow');
 	});
 
 	faqLink.on('click', function() {
-		$('body').animate({ scrollTop: 2110}, 'slow');
+		$('body').animate({ scrollTop: 2010}, 'slow');
 	});	
 
 	contactLink.on('click', function() {
-		$('body').animate({ scrollTop: 2700}, 'slow');
+		$('body').animate({ scrollTop: 2500}, 'slow');
 	});	
 
 	$('.grid').masonry({
