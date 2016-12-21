@@ -44,7 +44,7 @@ $(document).ready(function() {
 	});
 
 	servicesLink.on('click', function() {
-		$('body').animate({ scrollTop: 700}, 'slow');
+		$('body').animate({ scrollTop: 550}, 'slow');
 	});
 
 	galleryLink.on('click', function() {
