@@ -703,6 +703,11 @@ source {
   display: none;
 }
 
+.row-mobile {
+  display: none;
+}
+
+
 @media (min-width: 768px) {
   .modal-dialog {
       width: 70%;
@@ -812,6 +817,20 @@ source {
 	.grid-item {  
 		width: 100%;
 	}
+
+  .row-mobile {
+    display: block;
+  }
+
+  .jumbotron--title, .jumbotron--description {
+    text-align: center;
+    color: #5f615e;
+  }
+
+  .btn.btn-default.btn-send {
+    margin: .5rem auto 2.5rem auto;
+  }
+
 	.grid-item img {
 		width: 100%;
 	}
@@ -862,7 +881,8 @@ source {
     border-color: #fff;
     float: right;
     margin: 0 auto;
-    left: -33px;
+    /*left: -33px; */
+    left: -11px;
     right: 0;
     position: relative;
     top: 3.1rem;
@@ -1064,6 +1084,28 @@ source {
   .panel-default>.panel-heading.package-title5 {
     background-position: 0 0;
     background-size: cover;
+  }
+
+  .row-mobile {
+    display: block;
+  }
+
+  .jumbotron--title, .jumbotron--description {
+    text-align: center;
+    color: #5f615e;
+  }
+
+  .row-mobile {
+    display: block;
+  }
+
+  .jumbotron--title, .jumbotron--description {
+    text-align: center;
+    color: #5f615e;
+  }
+
+  .btn.btn-default.btn-send {
+    margin: .5rem auto 2.5rem auto;
   }
 
   .contact--container,
