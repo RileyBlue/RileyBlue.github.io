@@ -810,6 +810,10 @@ source {
   .gallery--desktop {
     display: block;
   }
+
+  .navbar-fixed-top {
+    margin-top: 0;
+  }
 }
 
 
@@ -1072,6 +1076,10 @@ source {
   .gallery--mobile {
     display: block;
   }
+
+  .navbar-fixed-top {
+    margin-top: 0;
+  }
   
 }
 
@@ -1084,6 +1092,10 @@ source {
   .panel-default>.panel-heading.package-title5 {
     background-position: 0 0;
     background-size: cover;
+  }
+
+  .navbar-fixed-top {
+    margin-top: 0;
   }
 
   .row-mobile {
