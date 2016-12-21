@@ -1088,6 +1088,12 @@ source {
   .navbar-fixed-top {
     margin-top: 0;
   }
+
+  .payment {
+    padding: 1rem 3rem;
+    text-align: center;
+    display: none;
+  }
   
 }
 
@@ -1140,4 +1146,10 @@ source {
   .gallery--mobile {
     display: block;
   } 
+
+  .payment {
+    padding: 1rem 3rem;
+    text-align: center;
+    display: none;
+  }
 }
