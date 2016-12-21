@@ -822,6 +822,16 @@ source {
 		width: 100%;
 	}
 
+  .cards::before {
+    content: 'Aceptamos:';
+    position: relative;
+    top: .2rem;
+  }
+
+  .cards-mobile {
+    position: relative;
+  }
+
   .row-mobile {
     display: block;
   }
@@ -1111,7 +1121,13 @@ source {
     background-position: 0 0;
     background-size: cover;
   }
-
+  
+  .cards::before {
+    content: 'Aceptamos:';
+    position: relative;
+    top: .2rem;
+  }
+  
   .navbar-fixed-top {
     margin-top: 0;
   }
