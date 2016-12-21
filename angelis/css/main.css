@@ -848,8 +848,14 @@ source {
   }
 
   .brand > img {
-    width: 24rem;
-    margin: 0 4rem;
+    width: 18rem;
+    margin: 0 5rem;
+    padding-top: .2rem;
+  }
+
+  .navbar-fixed-top {
+    margin-top: 0;
+    height: 8rem;
   }
 
   .brand-container {
@@ -889,7 +895,9 @@ source {
     left: -11px;
     right: 0;
     position: relative;
-    top: 3.1rem;
+    /*top: 3.1rem;*/
+    top: 2.6rem;
+    left: -14px;
   }
 
   .navbar-default .navbar-collapse, .navbar-default .navbar-form {
