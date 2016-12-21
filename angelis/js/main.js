@@ -15,7 +15,7 @@ $(document).ready(function() {
 	var scroll_pos = 0;
 	$(document).scroll(function(){
 		scroll_pos = $(this).scrollTop();
-		if(scroll_pos > 850){
+		if(scroll_pos > 500){
 			navbar.addClass('navbar-fixed-top');
 			navbar.css('margin-top', '0');
 			footer.css({
