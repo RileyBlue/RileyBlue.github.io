@@ -40,7 +40,7 @@ $(document).ready(function() {
 	});
 
 	arrowDown.on('click', function() {
-		$('body').animate({ scrollTop: 650}, 'slow');
+		$('body').animate({ scrollTop: 550}, 'slow');
 	});
 
 	servicesLink.on('click', function() {
