@@ -62,19 +62,19 @@ $(document).ready(function() {
 			}
 		});
 		servicesLink.on('click', function() {
-			$('body').animate({ scrollTop: 470}, 'slow');
+			$('body').animate({ scrollTop: 380}, 'slow');
 		});
 
 		galleryLink.on('click', function() {
-			$('body').animate({ scrollTop: 1090}, 'slow');
+			$('body').animate({ scrollTop: 990}, 'slow');
 		});
 
 		faqLink.on('click', function() {
-			$('body').animate({ scrollTop: 3060}, 'slow');
+			$('body').animate({ scrollTop: 2980}, 'slow');
 		});	
 
 		contactLink.on('click', function() {
-			$('body').animate({ scrollTop: 3580}, 'slow');
+			$('body').animate({ scrollTop: 3470}, 'slow');
 		});	
 	} else {
 	  	arrowDown.on('click', function() {
