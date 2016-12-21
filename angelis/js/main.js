@@ -25,7 +25,7 @@ $(document).ready(function() {
 		}
 		else {
 			navbar.removeClass('navbar-fixed-top');
-			navbar.css('margin-top', '-3rem');
+			/*navbar.css('margin-top', '-3rem');*/
 			footer.css({
 				'display': 'none'
 			});
