@@ -44,7 +44,7 @@
 /* 0 */
 /***/ function(module, exports) {
 
-	document.write("Welcome to Big Haird Concerts!");
+	document.write("Welcome to Big Hair Concerts!");
 
 	console.log('App loaded');
 
