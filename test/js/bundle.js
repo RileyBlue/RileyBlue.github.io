@@ -42,12 +42,40 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(1);
+	module.exports = __webpack_require__(2);
+
+
+/***/ },
+/* 1 */
 /***/ function(module, exports) {
 
-	document.write("Welcome to Big Hair Concerts!");
+	// This is global JS provided to all Apps.
 
-	console.log('App loaded');
 
+
+/***/ },
+/* 2 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(3);
+
+	document.write('Welcome to Big Hair Concerts!');
+
+
+
+
+/***/ },
+/* 3 */
+/***/ function(module, exports) {
+
+	let login = (username, password) => {
+		if (username !== 'admin' || password !== 'radical') {}
+	};
+
+	login('admin', 'idunno');
 
 /***/ }
 /******/ ]);
