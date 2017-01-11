@@ -1,0 +1,28 @@
+.body {
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+//base configutation for constants
+$font-size = 16px
+$color-text = #6d6d6d
+//base configuration for elements
+$link-color = $color-text
+
+prefix(prop, args) {
+    -webkit-{prop}: args;
+    -moz-{prop}: args;
+    -ms-{prop} args;
+    -o-{prop}: args;
+    {prop}: args;
+}
+
+transition-all(n) {
+	-webkit-transition: all n ease;
+	-moz-transition: all n ease;
+	-ms-transition: all n ease;
+	-o-transition: all n ease;
+	transition: all n ease;	
+}
+
