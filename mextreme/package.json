@@ -9,6 +9,7 @@
   "author": "Ohm Sainz <o.sainz89@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "bootstrap": "^3.3.7"
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1"
   }
 }
