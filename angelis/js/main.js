@@ -11,7 +11,26 @@ var contact      = $('#contact');
 var contactLink  = $('#contactLink');
 
 $(document).ready(function() {
-	console.log('Hello World');
+	audioPlayer();
+
+	function audioPlayer() {
+		var currentSong = 0;
+		$('#audioPlayer')[0].src = $("#playlist li a")[0];
+		$('#audioPlayer')[0].play();
+		$('#playlist li a').click(function(e) {
+			e.preventDefault();
+			$('#audioPlayer')[0].src = this;
+			$('#audioPlayer')[0].play();
+			$('#playlist li').removeClass('current-song');
+			currentSong = $(this).parent().index();
+			$(this).parent().addClass('current-song')
+		});
+
+		$('#audioPlayer')[0].addEventListener('ended', function(){
+			alert('Hi');
+		});
+	}
+
 	var scroll_pos = 0;
 	$(document).scroll(function(){
 		scroll_pos = $(this).scrollTop();

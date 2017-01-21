@@ -47,6 +47,29 @@ body {
   font-family: 'HelveticaNeueLight', Verdana, Arial;
 }
 
+.audio-container {
+    margin: 0 auto;
+    width: 54%;
+    background: #fafafa;
+    border: 1px solid #b1b0b0;
+}
+
+ul#playlist {
+    list-style: none;
+    background: #051736;
+    padding-left: 0;
+}
+
+#playlist li {
+    padding: .5rem 3rem;
+}
+
+ul#playlist li a {
+    text-decoration: none;
+    color: #fafafa;
+    background: #051736;
+}
+
 .no-padding {
 	padding-left: 0;
 	padding-right: 0;
