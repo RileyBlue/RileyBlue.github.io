@@ -730,6 +730,17 @@ source {
   display: none;
 }
 
+.carousel-indicators li {
+  border: 1px solid #051736;
+}
+
+.carousel-indicators .active {
+  background-color: #051736;
+}
+
+.carousel-indicators {
+  bottom: -35px;
+}
 
 @media (min-width: 768px) {
   .modal-dialog {

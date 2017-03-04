@@ -11,25 +11,13 @@ var contact      = $('#contact');
 var contactLink  = $('#contactLink');
 
 $(document).ready(function() {
-	audioPlayer();
+	$('.carousel').carousel({
+		interval: 20000
+	});
 
-	function audioPlayer() {
-		var currentSong = 0;
-		$('#audioPlayer')[0].src = $("#playlist li a")[0];
-		//$('#audioPlayer')[0].play();
-		$('#playlist li a').click(function(e) {
-			e.preventDefault();
-			$('#audioPlayer')[0].src = this;
-			$('#audioPlayer')[0].play();
-			$('#playlist li').removeClass('current-song');
-			currentSong = $(this).parent().index();
-			$(this).parent().addClass('current-song')
-		});
-
-		$('#audioPlayer')[0].addEventListener('ended', function(){
-			alert('Hi');
-		});
-	}
+	$('.carousel-item').click(function() {
+		console.log("Work");
+	});
 
 	var scroll_pos = 0;
 	$(document).scroll(function(){
