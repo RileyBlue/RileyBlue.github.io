@@ -41,7 +41,7 @@ gulp.task('clean-js', function() {
 
 // Remove all css files from the production folder
 gulp.task('clean-css', function() {
-  // Your code here
+  // Task
 });
 
 
