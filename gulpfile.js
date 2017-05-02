@@ -1,34 +1,34 @@
 'use strict';
 
-const path      = require('path');
-const gulp      = require('gulp');
-const concat    = require('gulp-concat');
-const uglify    = require('gulp-uglify');
+const path = require('path');
+const gulp = require('gulp');
+const concat = require('gulp-concat');
+const uglify = require('gulp-uglify');
 const minifyCSS = require('gulp-clean-css');
-const del       = require('del');
-const shell     = require('gulp-shell');
+const del = require('del');
+const shell = require('gulp-shell');
 
-/** 
-  * Production CSS File 
-  * @type {String}
-  */ 
-
+/**
+ * Production css file
+ * @type {String}
+ */
 const CSS_DIST = 'main.min.css';
 /**
- * Production JS File 
+ * Production js file
+ * @type {String}
  */
 const JS_DIST = 'main.min.js';
 /**
- * Production Folder 
+ * Production folder
  * @type {String}
  */
 const DIST_FOLDER = './dist/';
 
-// Concat JS Files and uglify/minify them 
+// Concat js files and uglify/minify them
 gulp.task('scripts', function() {
   gulp.src(['./js/**/*.js'])
-    .pipe(contact(JS_DIST))
-    .pipe(uglify({mangle: false})
+    .pipe(concat(JS_DIST))
+    .pipe(uglify({mangle: false}))
     .pipe(gulp.dest(DIST_FOLDER));
 });
 

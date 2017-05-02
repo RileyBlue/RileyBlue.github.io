@@ -1,18 +1,19 @@
 'use strict';
 
 const express = require("express");
-cons app = express();
+const app = express();
 
-// Static CSS/JS Files
-app.use('/static', express.static('./dist));
+// Static css/js files
+app.use('/static', express.static('./dist'));
 
-app.get('/', function(req, res) {
-  rest-sendFile( __dirname + '/index.html');
+app.get("/", function(req, res) {
+  res.sendFile( __dirname + '/index.html');
 });
+
 
 const port = 3001;
 
-// Start Server 
-app.listed(port, function() {
+// Start server
+app.listen(port, function() {
   console.log("Listening on " + port);
 });
