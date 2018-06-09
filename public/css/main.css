@@ -22,6 +22,7 @@ body {
   font-size: 16px;
   text-align: center;
   color: #333;
+  background: #fff;
 }
 
 a,
@@ -81,6 +82,7 @@ i.fa.fa-bolt.color {
   background-repeat: no-repeat;
   color: #dfdce1;
   height: 800px;
+  margin-bottom: 0;
 }
 
 .jumbotron h1 {
@@ -139,7 +141,7 @@ margin-top: 2em;
   padding: 2em 0;
   border-top: 0;
   border-bottom: 1px solid #e7e7e7;
-  margin-top: -0.8em;
+  border-radius: 0;
 }
 
 .navbar-brand {
@@ -298,9 +300,13 @@ margin-top: 2em;
 .row.tutorials-row {
   margin: 4rem 0px;
 }
+
+
 .education, .employment {
-  height: 12em;
-  border: 1px solid #ededed;
+  min-height: 14em;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  margin: 3rem 0 0 0;
+  position: relative;
 }
 
 .employment {
@@ -308,13 +314,34 @@ margin-top: 2em;
 }
 
 .date {
-  font-size: 1em;
-  color: #555;
-  font-weight: bold;
-  background: #eee;
-  margin-top .8rem;
+  font-size: 1rem;
+  position: absolute;
+  bottom: 0;
+  background: #fff;
+  width: 50%;
+  text-align: left;
+  color: #333;
+  padding: .5rem;
+  border-top: 1px solid #efefef;
 }
 
+.education .hashtag {
+  width: 100%;
+}
+
+.hashtag {
+  font-size: 1rem;
+  position: absolute;
+  bottom: 0;
+  padding: .5rem 1rem;
+  right: 0;
+  width: 50%;
+  font-style: italic;
+  background: #fff;
+  color: #333;
+  text-align: right;
+  border-top: 1px solid #efefef;
+}
 .title, 
 .subtitle {
   font-weight: bold;
@@ -323,16 +350,19 @@ margin-top: 2em;
 
 .subtitle {
   padding: 1rem 0;
-  margin-bottom: -3rem;
+  margin-bottom: 0;
 }
 
 .title {
-  background: #00b4ff;
+  background: #2196f3;
   color: #fff;
+  margin-top: 0;
+  padding: 1rem .5rem;
 }
 
 .body {
-  margin-top: 2em;
+  margin-top: 0;
+  padding: 1rem;
 }
 
 .section_title.resume {
