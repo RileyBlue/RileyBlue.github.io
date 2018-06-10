@@ -49,3 +49,4 @@ $(document).on('ready', function(){
   	$(".container").mixItUp();
 	})
 });
+
