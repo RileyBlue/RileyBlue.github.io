@@ -1,3 +1,33 @@
+const p1 = {
+  x: 0,
+  y: 4,
+  moveX: function(x) {
+    this.x += x
+  },
+  moveY: function(y) {
+    this.y += y
+  }
+}
+
+const p2 = {
+  x: 3,
+  y: 0,
+   moveX(x) {
+    this.x += x
+  },
+  moveY(y) {
+    this.y += y
+  }
+}
+
+function distance(p1, p2) {
+  const x = p1.x - p2.x
+  const y = p1.y - p2.y
+
+  return Math.sqrt(Math.pow(x,2) + Math.pow(y,2))
+}
+
+console.log(distance(p1, p2))
 //Los objetos en JavaScript se componen de la siguiente forma: 
 //{ } => Los objetos se identifican por ser encapsulados entre dos llaves, ¡OJO! no se deben confundir con el bloque de una función.
 //Ejemplo: 
@@ -6,8 +36,7 @@
 	// Contenido del objeto
 }
 
-//Los objetos pueden ser almacenados en variables que pasa a ser el nombre del objeto. Ejemplo
-
+//Los objetos pueden ser almacenados en variables que pasa a ser el nombre del objeto. Ejemplo:
 let miObjeto = {
     // Contenido del objeto
 }
