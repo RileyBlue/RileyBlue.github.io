@@ -38,3 +38,4 @@ const pares = (...numeros) => numeros.filter(x=> x % 2 == 0)
 		Reduce: La función parámetro recibe un acumulador y el elemento actual del array, suma el elemento al acumulador y retornando el acumulador para que pueda ser usado con el siguiente elemento, reduce también puede recibir otro elemento, que es valor inicial del acumulador.
 		Map: La función parámetro ejecuta algo sobre cada elemento actual del array
 		Filter: La función parámetro realiza un filtro en base a una condición y en base a ese resultado incluye o no al elemento actual del array.
+*/

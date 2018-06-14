@@ -110,7 +110,7 @@ import squere from'square'
 
 const slide = 7
 
-console.log(`la diagonal de un cuadrado de ${slide}x${slide} mide ${square.diagonal(slide)}`)
+console.log(`la diagonal degun cuadrado de ${slide}x${slide} mide ${square.diagonal(slide)}`)
 
 //Adicionalmente nos permite importar modulos de forma asincrona
 
