@@ -1,0 +1,26 @@
+// Colors
+$blue: #4183C4;
+
+// Grays
+$gray-light: #e2e1e0;
+$gray-medium: #333;
+$black: #000;
+$darkerGray: #222;
+$darkGray: #333;
+$gray: #666;
+$lightGray: #eee;
+$white: #fff;
+
+// Font stacks
+$helvetica: Helvetica, Arial, sans-serif;
+$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$main-font: "Hind Madurai", Helvetica, Arial;
+$secondary-font: "Roboto", Helvetica, Verdana;
+$georgia: Georgia, serif;
+
+// Mobile breakpoints
+@mixin mobile {
+  @media screen and (max-width: 640px) {
+    @content;
+  }
+}

@@ -1,1 +1,37 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-06-24T13:40:15-05:00</updated><id>http://localhost:4000/</id><title type="html">Omar Sainz</title><subtitle>Web Developer from Somewhere</subtitle></feed>
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title></title>
+  <link href="http://omarsainz.com/atom.xml" rel="self"/>
+  <id>http://omarsainz.com</id>
+  <updated>2018-06-24T14:09:09-05:00</updated> 
+  <author>
+    <name></name>
+    <uri></uri>
+    <email></email>
+  </author>
+  
+  <entry>
+    <title>Analizador Sintáctico</title>
+    <link href="http://omarsainz.com/Analizador-Sintactico/"/>
+    <id>http://omarsainz.com/Analizador-Sintactico</id>
+    <updated>2018-06-23T00:00:00-05:00</updated>
+    <content type="html">&lt;p&gt;Concepto: Analizador Sintáctico (Syntax Parser)&lt;/p&gt; &lt;p&gt;Es un programa que lee tu código y determina qué hace, si su gramática o su sintáxis es válida. Si eres alguien que estudió Sistemas o Informática este tema te será muy familiar, pero vamos, no pasa nada si es un tema nuevo.&lt;/p&gt; &lt;p&gt;Cuando escribes...</content>
+  </entry>
+  
+  <entry>
+    <title>No imites, comprende</title>
+    <link href="http://omarsainz.com/No-imites-comprende/"/>
+    <id>http://omarsainz.com/No-imites-comprende</id>
+    <updated>2018-06-20T00:00:00-05:00</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;JavaScript&lt;/strong&gt; es uno de los más populares lenguajes de programación hoy en día, sin embargo, muchos desarrolladores estarán de acuerdo conmigo en que se tiene una especie de relación amor-odio con este lenguaje. Uno de los intereses que tengo al comenzar a a escribir estos posts, es en primera… Aprender,...</content>
+  </entry>
+  
+  <entry>
+    <title>Hola Mundo</title>
+    <link href="http://omarsainz.com/Hello-World/"/>
+    <id>http://omarsainz.com/Hello-World</id>
+    <updated>2018-06-19T00:00:00-05:00</updated>
+    <content type="html">&lt;p&gt;Pues nada, este es el primer Post, he tardado más pensando que haciendo. Tengo pensado escribir sobre JavaSCript, sobre programación y tips que sirvan para optimzar los tiempos de desarrollo y otras cuestiones. Más que nada este blog es de carácter personal, para repasar todo aquello que vaya estudiando. Si...</content>
+  </entry>
+  
+</feed>
