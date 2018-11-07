@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!-- Latest compiled and minified CSS -->
+	<link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:400,500,600" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<!--form>
+				  <div class="form-group">
+				    <label for="r90Height">Estatura</label>
+				    <input type="text" class="form-control" id="r90Height" placeholder="Estatura">
+				  </div>
+				  <div class="form-group">
+				    <label for="r90Weight">Peso</label>
+				    <input type="text" class="form-control" id="r90Weight" placeholder="Peso">
+				  </div>
+				  <input id="btnIMC" type="submit" class="btn btn-default" value="Calcular IMC" placeholder="Calcular IMC">
+				</form-->
+				<div id="app">
+					<div class="row text-center">
+						<div class="col-md-6 col-md-offset-3">
+							<h3 class="imc-calculator__title">CALCULATE YOUR BMI</h3>
+							<h4 class="imc-calculator__subtitle">Simply fill in the following fields and find out if your BMI is within the healthy range.</h4>
+							<p class="imc-calculator__instructions">
+								It's important to enter your height in centimeters on the height field. So, if your height is 1.70 meters, enter 170 on the height field. 
+							</p>
+						</div>
+					</div>
+
+				  <div class="row">
+				  	<div class="col-md-4 col-md-offset-4">
+				  		<div class="imc-calculator">
+						  	<div class="form-group">
+							  	<label for="height" class="col-md-2 control-label">Height</label>
+							  	<div class="col-md-10">
+							  		<input id="height" v-model.number="height" class="form-control" placeholder="Height">
+							  	</div>
+							  </div>
+							  <div class="form-group">
+							  	<label for="height" class="col-md-2 control-label">Weight</label>
+							  	<div class="col-md-10">
+							  		<input id="weight" v-model.number="weight" class="form-control" name="weight" placeholder="Weight">
+							  	</div>
+							  </div>
+							  <div class="form-group">
+							  	<button type="subtmit" v-on:click="imc()" class="btn btn-default imc--btn">Calculate</button>
+							  </div>
+						  </div>
+				  	</div>
+				  </div>
+
+				  <div class="row text-center">
+						<div class="col-md-4 col-md-offset-4">
+							<h3 class="imc-calculator__title">RESULT</h3>
+						</div>
+					</div>
+
+					<div class="row text-center">
+						<div class="col-md-4 col-md-offset-4">
+							<h3 class="imc-calculator__subtitle">
+								<p v-if="height == ''">Your BMI is: </p>
+								<p v-else>Your BMI is: <span>{{ imc() }}</span></p>
+							</h3>
+						</div>
+					</div>
+
+					<div class="row text-center">
+						<div class="col-md-6 col-md-offset-3">
+							<h3 class="imc-calculator__subtitle">In regards to BMI: </h3>
+							<p class="imc--results" v-if="imc() < 16"><span>Severe Thinness</span></p>
+							<p class="imc--results" v-else-if="(imc() <= 16.99)"><span>Moderate Thinness</span></p>
+							<p class="imc--results" v-else-if="(imc() <= 18.49)"><span>Moderate Thinness</span></p>
+							<p class="imc--results" v-else-if="(imc() <= 24.99)"><span>Normal weight </span></p>
+							<p class="imc--results" v-else-if="(imc() <= 29.99)"><span>Overweight </span></p>
+							<p class="imc--results" v-else-if="(imc() <= 34.99)"> <span>Obesity Type I </span></p>
+							<p class="imc--results" v-else-if="(imc() < 40.00)"> <span>Obesity Type II </span></p>
+							<p class="imc--results" v-else-if="(imc() >= 40.00)"> <span>Obesity Type III </span></p>
+						</div>
+					</div>
+
+					<div class="row text-center">
+						<div class="col-md-8 col-md-offset-2">
+							<h3 class="imc-calculator__subtitle"><p>Your height is: <span>{{ height }}</span> cm and your weight is: <span>{{ weight }}</span> kg</p></h3>
+						</div>
+					</div>
+
+					<div class="row text-center">
+						<div class="col-md-6 col-md-offset-3">
+							<h3 class="imc-calculator__subtitle">Classification of the World Health Organization:</h3>
+							<div class="col-md-6">
+								<ul class="imc-clasification">
+									<li>Classification </li>
+									<li>Severe Thinness</li>
+									<li>Moderate Thinness</li>
+									<li>Mild Thinness</li>
+									<li>Normal weight</li>
+									<li>Overweight</li>
+									<li>Obesity Type I</li>
+									<li>Obesity Type II</li>
+									<li>Obesity Type III</li>
+								</ul>
+							</div>
+							<div class="col-md-6">
+								<ul class="imc-clasification">
+									<li>Body Mass Index</li>
+									<li>< 16.00</li>
+									<li>16.00 - 16.99</li>
+									<li>17.00 - 18.49</li>
+									<li>18.50 - 24.99</li>
+									<li>25.00 - 29.99</li>
+									<li>30.00 - 34.99</li>
+									<li>35.00 - 40.00</li>
+									<li>> 40.00</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+					<div class="row text-center">
+						<div class="col-md-6 col-md-offset-3">
+							<div class="imc-calculator__subtitle imc-block">
+								If your BMI is not within a healthy range, it’s time to start the 90 Day Challenge. Coming up we explain how to do it and get the best results. 
+							</div>
+						</div>
+					</div>
+
+					
+					
+					<!--input id="btnIMC" type="submit" class="btn btn-default" value="Calcular IMC" v-on:click="imc"-->
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="js/main.js"></script>
+</body>
+</html>

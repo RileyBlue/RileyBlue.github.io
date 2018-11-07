@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Guía de Reto 90</title>
+	<!-- Latest compiled and minified CSS -->
+	<link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:400,500,600" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<!--form>
+				  <div class="form-group">
+				    <label for="r90Height">Estatura</label>
+				    <input type="text" class="form-control" id="r90Height" placeholder="Estatura">
+				  </div>
+				  <div class="form-group">
+				    <label for="r90Weight">Peso</label>
+				    <input type="text" class="form-control" id="r90Weight" placeholder="Peso">
+				  </div>
+				  <input id="btnIMC" type="submit" class="btn btn-default" value="Calcular IMC" placeholder="Calcular IMC">
+				</form-->
+				<div id="app">
+					<div class="row text-center">
+						<div class="col-md-6 col-md-offset-3">
+							<h3 class="imc-calculator__title text-center">Guía de <br> <span>Reto 90</span></h3>
+							<h4 class="imc-calculator__subtitle">¡No te rindas! Por ello, te recomendamos que recuerdes castamente los beneficios que obtiene tu cuerpo al hacer ejercicio. ¡Tú puedes!</h4>
+						</div>
+					</div>
+					<div class="row country">
+            <div class="col-md-6 col-md-offset-3">
+              <div class="form-group">
+                <label for="inputCountry" class="col-md-4 control-label">Selecciona tu país</label>
+                <div class="col-md-5">
+                  <select name="pais" class="form-control" v-model="country">
+                    <option value="Bolivia">Bolivia</option>
+                    <option value="Chile">Chile</option>
+                    <option value="Colombia">Colombia</option>
+                    <option value="Costa Rica">Costa Rica</option>
+                    <option value="Ecuador">Ecuador</option>
+                    <option value="El Salvador">El Salvador</option>
+                    <option value="España">España</option>
+                    <option value="Estados Unidos">Estados Unidos</option>
+                    <option value="Guatemala">Guatemala</option>
+                    <option value="Italia">Italia</option>
+                    <option value="México">México</option>
+                    <option value="Nicaragua">Nicaragua</option>
+                    <option value="Panamá">Panamá</option>
+                    <option value="Paraguay">Paraguay</option>
+                    <option value="Perú">Perú</option>
+                    <option value="República Dominicana">República Dominicana</option>
+                  </select>
+                </div>
+                <div class="col-md-3">
+                	<p class="country-download">
+                    <a v-show="country === 'Bolivia' " href="https://www.omnilife.com/wp-content/uploads/2018/05/Bolivia-Guia-Reto90.pdf" target="_blank">Descargar</a>
+                		<a v-show="country === 'Chile' " href="https://www.omnilife.com/wp-content/uploads/2018/04/Reto90-2018-Chile.pdf" target="_blank">Descargar</a>
+                		<a v-show="country === 'Colombia' " href="https://www.omnilife.com/wp-content/uploads/2018/04/Reto90-2018-Colombia.pdf" target="_blank">Descargar</a>
+                		<a v-show="country === 'Costa Rica' " href="https://www.omnilife.com/wp-content/uploads/2018/04/Reto90-2018-Costa-Rica.pdf" target="_blank">Descargar</a>
+                		<a v-show="country === 'Ecuador' " href="https://www.omnilife.com/wp-content/uploads/2018/04/Reto90-2018-Ecuador.pdf" target="_blank">Descargar</a>
+                		<a v-show="country === 'El Salvador' " href="https://www.omnilife.com/wp-content/uploads/2018/04/Reto90-2018-El-Salvador.pdf" target="_blank">Descargar</a>
+                		<a v-show="country === 'España' " href="https://www.omnilife.com/wp-content/uploads/2018/04/Reto90-2018-Espana.pdf" target="_blank">Descargar</a>
+                		<a v-show="country === 'Estados Unidos' " href="https://www.omnilife.com/wp-content/uploads/2018/04/Reto90-2018-USA-ES.pdf" target="_blank">Descargar</a>
+                    <a v-show="country === 'Guatemala' " href="https://www.omnilife.com/wp-content/uploads/2018/04/Reto90-2018-Guatemala.pdf" target="_blank">Descargar</a>
+                    <a v-show="country === 'Italia' " href="https://www.omnilife.com/wp-content/uploads/2018/03/reto90-marzo.pdf" target="_blank">Descargar</a>
+                		<a v-show="country === 'México' " href="https://www.omnilife.com/wp-content/uploads/2018/04/Reto90-2018-MX.pdf" target="_blank">Descargar</a>
+                		<a v-show="country === 'Nicaragua' " href="https://www.omnilife.com/wp-content/uploads/2018/05/Reto90-Nicaragua-2018.pdf" target="_blank">Descargar</a>
+                		<a v-show="country === 'Panamá' " href="https://www.omnilife.com/wp-content/uploads/2018/04/Reto90-2018-Panama.pdf" target="_blank">Descargar</a>
+                		<a v-show="country === 'Paraguay' " href="https://www.omnilife.com/wp-content/uploads/2018/05/Reto90-2018-Paraguay.pdf" target="_blank">Descargar</a>
+                		<a v-show="country === 'Perú' " href="https://www.omnilife.com/wp-content/uploads/2018/04/Reto90-2018-Peru.pdf" target="_blank">Descargar</a>
+                		<a v-show="country === 'República Dominicana' " href="https://www.omnilife.com/wp-content/uploads/2018/03/reto90-marzo.pdf" target="_blank">Descargar</a>
+                	</p>
+                </div>
+              </div>
+            </div>
+          </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="js/main.js"></script>
+</body>
+</html>

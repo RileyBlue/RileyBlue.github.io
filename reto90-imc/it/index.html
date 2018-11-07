@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!-- Latest compiled and minified CSS -->
+	<link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:400,500,600" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<!--form>
+				  <div class="form-group">
+				    <label for="r90Height">Estatura</label>
+				    <input type="text" class="form-control" id="r90Height" placeholder="Estatura">
+				  </div>
+				  <div class="form-group">
+				    <label for="r90Weight">Peso</label>
+				    <input type="text" class="form-control" id="r90Weight" placeholder="Peso">
+				  </div>
+				  <input id="btnIMC" type="submit" class="btn btn-default" value="Calcular IMC" placeholder="Calcular IMC">
+				</form-->
+				<div id="app">
+					<div class="row text-center">
+						<div class="col-md-6 col-md-offset-3">
+							<h3 class="imc-calculator__title">Calcola il tuo IMC</h3>
+							<h4 class="imc-calculator__subtitle">Compila i campi sottostanti e scopri se il tuo IMC rientra nella norma.</h4>
+							<p class="imc-calculator__instructions">
+								E' importante introdurre l'altezza in centimetri: se si è alti 1.70 metri, si dovrà scrivere 170 nel riquadro relativo alla statura.
+							</p>
+						</div>
+					</div>
+
+				  <div class="row">
+				  	<div class="col-md-4 col-md-offset-4">
+				  		<div class="imc-calculator">
+						  	<div class="form-group">
+							  	<label for="height" class="col-md-2 control-label">Statura </label>
+							  	<div class="col-md-10">
+							  		<input id="height" v-model.number="height" class="form-control" placeholder="Statura ">
+							  	</div>
+							  </div>
+							  <div class="form-group">
+							  	<label for="height" class="col-md-2 control-label">Peso</label>
+							  	<div class="col-md-10">
+							  		<input id="weight" v-model.number="weight" class="form-control" name="weight" placeholder="Peso">
+							  	</div>
+							  </div>
+							  <div class="form-group">
+							  	<button type="subtmit" v-on:click="imc()" class="btn btn-default imc--btn">Calcola</button>
+							  </div>
+						  </div>
+				  	</div>
+				  </div>
+
+				  <div class="row text-center">
+						<div class="col-md-4 col-md-offset-4">
+							<h3 class="imc-calculator__title">RISULTATO</h3>
+						</div>
+					</div>
+
+					<div class="row text-center">
+						<div class="col-md-4 col-md-offset-4">
+							<h3 class="imc-calculator__subtitle">
+								<p v-if="height == ''">Il tuo IMC è di: </p>
+								<p v-else>Il tuo IMC è di <span>{{ imc() }}</span></p>
+							</h3>
+						</div>
+					</div>
+
+					<div class="row text-center">
+						<div class="col-md-6 col-md-offset-3">
+							<h3 class="imc-calculator__subtitle">Considerando il tuo IMC, significa che sei: </h3>
+							<p class="imc--results" v-if="imc() < 16"><span>Gravemente sottopeso</span></p>
+							<p class="imc--results" v-else-if="(imc() <= 16.99)"><span>Abbastanza sottopeso</span></p>
+							<p class="imc--results" v-else-if="(imc() <= 18.49)"><span>Lievemente sottopeso</span></p>
+							<p class="imc--results" v-else-if="(imc() <= 24.99)"><span>Normopeso </span></p>
+							<p class="imc--results" v-else-if="(imc() <= 29.99)"><span>Sovrappeso </span></p>
+							<p class="imc--results" v-else-if="(imc() <= 34.99)"> <span>Obeso di tipo I </span></p>
+							<p class="imc--results" v-else-if="(imc() < 40.00)"> <span>Obeso di tipo II</span></p>
+							<p class="imc--results" v-else-if="(imc() >= 40.00)"> <span>Obeso di tipo III</span></p>
+						</div>
+					</div>
+
+					<div class="row text-center">
+						<div class="col-md-8 col-md-offset-2">
+							<h3 class="imc-calculator__subtitle"><p>Statura: <span>{{ height }}</span> cm e Peso: <span>{{ weight }}</span> kg</p></h3>
+						</div>
+					</div>
+
+					<div class="row text-center">
+						<div class="col-md-6 col-md-offset-3">
+							<h3 class="imc-calculator__subtitle">Classificazione stilata dall’Organizzazione Mondiale della Salute:</h3>
+							<div class="col-md-6">
+								<ul class="imc-clasification">
+									<li>CLASSIFICAZIONE </li>
+									<li>Gravemente sottopeso</li>
+									<li>Abbastanza sottopeso</li>
+									<li>Lievemente sottopeso</li>
+									<li>Normopeso</li>
+									<li>Sovrappeso</li>
+									<li>Obeso di Tipo I</li>
+									<li>Obeso di Tipo II</li>
+									<li>Obeso di Tipo III</li>
+								</ul>
+							</div>
+							<div class="col-md-6">
+								<ul class="imc-clasification">
+									<li>INDICE DI MASSA CORPOREA</li>
+									<li>< 16.00</li>
+									<li>16.00 - 16.99</li>
+									<li>17.00 - 18.49</li>
+									<li>18.50 - 24.99</li>
+									<li>25.00 - 29.99</li>
+									<li>30.00 - 34.99</li>
+									<li>35.00 - 40.00</li>
+									<li>> 40.00</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+					<div class="row text-center">
+						<div class="col-md-6 col-md-offset-3">
+							<div class="imc-calculator__subtitle imc-block">
+								Se la relazione tra il tuo peso e la tua statura non rientra negli standard, vuol dire che è arrivato il momento di accettare la Sfida 90. Qui di seguito ti daremo qualche consiglio, affinché tu possa ottenere i migliori risultati.
+							</div>
+						</div>
+					</div>
+
+					
+					
+					<!--input id="btnIMC" type="submit" class="btn btn-default" value="Calcular IMC" v-on:click="imc"-->
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="../js/main.js"></script>
+</body>
+</html>
