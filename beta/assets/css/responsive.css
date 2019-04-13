@@ -505,6 +505,10 @@
     width: 280px; }
 
   .home-padding {
-    padding: 60px 0; } }
+    padding: 60px 0; } 
+  
+  .btn.btn-fill {
+    margin: 1rem auto;
+    width: 100%; }}
 
 /*# sourceMappingURL=responsive.css.map */
