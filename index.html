@@ -1,35 +1,834 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-  <title>Riley Sainz - UX Developer</title>
-  <meta name="Description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <link rel="shortcut icon" href="favicon.ico">
-  <link rel="stylesheet" href="public/css/bootstrap.min.css">
-  <link rel="stylesheet" href="public/font-awesome/css/font-awesome.min.css">
-  <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
-  <link href="https://fonts.googleapis.com/css?family=Hind+Madurai" rel="stylesheet">
-  <link rel="stylesheet" href="public/css/main.css">
-</head>
-</head>
-<body>
-  <!--[if lt IE 7]>
-    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-  <![endif]-->
-  <div class="jumbotron">
-    <div class="container-fluid">
-      <!-- Home Page -->
-      <div class="row text-center header">
-        <!--img src="public/img/pp-2019.jpg" alt="img" class="user_picture"-->
-        <h1>Riley Sainz</h1>
-        <p>UX/UI Designer [Coming soon...]</p>
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Riley Sainz | UX/UI Designer </title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Riley Sainz UX/UI Designer" />
+    <meta name="keywords" content="creative, cv, designer,  ux, ui, frontend, online cv, online resume, responsive, resume, vcard " />
+    <meta name="developer" content="Riley Sainz">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <link rel="shortcut icon" href="assets/images/apple-icon.png">
+    <link rel="shortcut icon" sizes="72x72" href="assets/images/apple-icon-72x72.png">
+    <link rel="shortcut icon" sizes="114x114" href="assets/images/apple-icon-114x114.png">
+    <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="assets/icons/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/plugins/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/plugins/css/animate.css">
+    <link rel="stylesheet" href="assets/plugins/css/owl.css">
+    <link rel="stylesheet" href="assets/plugins/css/jquery.fancybox.min.css">
+    <!-- Custom CSS-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/colors/purple.css" title="defauld">
+  </head>
+  <body class="dark-vertion black-bg">
+    <!-- Start Loader -->
+    <div class="section-loader">
+      <div class="loader">
+        <div></div>
+        <div></div> 
       </div>
     </div>
-  </div>
-</body>
+    <!-- End Loader -->
+      
+    <!--
+      ===================
+        NAVIGATION
+      ===================
+    -->
+    <header class="black-bg mh-header mh-fixed-nav nav-scroll mh-xs-mobile-nav wow fadeInUp" id="mh-header">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <nav class="navbar navbar-expand-lg mh-nav nav-btn">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#mh-home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#mh-about">About</a>
+                </li>
+                <!--li class="nav-item">
+                  <a class="nav-link" href="#mh-skills">Skills</a>
+                </li-->                                
+                <li class="nav-item">
+                  <a class="nav-link" href="#mh-experience">Experiences</a>
+                </li>                                
+                <li class="nav-item">
+                  <a class="nav-link" href="#mh-portfolio">Portfolio</a>
+                </li>                               
+                <!--li class="nav-item">
+                  <a class="nav-link" href="#mh-blog">Blog</a>
+                </li-->
+                <li class="nav-item">
+                  <a class="nav-link" href="#mh-contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!--
+      ===================
+        HOME 
+      ===================
+    -->
+    <section class="mh-home image-bg home-2-img" id="mh-home">
+      <div class="img-foverlay img-color-overlay">
+        <div class="container">
+          <div class="row xs-column-reverse section-separator vertical-middle-content home-padding">
+            <div class="col-sm-6">
+              <div class="mh-header-info">
+                <div class="mh-promo wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
+                  <span>Hello I'm</span>
+                </div>
+                <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Riley Sainz</h2>
+                <h4 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">UX/UI Designer</h4>              
+                <ul>
+                  <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s"><i class="fa fa-envelope"></i><a href="mailto:">riley.sainz.dev@email.com</a></li>
+                  <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s"><i class="fa fa-phone"></i><a href="callto:">+52 1 6121539704</a></li>
+                  <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s"><i class="fa fa-map-marker"></i><address>Marina Vallarta 180, Zapopan, Jal. Mex.</address></li>
+                </ul>
+                <ul class="social-icon wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
+                  <li><a href="https://www.facebook.com/riley.blue.me" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="https://twitter.com/RileySainz" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="https://github.com/RileyBlue" target="_blank"><i class="fa fa-github"></i></a></li>
+                  <li><a href="https://www.linkedin.com/in/rileysainz/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="hero-img wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
+                <div class="img-border">
+                  <img src="assets/images/hero.png" alt=""  class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>    
+
+    <!--
+      ==================
+        ABOUT
+      =================
+    -->
+    <section class="mh-about" id="mh-about">
+      <div class="container">
+        <div class="row section-separator">
+          <div class="col-sm-12 col-md-6">
+            <div class="mh-about-img shadow-2 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">
+              <img src="assets/images/user-bg.png" alt="" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <div class="mh-about-inner">
+              <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">About Me</h2>
+              <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Hello, I’m Riley, UX/UI Designer based on Guadalajara, Jalisco. 
+              I have rich experience in UX Design, Web design & building 
+              and customization. Also I am good at</p>
+              <div class="mh-about-tag wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                <ul>
+                  <li><span>Wireframes</span></li>
+                  <li><span>Mockups</span></li>
+                  <li><span>Prototypes</span></li>
+                  <li><span>HTML5</span></li>
+                  <li><span>CSS3</span></li>
+                  <li><span>Sass</span></li>
+                  <li><span>jQuery</span></li>
+                  <li><span>Javascript</span></li>
+                </ul>
+              </div>
+              <a href="" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">Download CV <i class="fa fa-download"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--
+      ===================
+        SERVICE
+      ===================
+    -->
+    <section class="mh-service">
+      <div class="container">
+        <div class="row section-separator">
+          <div class="col-sm-12 text-center section-title wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+            <h2>What I do</h2>
+          </div>
+          <div class="col-sm-4">
+            <div class="mh-service-item shadow-1 dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+              <i class="fa fa-bullseye purple-color"></i>
+              <h3>UX Design</h3>
+              <p>
+                Applying process like User Personas. 
+                Wireframes, Mockups, Interviews, User Research. 
+                Collaborating with Designers and Devs to create intuitive, user-friendly software.
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="mh-service-item shadow-1 dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
+              <i class="fa fa-object-ungroup iron-color"></i>
+              <h3>UI Design</h3>
+              <p>
+                Communicating design ideas and prototypes.
+                Designing graphic user interface elements, like menus, 
+                tabs and widgets. 
+                Keeping abreast of competitor products and industry trends.
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="mh-service-item shadow-1 dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
+              <i class="fa fa-code sky-color"></i>
+              <h3>FrontEnd Development</h3>
+              <p>
+                Creating projects with HTML5, CSS3/Stylus/Sass, JavaScript. 
+                Using Tools like Gulp & Webpack, Git with GitHub/Bitbucket.
+                I code with Visual Studio Code and few times with Vim.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--
+      ===================
+        EXPERIENCES
+      ===================
+    -->
+    <section class="mh-experince" id="mh-experience">
+      <div class="bolor-overlay">
+        <div class="container">
+          <div class="row section-separator">
+            <div class="col-sm-12 col-md-6">
+              <div class="mh-education">
+                <h3 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Education</h3>
+                <div class="mh-education-deatils">
+                  <!-- Education Institutes-->
+                  <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                    <h4>User Experience From <a href="">IDF</a></h4>
+                    <div class="mh-eduyear">2019 - </div>
+                    <p>The Interaction Design Foundation is a non-profit educational organization which produces open content and Open Access educational materials online with the stated goal of "democratizing education by making world-class educational materials free for anyone, anywhere." Materials are learning materials at graduate level targeted at both industry and academia in the fields of interaction design, computer science, user experience, information architecture, and design. </p>
+                  </div>     
+                  <!-- Education Institutes-->
+                  <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
+                    <h4>Psychology From<a href="">UTEG</a></h4>
+                    <div class="mh-eduyear">2016-2017</div>
+                    <p>The knowledge promoted in the psychologist is based on the philosophical, epistemological, methodological and technical bases of psychological theories, through which it is possible to intervene in the various psychosocial problems at the local, regional, national and international levels; always with ethical sense.</p>
+                  </div>                           
+                  <!-- Education Institutes-->
+                  <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
+                    <h4>Digital Design From <a href="">Universidad de Artes Digitales</a></h4>
+                    <div class="mh-eduyear">2016-2017</div>
+                    <p>Curriculum oriented to: Ability to design and develop interfaces, collaboration, problem resolution, knowledge in the implementation of technology, using tools like Photoshop. Learning areas: Digital Marketing, UX, UI & IxD.</p>
+                  </div>                                
+                  <!-- Education Institutes-->
+                  <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                    <h4>Engineering in Computers Systems From <a href="">ITLP</a></h4>
+                    <div class="mh-eduyear">2008 - 2013</div>
+                    <p>Implements computational applications to solve problems from different contexts,
+                      integrating different technologies, platforms or devices. 
+                      Coordinates and participates in multidisciplinary teams for the application of innovative solutions in
+                      different contexts.
+                      Detect areas of opportunity using a business vision to create projects applying the
+                      Information and communication technologies.</p>
+                  </div>  
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6">
+              <div class="mh-work">
+                <h3>Work Experience</h3>
+                <div class="mh-experience-deatils">
+                  <!-- Job-->
+                  <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">
+                    <h4>UI/UX Designer at <a href="">Grupo Omnilife - Chivas</a></h4>
+                    <div class="mh-eduyear">2017 - </div>
+                    <span>Responsibility :</span>
+                    <ul class="work-responsibility">
+                      <li><i class="fa fa-circle"></i>Developing wireframes and task flows based on user needs</li>
+                      <li><i class="fa fa-circle"></i>Collaborating with Designers and Developers to create intuitive, user-friendly software.</li>
+                      <li><i class="fa fa-circle"></i>Developing wireframes and prototypes around customer needs.</li>
+                      <li><i class="fa fa-circle"></i>Finding creative ways to solve UX problems (e.g. usability, findability).</li>
+                      <li><i class="fa fa-circle"></i>Communicating design ideas and prototypes to developers.</li>
+                      <li><i class="fa fa-circle"></i>Designing graphic user interface elements, like menus, tabs and widgets.</li>
+                      <li><i class="fa fa-circle"></i>Preparing and presenting rough drafts to internal teams and key stakeholders</li>
+                    </ul>
+                  </div>                                                               
+                  <!-- Job-->
+                  <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
+                    <h4>Teacher at <a href="">Desafío Latam</a></h4>
+                    <div class="mh-eduyear">2016 - 2017</div>
+                    <span>Responsibility :</span>
+                    <ul class="work-responsibility">
+                      <li><i class="fa fa-circle"></i>Teaching FrontEnd Technologies like HTML5, CSS3 & JavaScript</li>
+                      <li><i class="fa fa-circle"></i>Teaching UX process in Web Development</li>
+                      <li><i class="fa fa-circle"></i>Teaching technologies like Git/Github to collaborate</li>
+                    </ul>
+                  </div>
+                  <!-- Job -->
+                  <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
+                    <h4>Lead FrontEnd Developer at <a href="">Agencia Paradoja</a></h4>
+                    <div class="mh-eduyear">2015-2016</div>
+                    <span>Responsibility :</span>
+                    <ul class="work-responsibility">
+                      <li><i class="fa fa-circle"></i>Validate CSS</li>
+                      <li><i class="fa fa-circle"></i>Creating new strategies for detect and solving problems</li>
+                      <li><i class="fa fa-circle"></i>Building websites with HTML5, CSS3 and JavaScript</li>
+                      <li><i class="fa fa-circle"></i>Usig preprocessors like Sass & Stylus and Task Runners like Grunt, Gulp & Webpack</li>
+                      <li><i class="fa fa-circle"></i>Creating Mockups and wireframes for design process</li>
+                    </ul>
+                  </div> 
+                  <!-- Job-->
+                  <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
+                    <h4>Teacher at <a href="">Universidad de Artes Digitales</a></h4>
+                    <div class="mh-eduyear">2015 - 2017</div>
+                    <span>Responsibility :</span>
+                    <ul class="work-responsibility">
+                      <li><i class="fa fa-circle"></i>Teaching Programming Basics to Digital Design's students</li>
+                      <li><i class="fa fa-circle"></i>Teaching UX/UI process oriented to Mobile</li>
+                      <li><i class="fa fa-circle"></i>Teaching Design patterns & Software Engineering</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--
+      ===================
+        PORTFOLIO
+      ===================
+    -->
+    <section class="mh-portfolio" id="mh-portfolio">
+      <div class="container">
+        <div class="row section-separator">
+          <div class="section-title col-sm-12 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
+            <h3>Recent Portfolio</h3>
+          </div>
+          <div class="part col-sm-12">
+            <div class="portfolio-nav col-sm-12" id="filter-button">
+              <ul>
+                <li data-filter="*" class="current wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s"> <span>All Categories</span></li>
+                <li data-filter=".user-interface" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s"><span>UI Design</span></li>
+                <li data-filter=".ux" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s"><span>UX Design</span></li>
+                <li data-filter=".frontend" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s"><span>FrontEnd</span></li>
+              </ul>
+            </div>
+            <div class="mh-project-gallery col-sm-12 wow fadeInUp" id="project-gallery" data-wow-duration="0.8s" data-wow-delay="0.5s">
+              <div class="portfolioContainer row">
+                <div class="grid-item col-md-4 col-sm-6 col-xs-12 user-interface">
+                  <figure>
+                    <img src="assets/images/portfolio/cresiendo-thumbnail.png" alt="img04">
+                    <figcaption class="fig-caption">
+                      <i class="fa fa-search"></i>
+                      <h5 class="title">CreSiendo Redesign</h5>
+                      <span class="sub-title">UI Design</span>
+                      <a data-fancybox data-src="#cresiendo"></a>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup user-interface">
+                  <figure>
+                    <img src="assets/images/portfolio/country-thumbnail.png" alt="img04">
+                    <figcaption class="fig-caption">
+                      <i class="fa fa-search"></i>
+                      <h5 class="title">Start Redesign</h5>
+                      <span class="sub-title">UI Design</span>
+                      <a href="#" data-fancybox data-src="#country"></a>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="grid-item col-md-4 col-sm-6 col-xs-12 user-interface">
+                  <figure>
+                    <img src="assets/images/portfolio/nfuerza-exp-thumbnail.png" alt="img04">
+                    <figcaption class="fig-caption">
+                      <i class="fa fa-search"></i>
+                      <h5 class="title">NFuerza Experiences</h5>
+                      <span class="sub-title">UI Design</span>
+                      <a href="#" data-fancybox data-src="#experience"></a>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="grid-item col-md-4 col-sm-6 col-xs-12 ux user-interface">
+                  <figure>
+                    <img src="assets/images/portfolio/shopping-thumbnail.png" alt="img04">
+                    <figcaption class="fig-caption">
+                      <i class="fa fa-search"></i>
+                      <h5 class="title">Shopping Redesign</h5>
+                      <span class="sub-title">UI Design</span>
+                      <a href="#" data-fancybox data-src="#shopping"></a>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="grid-item col-md-4 col-sm-6 col-xs-12 user-interface">
+                  <figure>
+                    <img src="assets/images/portfolio/calendar-thumbnail.png" alt="img04">
+                    <figcaption class="fig-caption">
+                        <i class="fa fa-search"></i>
+                        <h5 class="title">Calendar Redesign</h5>
+                        <span class="sub-title">UI Design</span>
+                        <a href="assets/images/portfolio/g4.png" data-fancybox data-src="#calendar"></a>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="grid-item col-md-4 col-sm-6 col-xs-12 ux user-interface">
+                  <figure>
+                    <img src="assets/images/portfolio/submenu-thubmanil.png" alt="img04">
+                    <figcaption class="fig-caption">
+                      <i class="fa fa-search"></i>
+                      <h5 class="title">Navigation Redesign</h5>
+                      <span class="sub-title">UX Design</span>
+                      <a href="assets/images/portfolio/g6.png" data-fancybox data-src="#navigation"></a>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="grid-item col-md-4 col-sm-6 col-xs-12 ux user-interface">
+                  <figure>
+                    <img src="assets/images/portfolio/nfuerza-ambassadors.png" alt="img04">
+                    <figcaption class="fig-caption">
+                      <i class="fa fa-search"></i>
+                      <h5 class="title">NFuerza Ambassadors</h5>
+                      <span class="sub-title">UI Design</span>
+                      <a href="assets/images/portfolio/nfuerza-ambassadors.png" data-fancybox data-src="#ambassador"></a>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="grid-item col-md-4 col-sm-6 col-xs-12 frontend user-interface">
+                <figure>
+                    <img src="assets/images/portfolio/otoflex.png" alt="img04">
+                    <figcaption class="fig-caption">
+                      <i class="fa fa-search"></i>
+                      <h5 class="title">Otoflex Pao</h5>
+                      <span class="sub-title">UI Design / FrontEnd</span>
+                      <a href="#" data-fancybox data-src="#otoflex"></a>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="grid-item col-md-4 col-sm-6 col-xs-12 ux frontend user-interface">
+                  <figure>
+                    <img src="assets/images/portfolio/omnilife.png" alt="img04">
+                    <figcaption class="fig-caption">
+                      <i class="fa fa-search"></i>
+                      <h5 class="title">New Omnilife</h5>
+                      <span class="sub-title">UI Design / FrontEnd</span>
+                      <a href="#" data-fancybox data-src="#omnilife"></a>
+                    </figcaption>
+                  </figure>
+                </div>
+              </div> <!-- End: .grid .project-gallery -->
+            </div> <!-- End: .grid .project-gallery -->
+          </div> <!-- End: .part -->
+        </div> <!-- End: .row -->
+      </div>
+
+      <div class="mh-portfolio-modal" id="">
+        <div class="container">
+          <div class="row mh-portfolio-modal-inner">
+            <div class="col-sm-5">
+              <h2>CreSiendo - Proporsal for Redesign</h2>
+              <p>Wrap is a clean and elegant Multipurpose Landing Page Template. 
+              It will fit perfectly for Startup, Web App or any type of Web Services.
+              It has 4 background styles with 6 homepage styles. 6 pre-defined color scheme. 
+              All variations are organized separately so you can use / customize the template very easily.</p>       
+              
+              <p>It is a clean and elegant Multipurpose Landing Page Template. 
+              It will fit perfectly for Startup, Web App or any type of Web Services.
+              It has 4 background styles with 6 homepage styles. 6 pre-defined color scheme. 
+              All variations are organized separately so you can use / customize the template very easily.</p>      
+              <div class="mh-about-tag">
+                <ul>
+                  <li><span>php</span></li>
+                  <li><span>html</span></li>
+                  <li><span>css</span></li>
+                  <li><span>php</span></li>
+                  <li><span>wordpress</span></li>
+                  <li><span>React</span></li>
+                  <li><span>Javascript</span></li>
+                </ul>
+              </div>
+              <a href="" class="btn btn-fill">Live Demo</a>
+            </div>
+            <div class="col-sm-7">
+              <div class="mh-portfolio-modal-img">
+                <img src="assets/images/pr-0.jif" alt="" class="img-fluid">
+                <p>All variations are organized separately so you can use / customize the template very easily.</p>    
+                <img src="assets/images/pr-1.jif" alt="" class="img-fluid">
+                <p>All variations are organized separately so you can use / customize the template very easily.</p>     
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mh-portfolio-modal" id="cresiendo">
+        <div class="container">
+          <div class="row mh-portfolio-modal-inner">
+            <div class="col-sm-5">
+              <h2>CreSiendo - Proporsal for Redesign</h2>
+              <p>CreSiendo, OMNILIFE's Business Academy, is a platform designed for Omnilife's Distributors to help them achieve their dreams and objectives through online and face-to-face courses.
+              </p>       
+              
+              <p>Courses for business development focused on achieving comprehensive growth and maximize each objective through interactive courses and material available in 5 languages, anywhere, anytime. Face-to-face courses on personal development that will provide an internal transformation to achieve a comprehensive growth within the Independent Business at OMNILIFE.</p>      
+              <div class="mh-about-tag">
+                <ul>
+                  <li><span>Figma</span></li>
+                  <li><span>Figma</span></li>
+                  <li><span>Photoshop</span></li>
+                </ul>
+              </div>
+              <!--a href="" class="btn btn-fill">Live Demo</a-->
+            </div>
+            <div class="col-sm-7">
+              <div class="mh-portfolio-modal-img">
+                <img src="assets/images/portfolio/cresiendo.png" alt="" class="img-fluid">
+                <p>A simpler navigation has been added, instead of having 3 menus, only one is available. A search box, as well as details when you want to select the courses.</p>    
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mh-portfolio-modal" id="country">
+        <div class="container">
+          <div class="row mh-portfolio-modal-inner">
+            <div class="col-sm-5">
+              <h2>Country Selector for Redesign</h2>
+              <p>Description Coming soon...</p>      
+              <div class="mh-about-tag">
+                <ul>
+                  <li><span>Figma</span></li>
+                  <li><span>Photoshop</span></li>
+                  <li><span>Unsplash</span></li>
+                </ul>
+              </div>
+              <!--a href="" class="btn btn-fill">Live Demo</a-->
+            </div>
+            <div class="col-sm-7">
+              <div class="mh-portfolio-modal-img">
+                <img src="assets/images/portfolio/Country-Desktop.png" alt="" class="img-fluid">
+                <p>Desktop Version.</p>    
+                <img src="assets/images/portfolio/Country-Mobile1.png" alt="" class="img-fluid">
+                <p>Mobile Version</p>     
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mh-portfolio-modal" id="otoflex">
+        <div class="container">
+          <div class="row mh-portfolio-modal-inner">
+            <div class="col-sm-5">
+              <h2>Country Selector for Redesign</h2>
+              <p>Description Coming soon...</p>      
+              <div class="mh-about-tag">
+                <ul>
+                  <li><span>Photoshop</span></li>
+                  <li><span>HTML5</span></li>
+                  <li><span>CSS3</span></li>
+                  <li><span>JavaScript</span></li>
+                  <li><span>Marvel</span></li>
+                  <li><span>Wordpress</span></li>
+                </ul>
+              </div>
+              <a href="http://www.otoflexpao.com/" target="_blank" class="btn btn-fill">Visit Website</a>
+              <a href="https://marvelapp.com/aafi88h/screen/51077029" target="_blank" class="btn btn-fill">Visit Wireframes</a>
+            </div>
+            <div class="col-sm-7">
+              <div class="mh-portfolio-modal-img">
+                <img src="assets/images/portfolio/Otoflex-PAO.png" alt="" class="img-fluid">
+                <p>Mockups.</p>  
+                <img src="assets/images/portfolio/wireframes-otoflex.png" alt="" class="img-fluid">
+                <p>Wireframes.</p>
+                <img src="assets/images/portfolio/otoflex-full.png" alt="" class="img-fluid">
+                <p>Desktop Version.</p>     
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mh-portfolio-modal" id="experience">
+        <div class="container">
+          <div class="row mh-portfolio-modal-inner">
+            <div class="col-sm-5">
+              <h2>NFuerza Ambassador</h2>
+              <p>Description Coming soon...</p>      
+              <div class="mh-about-tag">
+                <ul>
+                  <li><span>Figma</span></li>
+                  <li><span>Photoshop</span></li>
+                  <li><span>Unsplash</span></li>
+                </ul>
+              </div>
+              <!--a href="" class="btn btn-fill">Live Demo</a-->
+            </div>
+            <div class="col-sm-7">
+              <div class="mh-portfolio-modal-img">
+                <img src="assets/images/portfolio/NFuerza-Ambassador.png" alt="" class="img-fluid">
+                <p>Desktop Version.</p>      
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mh-portfolio-modal" id="ambassador">
+          <div class="container">
+            <div class="row mh-portfolio-modal-inner">
+              <div class="col-sm-5">
+                <h2>NFuerza Ambassador</h2>
+                <p>Description Coming soon...</p>      
+                <div class="mh-about-tag">
+                  <ul>
+                    <li><span>Figma</span></li>
+                    <li><span>Photoshop</span></li>
+                    <li><span>Unsplash</span></li>
+                  </ul>
+                </div>
+                <!--a href="" class="btn btn-fill">Live Demo</a-->
+              </div>
+              <div class="col-sm-7">
+                <div class="mh-portfolio-modal-img">
+                  <img src="assets/images/portfolio/NFuerzaExperiencias.png" alt="" class="img-fluid">
+                  <p>Desktop Version.</p>      
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <div class="mh-portfolio-modal" id="shopping">
+        <div class="container">
+          <div class="row mh-portfolio-modal-inner">
+            <div class="col-sm-5">
+              <h2>Omnilife Shopping [Redesign]</h2>
+              <p>Description Coming soon...</p>      
+              <div class="mh-about-tag">
+                <ul>
+                  <li><span>Figma</span></li>
+                  <li><span>Photoshop</span></li>
+                  <li><span>Unsplash</span></li>
+                </ul>
+              </div>
+              <!--a href="" class="btn btn-fill">Live Demo</a-->
+            </div>
+            <div class="col-sm-7">
+              <div class="mh-portfolio-modal-img">
+                <img src="assets/images/portfolio/Shopping-General.png" alt="" class="img-fluid">
+                <p>Desktop Version.</p>      
+              </div>
+              <div class="mh-portfolio-modal-img">
+                <img src="assets/images/portfolio/Shopping-Category.png" alt="" class="img-fluid">
+                <p>Category selected.</p>      
+              </div>
+              <div class="mh-portfolio-modal-img">
+                <img src="assets/images/portfolio/Shopping-Product.png" alt="" class="img-fluid">
+                <p>Detail View.</p>      
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mh-portfolio-modal" id="omnilife">
+        <div class="container">
+          <div class="row mh-portfolio-modal-inner">
+            <div class="col-sm-5">
+              <h2>Omnilife Website</h2>
+              <p>Description Coming soon...</p>      
+              <div class="mh-about-tag">
+                <ul>
+                  <li><span>Photoshop</span></li>
+                  <li><span>Zeplin</span></li>
+                  <li><span>Laravel</span></li>
+                  <li><span>CSS3</span></li>
+                  <li><span>HTML5</span></li>
+                  <li><span>JavaScript</span></li>
+                  <li><span>jQuery</span></li>
+                </ul>
+              </div>
+              <a href="https://portal.omnilife.com/" target="_blank" class="btn btn-fill">Visit Website</a>
+            </div>
+            <div class="col-sm-7">
+              <div class="mh-portfolio-modal-img">
+                <img src="assets/images/portfolio/home-omnilife.png" alt="" class="img-fluid">
+                <p>Desktop Version.</p>      
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mh-portfolio-modal" id="calendar">
+        <div class="container">
+          <div class="row mh-portfolio-modal-inner">
+            <div class="col-sm-5">
+              <h2>Calendar [Redesign]</h2>
+              <p>Description Coming soon...</p>      
+              <div class="mh-about-tag">
+                <ul>
+                  <li><span>Figma</span></li>
+                  <li><span>Unsplash</span></li>
+                  <li><span>Marvel</span></li>
+                </ul>
+              </div>
+              <!--a href="https://portal.omnilife.com/" target="_blank" class="btn btn-fill">Visit Prototype</a-->
+            </div>
+            <div class="col-sm-7">
+              <div class="mh-portfolio-modal-img">
+                <img src="assets/images/portfolio/Calendar-Events.png" alt="" class="img-fluid">
+                <p>Mobile Version.</p>     
+                <img src="assets/images/portfolio/Calendar-Expanded.png" alt="" class="img-fluid">
+                <p>Calendar Expanded - Filters active.</p>      
+                <img src="assets/images/portfolio/Calendar-Distributors.png" alt="" class="img-fluid">
+                <p>Distributor selector.</p>      
+                <img src="assets/images/portfolio/Calendar-Details.png" alt="" class="img-fluid">
+                <p>Events Detail.</p>      
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mh-portfolio-modal" id="navigation">
+        <div class="container">
+          <div class="row mh-portfolio-modal-inner">
+            <div class="col-sm-5">
+              <h2>Mobile Navigation Proporsal</h2>
+              <p>Description Coming soon...</p>      
+              <div class="mh-about-tag">
+                <ul>
+                  <li><span>Figma</span></li>
+                  <li><span>Photoshop</span></li>
+                  <li><span>Unsplash</span></li>
+                </ul>
+              </div>
+              <!--a href="https://portal.omnilife.com/" target="_blank" class="btn btn-fill">Visit Website</a-->
+            </div>
+            <div class="col-sm-7">
+              <div class="mh-portfolio-modal-img">
+                <img src="assets/images/portfolio/Submenu-Omnilife.png" alt="" class="img-fluid">
+                <p>Mobile navigation inactive.</p>  
+                <img src="assets/images/portfolio/Submenu-Omnilife-Active.png" alt="" class="img-fluid">
+                <p>Mobile navigation active.</p>      
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--
+      ===================
+          TESTIMONIALS
+      ===================
+    -->
+
+    <!--
+      ===================
+          FOOTER 1
+      ===================
+    -->
+    <footer class="mh-footer" id="mh-contact">
+      <div class="map-image image-bg">
+        <div class="container">
+          <div class="row section-separator">
+            <div class="col-sm-12 section-title wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+              <h3>Contact Me</h3>
+            </div>
+            <div class="col-sm-12 mh-footer-address">
+              <div class="row">
+                <div class="col-sm-12 col-md-4">
+                  <div class="mh-address-footer-item dark-bg shadow-1 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                    <div class="each-icon">
+                      <i class="fa fa-location-arrow"></i>
+                    </div>
+                    <div class="each-info">
+                      <h4>Address</h4>
+                      <address>
+                        Marina Vallarta 180, Zapopan, Jal, Mex.
+                      </address>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                  <div class="mh-address-footer-item dark-bg shadow-1 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
+                    <div class="each-icon">
+                      <i class="fa fa-envelope-o"></i>
+                    </div>
+                    <div class="each-info">
+                      <h4>Email</h4>
+                      <a href="mailto:riley.sainz.dev@email.com">riley.sainz.dev@gmail.com</a><br>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                  <div class="mh-address-footer-item dark-bg shadow-1 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
+                    <div class="each-icon">
+                      <i class="fa fa-phone"></i>
+                    </div>
+                    <div class="each-info">
+                      <h4>Phone</h4>
+                      <a href="callto:(+52)16121539704">(+52)16121539704</a><br>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer> 
+
+    <!--
+      ==============
+      * JS Files *
+      ==============
+    -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- jQuery -->
+    <script src="assets/plugins/js/jquery.min.js"></script>
+    <!-- Popper -->
+    <script src="assets/plugins/js/popper.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="assets/plugins/js/bootstrap.min.js"></script>
+    <!-- Owl carousel -->
+    <script src="assets/plugins/js/owl.carousel.js"></script>
+    <!-- validator -->
+    <script src="assets/plugins/js/validator.min.js"></script>
+    <!-- Wow -->
+    <script src="assets/plugins/js/wow.min.js"></script>
+    <!-- mixin js-->
+    <script src="assets/plugins/js/jquery.mixitup.min.js"></script>
+    <!-- circle progress-->
+    <script src="assets/plugins/js/circle-progress.js"></script>
+    <!-- jquery nav -->
+    <script src="assets/plugins/js/jquery.nav.js"></script>
+    <!-- Fancybox js-->
+    <script src="assets/plugins/js/jquery.fancybox.min.js"></script>
+    <!-- isotope js-->
+    <script src="assets/plugins/js/isotope.pkgd.js"></script>
+    <script src="assets/plugins/js/packery-mode.pkgd.js"></script>
+    <!-- Map api -->
+    <script src="http://maps.googleapis.com/maps/api/js?v=3.exp&amp;key=AIzaSyCRP2E3BhaVKYs7BvNytBNumU0MBmjhhxc"></script>
+    <!-- Custom Scripts-->
+    <script src="assets/js/map-init.js"></script>
+    <script src="assets/js/custom-scripts.js"></script>
+  </body>
 </html>
