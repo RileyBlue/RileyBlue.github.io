@@ -522,10 +522,10 @@ ul {
   background-position: center center; }
 
 .home-2-img {
-  background-image: url(../images/home-bg-img.jpg); }
+  background-image: url(https://res.cloudinary.com/de6yzobso/image/upload/v1555308051/home-bg-img.jpg); }
 
 .featured-img-one {
-  background-image: url(../images/home-bg-img.jpg); }
+  background-image: url(https://res.cloudinary.com/de6yzobso/image/upload/v1555308051/home-bg-img.jpg); }
 
 .featured-img-two {
   background-image: url(../images/extra-feature-bg.jpg); }
