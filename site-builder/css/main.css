@@ -1,4 +1,19 @@
 /* Default Configuration */
+@font-face {
+    font-family: 'HelveticaNeueW01';
+    src: url('../fonts/HelveticaNeueW01-Thin.eot');
+    src: local('HelveticaNeue W01 35 Thin'), local('HelveticaNeueW01-Thin'),
+        url('../fonts/HelveticaNeueW01-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HelveticaNeueW01-Thin.woff2') format('woff2'),
+        url('../fonts/HelveticaNeueW01-Thin.woff') format('woff'),
+        url('../fonts/HelveticaNeueW01-Thin.ttf') format('truetype'),
+        url('../fonts/HelveticaNeueW01-Thin.svg#HelveticaNeueW01-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 
 html,
 body {
@@ -8,7 +23,7 @@ body {
     height: 100%;
     width: 100%;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'HelveticaNeueW01';
 }
 
 :root {
@@ -84,9 +99,21 @@ body {
     width: 69px;
 }
 
-.navbar--profile img {
+.navbar--profile a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar--profile__image {
     border: 2px solid #fff;
     border-radius: 50%;
+}
+
+.navbar--profile__options {
+    margin: 0 .25rem;
+    width: 24px;
+    height: 24px;
 }
 
 .navbar--websiteOptions {
@@ -105,6 +132,12 @@ body {
     font-size: 14px;
     line-height: 22px;
     color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.button img {
+    margin: 0 .5rem;
 }
 
 .button.theme--green {
