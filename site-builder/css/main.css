@@ -372,6 +372,8 @@ section.editor {
     border: 0;
     box-shadow: 0px 2px 2px rgb(0 0 0 / 25%);
     padding: 4px;
+    font-family: 'HelveticaNeueW01';
+    font-size: 14px;
 }
 
 .editor__layout,
