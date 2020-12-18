@@ -81,7 +81,7 @@
             </a>
             <div class="current-page">
                 <span class="select-title">Page:</span>
-                <select name="" id="">
+                <select class="classic" name="" id="">
                     <option value="home">Home</option>
                 </select>
             </div>
@@ -225,7 +225,7 @@
                 </svg>
                 <span class="timeline-button__title">Preview</span>
             </a>
-            <a class="button theme--orange" href="">Publish Changes</a>
+            <a class="button theme--orange" href="">Publish Changes <img src="img/master/button/medium/maki_rocket-15.svg" alt=""></a>
             <a href="" class="customize-button">
                 <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0)">
@@ -371,16 +371,14 @@
                 <label for="tab-one" id="tab-one-label" class="tab">Design</label>
                 <label for="tab-two" id="tab-two-label" class="tab">CSS</label>
                 <div id="tab-one-panel" class="panel active">
-                    <h3>Layout</h3>
-                    <article class="editor__layout">
-                        <select name="" id="">
+                    <h3>Layout <a class="edit-navigation" href="">Edit</a></h3>
+                    <article class="editor__layout ">
+                        <select class="classic" name="" id="">
                             <option value="home"> Masonry</option>
-                        </select>
-                        <select name="" id="">
-                            <option value="landscape"> Lanscape</option>
+                            <option value="home"> Grid</option>
                         </select>
                     </article>
-                    <h3>Image Size</h3>
+                    <h3>Image Size <a class="edit-navigation" href="">Edit</a></h3>
                     <article class="editor__image">
                         <div class="btn-group" role="group" aria-label="Basic example">
                             <button type="button" class="btn btn-primary image-size is-active">Small</button>
@@ -388,27 +386,21 @@
                             <button type="button" class="btn btn-primary image-size">Large</button>
                         </div>
                     </article>
-                    <h3>Spacing </h3>
-                    <article class="editor__layout">
-                        <select name="" id="">
-                            <option value="home">Medium (15px)</option>
+                    <h3>Colors <a class="edit-navigation" href="">Edit</a></h3>
+                    <article class="editor__layout color">
+                        <select class="classic" name="" id="">
+                            <option value="home">White, black...</option>
                         </select>
                     </article>
-                    <h3>Border Radius</h3>
-                    <article class="editor__layout">
-                        <select name="" id="">
-                            <option value="landscape">Small (10px) </option>
-                        </select>
-                    </article>
-                    <h3>Fonts Titles</h3>
-                    <article class="editor__layout">
-                        <select name="" id="">
+                    <h3>Fonts Titles <a class="edit-navigation" href="">Edit</a></h3>
+                    <article class="editor__layout font-titles">
+                        <select class="classic" name="" id="">
                             <option value="landscape">Helvetica (24px) </option>
                         </select>
                     </article>
-                    <h3>Fonts Text</h3>
-                    <article class="editor__layout">
-                        <select name="" id="">
+                    <h3>Fonts Text <a class="edit-navigation" href="">Edit</a></h3>
+                    <article class="editor__layout font-text">
+                        <select class="classic" name="" id="">
                             <option value="landscape">Roboto (16px) </option>
                         </select>
                     </article>
@@ -418,6 +410,15 @@
                             <button type="button" class="btn btn-primary navigation is-active">Left</button>
                             <button type="button" class="btn btn-primary navigation">Top</button>
                         </div>
+                    </article>
+                    <h3>Home</h3>
+                    <article class="editor__layout galleries">
+                        <select class="classic" name="" id="">
+                            <option value="landscape">Roboto (16px) </option>
+                        </select>
+                    </article>
+                    <article class="editor__revert">
+                        <a class="danger" href="">Revert changes <img src="img/icon/action/help_24px.svg"></a>
                     </article>
                 </div>
                 <div id="tab-two-panel" class="panel">
